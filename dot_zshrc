@@ -1,0 +1,50 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Path to your oh-my-zsh installation.
+export ZSH="/home/rishabh/.oh-my-zsh"
+export PATH="$PATH:/home/rishabh/Development/flutter/bin"
+export PATH="~/.local/bin/:$PATH"
+export VSCODE=/usr/bin/code
+export CHROME_EXECUTABLE=/usr/bin/vivaldi-stable
+export BROWSER=/usr/bin/vivaldi-stable
+export EDITOR=nvim
+export PATH="/home/rishabh/.local/share/gem/ruby/3.0.0/bin:$PATH"
+export PATH=$PATH:/root/.local/share/gem/ruby/3.0.0/bin
+export PATH=$PATH:/home/rishabh/bin
+export PATH=$PATH:/home/rishabh/.local/bin/
+export ANDROID_HOME=$HOME/Development/AndroidSDK
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin/
+export PATH=$PATH:$ANDROID_HOME/emulator/
+export PATH=$PATH:$ANDROID_HOME/platform-tools/
+source $(dirname $(gem which colorls))/tab_complete.sh
+alias lc="colorls"
+alias c="clear"
+alias cz="chezmoi"
+alias btop="btop --utf-force"
+# Ctrl+Backspace: kill the word backward
+bindkey -M emacs '^H' backward-kill-word
+bindkey -M viins '^H' backward-kill-word
+bindkey -M vicmd '^H' backward-kill-word
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+DISABLE_UPDATE_PROMPT="true"
+
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting ohmyzsh-full-autoupdate)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern regexp)
+
+source $ZSH/oh-my-zsh.sh
+# This is a test for chezmoi
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/rishabh/.sdkman"
+[[ -s "/home/rishabh/.sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.sdkman/bin/sdkman-init.sh"
+
