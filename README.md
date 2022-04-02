@@ -12,5 +12,5 @@ Includes files for:
 
 Important points:
 
-- Use `cz {file path}` to add new files. 
+- Use `cz add {file path}` to add new files. 
 - Use `cz re-add` to automatically reflect changes made to files in their original locations in the chezmoi folder.
