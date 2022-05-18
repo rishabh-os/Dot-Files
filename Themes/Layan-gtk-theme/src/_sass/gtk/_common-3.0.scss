@@ -712,7 +712,7 @@ modelbutton.flat,
 .menuitem.button.flat {
   min-height: $menuitem_size;
   padding: 0 8px;
-  border-radius: $buttons_radius;
+  border-radius: $menu_radius / 2;
   color: inherit;
 
   @extend %simple_flat_button;
@@ -1307,7 +1307,7 @@ headerbar {
 
   &.default-decoration {
     min-height: $small_size;
-    padding: $container_padding 12px;
+    padding: $container_padding $container_padding * 2;
     box-shadow: inset 0 1px $titlebar_highlight_color;
 
     .tiled &,
@@ -1859,7 +1859,7 @@ popover.background {
   &, &.menu {
     transition: $shadow_transition;
     padding: 2px;
-    box-shadow: $shadow_2; // TODO: this should really have a highlight
+    box-shadow: $shadow_3; // TODO: this should really have a highlight
     background-color: if($solid == 'false', rgba($popover_bg, 0.95), $popover_bg);
     color: $popover_fg;
   }
@@ -1870,7 +1870,7 @@ popover.background {
   image, label { &:disabled { color: $popover_disabled_fg; }}
 
   &, .csd & {
-    border-radius: $buttons_radius + 1px;
+    border-radius: $menu_radius + 1px;
   }
 
   > stack { margin: -4px; } // remove extra padding from menu style popovers
@@ -1946,18 +1946,18 @@ popover.background {
     }
 
     .linked > & {
-      border-radius: $buttons_radius;
+      border-radius: $menu_radius / 2;
 
       &:first-child {
-        border-radius: $buttons_radius;
+        border-radius: $menu_radius / 2;
       }
 
       &:last-child {
-        border-radius: $buttons_radius;
+        border-radius: $menu_radius / 2;
       }
 
       &:only-child {
-        border-radius: $buttons_radius;
+        border-radius: $menu_radius / 2;
       }
     }
   }
@@ -1966,7 +1966,7 @@ popover.background {
   menuitem.button.flat,
   spinbutton.vertical button { @extend %popover_flat_button; }
 
-  &.menu button, button.model { border-radius: $buttons_radius; }
+  &.menu button, button.model { border-radius: $menu_radius / 2; }
 
     // Suggested and Destructive Action buttons
   @each $b_type, $b_color, $b_image in (suggested-action, $suggested_color, $suggested_image),
@@ -3338,10 +3338,9 @@ calendar {
  * Dialogs *
  ***********/
 messagedialog { // Message Dialog styling
-  color: $popover_fg;
-
   &.background {
     background-color: rgba($popover_bg, 0.95);
+    color: $popover_fg;
   }
 
   .titlebar {
@@ -3368,6 +3367,8 @@ messagedialog { // Message Dialog styling
     border-top: 1px solid $border_color;
     border-radius: 0;
     color: $popover_fg;
+
+    &:hover, &:active { color: white; }
 
     &:first-child {
       border-bottom-left-radius: 0;
@@ -3984,7 +3985,7 @@ decoration {
 
   .csd.popup & { // Menu shadow
     border-radius: $menu_radius;
-    box-shadow: $shadow_2;
+    box-shadow: $shadow_3;
   }
 
   tooltip.csd & {

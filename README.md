@@ -9,8 +9,11 @@ Includes files for:
 - Zsh
 - Nvim
 - Powerlevel10k
+- Kitty
+- Fonts I use
+- Layan Theme
 
 Important points:
 
-- Use `cz add {file path}` to add new files. 
+- Use `cz add {file path}` to add new files or folders.
 - Use `cz re-add` to automatically reflect changes made to files in their original locations in the chezmoi folder.

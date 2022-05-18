@@ -21,8 +21,14 @@ let s:core_conf_files = [
 for s:fname in s:core_conf_files
   execute printf('source %s/core/%s', stdpath('config'), s:fname)
 endfor
-vmap <C-c> "+yi
-vmap <C-x> "+c
+" system clipboard
+nmap <c-c> "+y
+vmap <c-c> "+y
+nmap <c-v> "+p
+inoremap <c-v> <c-r>+
+cnoremap <c-v> <c-r>+
+" use <c-r> to insert original character without triggering things like auto-pairs
+inoremap <c-r> <c-v>
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
 augroup RestoreCursorShapeOnExit
@@ -31,3 +37,6 @@ augroup RestoreCursorShapeOnExit
 augroup END
 set number
 set relativenumber!
+"set guicursor=a:block
+let g:neovide_cursor_antialiasing=v:false
+

@@ -10,7 +10,6 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/rishabh/.oh-my-zsh"
-export PATH="$PATH:/home/rishabh/Development/flutter/bin"
 export PATH="~/.local/bin/:$PATH"
 export VSCODE=/usr/bin/code
 export CHROME_EXECUTABLE=/usr/bin/vivaldi-stable
@@ -20,6 +19,7 @@ export PATH="/home/rishabh/.local/share/gem/ruby/3.0.0/bin:$PATH"
 export PATH=$PATH:/root/.local/share/gem/ruby/3.0.0/bin
 export PATH=$PATH:/home/rishabh/bin
 export PATH=$PATH:/home/rishabh/.local/bin/
+export PATH=$PATH:/home/rishabh/Development/flutter/bin
 export ANDROID_HOME=$HOME/Development/AndroidSDK
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin/
 export PATH=$PATH:$ANDROID_HOME/emulator/
@@ -37,14 +37,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 DISABLE_UPDATE_PROMPT="true"
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting ohmyzsh-full-autoupdate)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting ohmyzsh-full-autoupdate dirhistory)
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern regexp)
 
 source $ZSH/oh-my-zsh.sh
-# This is a test for chezmoi
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/rishabh/.sdkman"
-[[ -s "/home/rishabh/.sdkman/bin/sdkman-init.sh" ]] && source "/home/rishabh/.sdkman/bin/sdkman-init.sh"
 
