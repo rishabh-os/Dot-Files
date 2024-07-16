@@ -1,0 +1,26 @@
+{
+  "config_version": 2,
+  "activity": {
+    "4c1eb5a9-41ec-4f89-b1da-b6f7ebcd1153": {
+      "used": {
+        "secs": 600,
+        "nanos": 0
+      },
+      "last_update": "2024-05-20T10:55:14.051947259+02:00"
+    },
+    "547c2c5f-e094-4ec9-99cb-5f7b0b9a85ad": {
+      "used": {
+        "secs": 60,
+        "nanos": 0
+      },
+      "last_update": "2024-01-18T14:15:30.898978407+01:00"
+    },
+    "78f5e988-be50-4b9e-87dc-c22227a44a9f": {
+      "used": {
+        "secs": 600,
+        "nanos": 0
+      },
+      "last_update": "2024-07-16T10:15:56.664736557+02:00"
+    }
+  }
+}

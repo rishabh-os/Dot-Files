@@ -1,0 +1,23 @@
+[Animation]
+Frames=10
+
+[Appearance]
+HideSkinBorders=true
+Translucency=true
+
+[Dialogs]
+FirstRun=false
+
+[Notification Messages]
+CloseSingleTab=true
+hinding_title_bar=false
+
+[Shortcuts]
+view-full-screen=F11
+
+[Window]
+Height=40
+KeepOpenAfterLastSessionCloses=true
+ShowSystrayIcon=false
+ShowTabBar=false
+ShowTitleBar=false

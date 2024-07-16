@@ -1,0 +1,143 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[03ba68d7-4c25-489e-ba75-56354fe7b658]
+Description=Application settings for com.stremio.stremio
+desktopfile=smartcode-stremio
+desktopfilerule=2
+wmclass=stremio com.stremio.stremio
+wmclasscomplete=true
+wmclassmatch=1
+
+[1]
+Description=Window settings for com.github.hluk.copyq
+above=true
+desktopfile=smartcode-stremio
+layer=above
+layerrule=2
+noborder=true
+noborderrule=2
+placement=7
+placementrule=2
+skipswitcher=true
+skipswitcherrule=2
+skiptaskbar=true
+skiptaskbarrule=2
+title=[Command]... (168 lines) — CopyQ
+types=1
+wmclass=copyq com.github.hluk.copyq
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Stremio icon fix
+above=true
+desktopfile=smartcode-stremio
+desktopfilerule=2
+title=Moniz
+wmclass=stremio com.stremio.stremio
+wmclasscomplete=true
+wmclassmatch=1
+
+[3]
+Description=Window settings for Moniz
+above=true
+aboverule=2
+title=Moniz
+titlematch=1
+types=1
+wmclass=Moniz
+wmclassmatch=1
+
+[3372fa5b-fb8a-424d-b258-61cb9b686689]
+Description=Settings for yakuake org.kde.yakuake
+above=true
+aboverule=2
+wmclass=yakuake org.kde.yakuake
+wmclasscomplete=true
+wmclassmatch=1
+
+[3da5e351-5a5f-4d4e-9799-eaab8e020c0b]
+Description=Workaround fix for code-url-handler
+desktopfile=code
+desktopfilerule=2
+types=1
+wmclass=code code-url-handler
+wmclasscomplete=true
+wmclassmatch=1
+
+[4]
+Description=Settings for yakuake org.kde.yakuake
+above=true
+aboverule=2
+wmclass=yakuake org.kde.yakuake
+wmclasscomplete=true
+wmclassmatch=1
+
+[4d556bae-1fb0-4ee0-9cc6-1fe4f567966f]
+Description=Application settings for org.kde.konsole
+wmclass=konsole org.kde.konsole
+wmclasscomplete=true
+wmclassmatch=1
+
+[5]
+Description=Window settings for Picture in picture
+above=true
+aboverule=2
+title=Picture in picture
+titlematch=1
+wmclass=vivaldi-bin vivaldi-bin
+wmclasscomplete=true
+wmclassmatch=1
+
+[6]
+Description=Workaround fix for code-url-handler
+desktopfile=code
+desktopfilerule=2
+types=1
+wmclass=code code-url-handler
+wmclasscomplete=true
+wmclassmatch=1
+
+[9487ff1b-aeb4-4f25-abd3-bc0ba4f1cbdb]
+Description=VSC window size
+size=1120,768
+sizerule=4
+types=1
+wmclass=code code-url-handler
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=6
+rules=1,2,3,4,5,6
+
+[c8527639-d2d1-4d75-bd5b-ef73094f7c9f]
+Description=Window settings for com.github.hluk.copyq
+placement=7
+placementrule=2
+title=[Command]... (168 lines) — CopyQ
+types=1
+wmclass=copyq com.github.hluk.copyq
+wmclasscomplete=true
+wmclassmatch=1
+
+[d15cc60a-49d9-4256-88c2-992ab3973241]
+Description=Window settings for Moniz
+above=true
+aboverule=2
+title=Moniz
+titlematch=1
+types=1
+wmclass=Moniz
+wmclassmatch=1
+
+[d8be047c-b3e2-4897-b961-b117c96102d4]
+Description=Window settings for Picture in picture
+above=true
+aboverule=2
+title=Picture in picture
+titlematch=1
+wmclass=vivaldi-bin vivaldi-bin
+wmclasscomplete=true
+wmclassmatch=1

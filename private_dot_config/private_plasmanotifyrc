@@ -1,0 +1,16 @@
+[Applications][discord]
+Seen=true
+
+[Applications][opera]
+Seen=true
+
+[Applications][org.manjaro.pamac.manager]
+Seen=true
+
+[Applications][vivaldi-stable]
+Seen=true
+
+[Notifications]
+LowPriorityHistory=true
+NormalAlwaysOnTop=true
+PopupPosition=BottomRight

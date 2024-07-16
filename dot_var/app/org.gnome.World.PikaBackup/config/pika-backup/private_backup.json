@@ -1,0 +1,120 @@
+[
+  {
+    "config_version": 2,
+    "id": "9bb59f77-cc2f-4ba9-8656-698daaf66a12",
+    "archive_prefix": "414144-",
+    "repo_id": "e7c0ee60585996e31ac14f4a82c59480f7f2ca2f51eead0b7ee6991e271a7c18",
+    "repo": {
+      "type": "Local",
+      "path": "/home/rishabh/Backup-DREAM/pika-backup",
+      "mount_path": "/",
+      "uri": null,
+      "drive_name": null,
+      "mount_name": "home",
+      "volume_uuid": null,
+      "volume_uuid_identifier": null,
+      "removable": false,
+      "icon": ". GThemedIcon drive-harddisk drive drive-harddisk-symbolic drive-symbolic",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-symbolic drive-symbolic drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey",
+    "include": [
+      ""
+    ],
+    "exclude": [
+      "Caches"
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "",
+    "user_scripts": {}
+  },
+  {
+    "config_version": 2,
+    "id": "78f5e988-be50-4b9e-87dc-c22227a44a9f",
+    "archive_prefix": "7f01f9-",
+    "repo_id": "20b9baa8ce195613c1d2c3d5b8f3da9d1a287c774e9d3c682b142f7041fdadce",
+    "repo": {
+      "type": "Remote",
+      "uri": "ssh://user@dsipshare/media/user/wd2/users/rishabh/backups/fbklaptop/",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey",
+    "include": [
+      ""
+    ],
+    "exclude": [
+      {
+        "PathPrefix": ".local/share/Steam"
+      },
+      {
+        "PathPrefix": ".stremio-server/stremio-cache"
+      },
+      {
+        "PathPrefix": "Backup-DREAM"
+      },
+      {
+        "PathPrefix": "Development/Datasets"
+      },
+      {
+        "RegularExpression": "/home/rishabh/Development/*/node_modules"
+      },
+      {
+        "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+      },
+      "Caches",
+      "Trash",
+      "FlatpakApps",
+      "VmsContainers"
+    ],
+    "schedule": {
+      "enabled": true,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Weekly": {
+          "preferred_weekday": "Mon"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "",
+    "user_scripts": {}
+  }
+]

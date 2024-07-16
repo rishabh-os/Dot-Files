@@ -1,0 +1,10 @@
+[Common]
+OutlineIntensity=OutlineOff
+ShadowSize=ShadowSmall
+ShadowStrength=153
+
+[Style]
+MenuOpacity=69
+ToolBarDrawItemSeparator=false
+ViewDrawFocusIndicator=false
+WindowDragMode=WD_NONE

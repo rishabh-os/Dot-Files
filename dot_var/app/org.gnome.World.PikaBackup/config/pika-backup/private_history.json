@@ -1,0 +1,4308 @@
+{
+  "4c1eb5a9-41ec-4f89-b1da-b6f7ebcd1153": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-05-20T10:43:29.134497371+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 337.754944,
+                "id": "04a7881caf32d3b13004b14825efb25f1d0acc275cde90732629e77167009117",
+                "name": "7f01f9-ade02009",
+                "stats": {
+                  "compressed_size": 47612770826,
+                  "deduplicated_size": 1152991680,
+                  "nfiles": 905242,
+                  "original_size": 91042106925
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-05-13T09:55:44.513451296+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 654.807976,
+                "id": "daf3aac279a74f6a255283e74477636dff09cb1d88524e3396bfba2f3721a23c",
+                "name": "7f01f9-1b829d33",
+                "stats": {
+                  "compressed_size": 47496632726,
+                  "deduplicated_size": 739802375,
+                  "nfiles": 901210,
+                  "original_size": 90699024544
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-05-09T14:52:45.017874136+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 822.958011,
+                "id": "34df82d8dcca5bed3cdcff6661356e553df248fe3b33527320ccc8bdc7f50cbe",
+                "name": "7f01f9-8631927f",
+                "stats": {
+                  "compressed_size": 49131965797,
+                  "deduplicated_size": 9007126997,
+                  "nfiles": 910314,
+                  "original_size": 92492795386
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/Development/supabase/docker/volumes/db/data: dir_open: [Errno 13] Permission denied: 'data'",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-05-06T10:31:22.577844366+02:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-05-01T13:34:01.709317786+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 4463.872196,
+                "id": "21f2f7352e531e8530687dccce641ea6a0e6c25310fa82c4def6d33de752c6fe",
+                "name": "7f01f9-b1c40371",
+                "stats": {
+                  "compressed_size": 41661449869,
+                  "deduplicated_size": 9162527992,
+                  "nfiles": 881166,
+                  "original_size": 81301583688
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /home/rishabh/.var/app/org.gnome.World.PikaBackup/cache/borg/20b9baa8ce195613c1d2c3d5b8f3da9d1a287c774e9d3c682b142f7041fdadce/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-04-29T00:00:01.130098982+02:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-04-22T10:11:57.780388794+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 551.575532,
+                "id": "abbb8c3a6f7c21ea382685346101bdc68a39e696f87d3c8fd38d4e2284ad39e9",
+                "name": "7f01f9-153badaa",
+                "stats": {
+                  "compressed_size": 41001204247,
+                  "deduplicated_size": 5802628009,
+                  "nfiles": 857975,
+                  "original_size": 73650377375
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-04-15T11:05:07.246797907+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 526.456117,
+                "id": "c67a325c81100ff392916574ae265f70a64601d35a70e02459d740b8941ddc79",
+                "name": "7f01f9-1cfb15a6",
+                "stats": {
+                  "compressed_size": 41755027215,
+                  "deduplicated_size": 1569521840,
+                  "nfiles": 857528,
+                  "original_size": 75640586767
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-04-08T10:29:01.250926103+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 142.527514,
+                "id": "9f66046e882965118e0de659fced55673d654a75ee089bf5028fd8e85db7fde6",
+                "name": "7f01f9-ce3d9a30",
+                "stats": {
+                  "compressed_size": 40940767622,
+                  "deduplicated_size": 1150840229,
+                  "nfiles": 848967,
+                  "original_size": 73516058663
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-04-01T23:05:46.162740279+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 476.287015,
+                "id": "d4c5d6ff33d9b1163823b9f2be42a6eeb12e6e600629bc48128a0c14437a3d5f",
+                "name": "7f01f9-af0df269",
+                "stats": {
+                  "compressed_size": 42496526737,
+                  "deduplicated_size": 881043220,
+                  "nfiles": 878294,
+                  "original_size": 76531818076
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-29T10:21:17.376215168+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-03-28T14:19:46.878676538+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 83.617104,
+                "id": "22541da510f0054ab53eef23f7dd8a014d2870f9d5e2141fd113de044b551a4d",
+                "name": "7f01f9-b8574de7",
+                "stats": {
+                  "compressed_size": 42832133905,
+                  "deduplicated_size": 1515712840,
+                  "nfiles": 879732,
+                  "original_size": 77180415670
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/Sessions/Session_13356105460240033: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-28T10:48:11.329699909+01:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-27T09:57:41.492538903+01:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-26T10:48:21.111011919+01:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-26T09:37:11.554590522+01:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-25T08:59:25.963063609+01:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-18T10:15:31.401915186+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 97.675356,
+                "id": "d31220cab3b36f20e0d40d6c0820e4c897905f4347135f30e4ea3936815b58f7",
+                "name": "7f01f9-4889877a",
+                "stats": {
+                  "compressed_size": 42457604276,
+                  "deduplicated_size": 1691717679,
+                  "nfiles": 842120,
+                  "original_size": 76421937345
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: client_loop: send disconnect: Broken pipe",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: client_loop: send disconnect: Broken pipe",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Local Exception",
+              "msgid": "Exception"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Traceback (most recent call last):\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 189, in wrapper\n    return method(self, args, repository=repository, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 672, in do_create\n    create_inner(archive, cache, fso)\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 605, in create_inner\n    self._rec_walk(path=path, parent_fd=None, name=None,\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 820, in _rec_walk\n    self._rec_walk(\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 820, in _rec_walk\n    self._rec_walk(\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 820, in _rec_walk\n    self._rec_walk(\n  [Previous line repeated 1 more time]\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 783, in _rec_walk\n    status = self._process_any(path=path, parent_fd=parent_fd, name=name, st=st, fso=fso, cache=cache,\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 685, in _process_any\n    return fso.process_file(path=path, parent_fd=parent_fd, name=name, st=st, cache=cache)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archive.py\", line 1455, in process_file\n    self.process_file_chunks(item, cache, self.stats, self.show_progress, backup_io_iter(self.chunker.chunkify(None, fd)))\n  File \"/app/lib/python3.11/site-packages/borg/archive.py\", line 1277, in process_file_chunks\n    item.chunks.append(chunk_processor(chunk))\n                       ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archive.py\", line 1265, in chunk_processor\n    chunk_entry = cache.add_chunk(chunk_id, data, stats, wait=False)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/cache.py\", line 952, in add_chunk\n    self.repository.put(id, data, wait=wait)\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 476, in do_rpc\n    return self.call(f.__name__, named, **extra)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 711, in call\n    for resp in self.call_many(cmd, [args], **kw):\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 828, in call_many\n    raise ConnectionClosed()\nborg.remote.ConnectionClosed: Connection closed by remote host\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 5343, in main\n    exit_code = archiver.run(args)\n                ^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 5263, in run\n    return set_ec(func(args))\n                  ^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/archiver.py\", line 174, in wrapper\n    with repository:\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 636, in __exit__\n    self.rollback()\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 476, in do_rpc\n    return self.call(f.__name__, named, **extra)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 711, in call\n    for resp in self.call_many(cmd, [args], **kw):\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 781, in call_many\n    send_buffer()  # Try to send data, as some cases (async_response) will never try to send data otherwise.\n    ^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 721, in send_buffer\n    written = self.ratelimit.write(self.stdin_fd, self.to_send.peek_front())\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 417, in write\n    written = os.write(fd, to_send)\n              ^^^^^^^^^^^^^^^^^^^^^\nBrokenPipeError: [Errno 32] Broken pipe\n\nPlatform: Linux rishabh-fbklaptop 6.8.1-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 16 Mar 2024 17:15:35 +0000 x86_64\nLinux: Unknown Linux  \nBorg: 1.2.7  Python: CPython 3.11.8 msgpack: 1.0.7 fuse: pyfuse3 3.3.0 [pyfuse3,llfuse]\nPID: 34  CWD: /home/rishabh\nsys.argv: ['/app/bin/borg', 'create', '--rsh', 'ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new', '--progress', '--json', '--compression=zstd', '--log-json', '--exclude=pp:/home/rishabh/.local/share/Steam', '--exclude=pp:/home/rishabh/.var/app/org.gnome.World.PikaBackup/data/flatpak/', '--exclude=pp:/home/rishabh/Backup-DREAM', '--exclude=pp:/home/rishabh/Development/Datasets', '--exclude=re:\"/home/rishabh/Development/*/node_modules\"', '--exclude=re:\"/home/rishabh/Personal Dev/*/node_modules\"', '--exclude=pp:/home/rishabh/.cache', '--exclude=re:^home/rishabh/\\\\.var/app/[^/]+/cache/', '--exclude-caches', '--exclude=pp:/home/rishabh/.local/share/Trash', '--exclude=re:^home/rishabh/\\\\.local/share/flatpak/(?!overrides)', '--exclude=pp:/home/rishabh/.local/share/gnome-boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.Boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.BoxesDevel', '--exclude=pp:/home/rishabh/.local/share/bottles', '--exclude=pp:/home/rishabh/.var/app/com.usebottles.bottles', '--exclude=pp:/home/rishabh/.local/share/libvirt', '--exclude=pp:/home/rishabh/.config/libvirt', '--exclude=pp:/home/rishabh/.local/share/containers', '--exclude=pp:/home/rishabh/.local/share/docker', '--', 'ssh://user@dsipshare/media/user/wd3/users/rishabh/backups/fbklaptop/::7f01f9-4889877a', '/home/rishabh/']\nSSH_ORIGINAL_COMMAND: None\n",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-11T10:20:25.733332011+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 119.838798,
+                "id": "4ea7eb205f7654080a259539cf68e82678817919096e94c447ee19541ea50422",
+                "name": "7f01f9-7df210e9",
+                "stats": {
+                  "compressed_size": 42420198809,
+                  "deduplicated_size": 2013011408,
+                  "nfiles": 866185,
+                  "original_size": 73049600975
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-03-04T11:15:27.534870328+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 586.897736,
+                "id": "143654cda98d75f8be5a7927a62ec5bfc2b60ddcc0ccb51a250d019a1eed89aa",
+                "name": "7f01f9-572ea58b",
+                "stats": {
+                  "compressed_size": 42211443158,
+                  "deduplicated_size": 3775369333,
+                  "nfiles": 986698,
+                  "original_size": 72095965673
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-28T11:06:05.355913286+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 184.39303,
+                "id": "3cc37acc1ee0c9f6a5b77538c6558b756e665f2a6d1bc460e6592d6c8d4d9398",
+                "name": "7f01f9-a77824b1",
+                "stats": {
+                  "compressed_size": 44503733395,
+                  "deduplicated_size": 6932116514,
+                  "nfiles": 1026015,
+                  "original_size": 78564630167
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-26T00:00:10.213142549+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-02-21T10:43:30.951848068+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1051.279963,
+                "id": "cb6a22050462d4ec0785c2d25949830b178a96bc375686aedca66c870d769cb5",
+                "name": "7f01f9-876ef503",
+                "stats": {
+                  "compressed_size": 41178936345,
+                  "deduplicated_size": 10797479317,
+                  "nfiles": 1002874,
+                  "original_size": 74649624309
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-18T13:02:50.981294242+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-02-11T13:05:20.399874905+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 3562.920696,
+                "id": "d26272d66c22d1c02b7656b43e558928d2fafcccefe628ad01541a97be7f9849",
+                "name": "7f01f9-c94125ba",
+                "stats": {
+                  "compressed_size": 41610872403,
+                  "deduplicated_size": 7326724328,
+                  "nfiles": 923328,
+                  "original_size": 71561592844
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-07T00:18:30.240982837+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 982.710044,
+                "id": "a1c60019b8079107d56c319ac56a4ea24adfc4913e67b99128df21c75733465a",
+                "name": "7f01f9-7e1f705b",
+                "stats": {
+                  "compressed_size": 45560262814,
+                  "deduplicated_size": 1490280409,
+                  "nfiles": 896457,
+                  "original_size": 77190298909
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/opera/Default/History: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-06T09:38:26.712429948+01:00",
+        "outcome": {
+          "Aborted": "OnBattery"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: ssh: Could not resolve hostname jump.fbk.eu: Temporary failure in name resolution",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/opera/Default/Favicons: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-05T02:44:56.054320262+01:00",
+        "outcome": {
+          "Aborted": "OnBattery"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "UnparsableErr": "Exception ignored in: <function RemoteRepository.__del__ at 0x7294f266a7a0>\n"
+          },
+          {
+            "UnparsableErr": "Traceback (most recent call last):\n"
+          },
+          {
+            "UnparsableErr": "  File \"/app/lib/python3.10/site-packages/borg/remote.py\", line 624, in __del__\n"
+          },
+          {
+            "UnparsableErr": "    assert False, 'cleanup happened in Repository.__del__'\n"
+          },
+          {
+            "UnparsableErr": "AssertionError: cleanup happened in Repository.__del__\n"
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-02-04T18:03:13.762248925+01:00",
+        "outcome": {
+          "Aborted": "OnBattery"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: channel 0: open failed: connect failed: Connection timed out",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: stdio forwarding failed",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "UnparsableErr": "Exception ignored in: <function RemoteRepository.__del__ at 0x76061c26e7a0>\n"
+          },
+          {
+            "UnparsableErr": "Traceback (most recent call last):\n"
+          },
+          {
+            "UnparsableErr": "  File \"/app/lib/python3.10/site-packages/borg/remote.py\", line 624, in __del__\n"
+          },
+          {
+            "UnparsableErr": "    assert False, 'cleanup happened in Repository.__del__'\n"
+          },
+          {
+            "UnparsableErr": "AssertionError: cleanup happened in Repository.__del__\n"
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-31T11:57:04.561371748+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 718.119949,
+                "id": "d3ef18781a00d7c193389cc3e4a5604d762cfcafaf55f094a97900b88ea53c89",
+                "name": "7f01f9-dab2406b",
+                "stats": {
+                  "compressed_size": 47394506093,
+                  "deduplicated_size": 5746567921,
+                  "nfiles": 921681,
+                  "original_size": 75246463669
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-30T23:27:01.057766371+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-30T22:47:42.112980926+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-30T22:39:41.759182940+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-29T09:33:13.208941255+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2024-01-28T12:34:01.529951624+01:00",
+        "outcome": {
+          "Aborted": "OnBattery"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-22T11:52:41.029953384+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 116.759169,
+                "id": "b269b795fedeef01c854116061df0b8faa197da78a9e3907f9d0be6c12b8f7c4",
+                "name": "7f01f9-5512926d",
+                "stats": {
+                  "compressed_size": 35974661961,
+                  "deduplicated_size": 137603493,
+                  "nfiles": 861044,
+                  "original_size": 61275868737
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-22T11:49:36.236152311+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 7071.348718,
+                "id": "e3d3b87e5a35891607899f848b377bd0fb42ee3110b2bb5e07c105df791fadce",
+                "name": "7f01f9-37aace12",
+                "stats": {
+                  "compressed_size": 111060363866,
+                  "deduplicated_size": 79187718331,
+                  "nfiles": 861430,
+                  "original_size": 146345094049
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/Downloads/RYDL.hdf5: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-14T13:56:36.147425091+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 5834.161088,
+                "id": "e7f03a9cd5c46d63c4ca62daddba985c96fbe9345947a761191aacb27923bcb4",
+                "name": "7f01f9-036e622b",
+                "stats": {
+                  "compressed_size": 34346072454,
+                  "deduplicated_size": 12128337272,
+                  "nfiles": 823527,
+                  "original_size": 57031577376
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-07T12:46:08.176685967+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 8089.239482,
+                "id": "b640a0b9f9362f247138d6225398e34a499498b10d6ae266c6b0df0a54ec9b91",
+                "name": "7f01f9-c98f5f3a",
+                "stats": {
+                  "compressed_size": 32656034736,
+                  "deduplicated_size": 15451194854,
+                  "nfiles": 793567,
+                  "original_size": 53188151902
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/opera/Default/History-journal: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-01-04T11:02:16.699855715+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 118.779174,
+                "id": "aa39f9faffed7c554173d5d05512a7f747fe597238fe670aec733d10032f1f90",
+                "name": "7f01f9-2cc64f08",
+                "stats": {
+                  "compressed_size": 18763608583,
+                  "deduplicated_size": 381302677,
+                  "nfiles": 747778,
+                  "original_size": 37379533330
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2023-12-31T00:11:38.118312787+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 126.060718,
+                "id": "0a8debdb1d77a4d3f550f68234c2ace44be39141a485e529614e96421e9e0134",
+                "name": "7f01f9-ead68519",
+                "stats": {
+                  "compressed_size": 18765001673,
+                  "deduplicated_size": 16532688,
+                  "nfiles": 746922,
+                  "original_size": 37230632146
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2023-12-31T00:08:26.086722803+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 426.497507,
+                "id": "d9ba7581845c53a20b4b186b3ef5f7e74eee179fee16e38d683d1c91b2720448",
+                "name": "7f01f9-1160af3e",
+                "stats": {
+                  "compressed_size": 18764807815,
+                  "deduplicated_size": 1852326028,
+                  "nfiles": 746916,
+                  "original_size": 37228791406
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/opera/Default/GPUCache/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2023-12-24T20:15:31.509406616+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1700.465959,
+                "id": "09e0fe1defb7de04c44c71b6422cf442fe613cf98323d03277426d87729e7cef",
+                "name": "7f01f9-89fbf44b",
+                "stats": {
+                  "compressed_size": 21187538059,
+                  "deduplicated_size": 4696116281,
+                  "nfiles": 707013,
+                  "original_size": 38155868944
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: ssh: Could not resolve hostname jump.fbk.eu: Temporary failure in name resolution",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: ssh: Could not resolve hostname jump.fbk.eu: Temporary failure in name resolution",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: Connection closed by UNKNOWN port 65535",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Connection closed by remote host. Is borg working on the server?",
+              "msgid": "ConnectionClosedWithHint"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.stremio-server/stremio-cache/22f20b2c42c4351ae143c426ea2c82c3f6efa77a/20: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2023-12-18T14:51:16.512438018+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1521.923688,
+                "id": "babcd4fc471c03dfd0f13eb9d68f4f771aac9229054c52d3be2b45a82413ffa6",
+                "name": "7f01f9-426c110c",
+                "stats": {
+                  "compressed_size": 16463001536,
+                  "deduplicated_size": 15077559416,
+                  "nfiles": 672628,
+                  "original_size": 31138769108
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-05-20T10:43:29.134497371+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 337.754944,
+              "id": "04a7881caf32d3b13004b14825efb25f1d0acc275cde90732629e77167009117",
+              "name": "7f01f9-ade02009",
+              "stats": {
+                "compressed_size": 47612770826,
+                "deduplicated_size": 1152991680,
+                "nfiles": 905242,
+                "original_size": 91042106925
+              }
+            }
+          }
+        }
+      },
+      "messages": [
+        {
+          "ParsedErr": {
+            "levelname": "WARNING",
+            "name": "root",
+            "message": "Remote: /bin/sh: line 1: dig: command not found",
+            "msgid": "Undefined"
+          }
+        }
+      ],
+      "include": [
+        ""
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/rishabh/.local/share/Steam"
+        },
+        {
+          "PathPrefix": "/home/rishabh/Backup-DREAM"
+        },
+        {
+          "PathPrefix": "/home/rishabh/Development/Datasets"
+        },
+        {
+          "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+        },
+        {
+          "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+        },
+        "Caches",
+        "Trash",
+        "FlatpakApps",
+        "VmsContainers"
+      ]
+    },
+    "last_check": {
+      "end": "2024-05-03T12:02:23.644959198+02:00",
+      "outcome": "Aborted"
+    },
+    "suggested_exclude": {
+      "PermissionDenied": [
+        {
+          "PathFullMatch": "Development/supabase/docker/volumes/db/data"
+        }
+      ]
+    }
+  },
+  "547c2c5f-e094-4ec9-99cb-5f7b0b9a85ad": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-01-18T14:15:47.984510761+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          "Caches"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  },
+  "78f5e988-be50-4b9e-87dc-c22227a44a9f": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2024-07-16T10:05:00.318672582+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 541.391262,
+                "id": "583f097690f0833fc6ec72accd131b5bbd06eb7ed7d67a53598740a40a23322e",
+                "name": "7f01f9-84f4dc3b",
+                "stats": {
+                  "compressed_size": 63182409634,
+                  "deduplicated_size": 5603322248,
+                  "nfiles": 1118433,
+                  "original_size": 110993548649
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-07-16T09:48:58.616138396+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd2/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-07-15T21:11:40.219625516+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd2/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-07-15T09:31:28.112057649+02:00",
+        "outcome": {
+          "Failed": "Repository.DoesNotExist"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Repository ssh://user@dsipshare/media/user/wd2/users/rishabh/backups/fbklaptop/ does not exist.",
+              "msgid": "Repository.DoesNotExist"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-07-08T01:02:47.889833566+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1407.598271,
+                "id": "456403e33f432691ca82547f3cc6e616347c02ccad01c6af74b9c83c49c95aab",
+                "name": "7f01f9-317896d2",
+                "stats": {
+                  "compressed_size": 61144692747,
+                  "deduplicated_size": 2641734821,
+                  "nfiles": 1090189,
+                  "original_size": 107807518631
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-07-04T10:42:43.539304902+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1143.12295,
+                "id": "7efd3aea3c3cff50dffe77c2b1b2a2f720895d6d77b650804604f3dfcb293165",
+                "name": "7f01f9-c73569d5",
+                "stats": {
+                  "compressed_size": 60634506271,
+                  "deduplicated_size": 12450976941,
+                  "nfiles": 1086778,
+                  "original_size": 107293658967
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-06-24T10:51:07.656125196+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 697.661041,
+                "id": "bf5a58972c3a1245be7dd28fc5012e2763e875001466cb3609c88a459e3d1022",
+                "name": "7f01f9-ad5f0569",
+                "stats": {
+                  "compressed_size": 51744828869,
+                  "deduplicated_size": 7117211978,
+                  "nfiles": 1107031,
+                  "original_size": 105790418126
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-06-17T11:25:07.580475807+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 747.500428,
+                "id": "1bc4bb429e7867e34e2d04aaab38426e5fb172aed64685f84f04c4d52c3369b4",
+                "name": "7f01f9-0b74c846",
+                "stats": {
+                  "compressed_size": 57568755787,
+                  "deduplicated_size": 2966527218,
+                  "nfiles": 1027316,
+                  "original_size": 102239704867
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Development/*/node_modules"
+          },
+          {
+            "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-06-11T13:51:35.571201113+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 406.085747,
+                "id": "9ba4b30181141a145874332d4fdc048ebcb7bb523e755f321b3e3b26e9be92fd",
+                "name": "7f01f9-f84e305d",
+                "stats": {
+                  "compressed_size": 49327763475,
+                  "deduplicated_size": 2373104011,
+                  "nfiles": 1025582,
+                  "original_size": 93891245688
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-05-27T16:57:14.408191039+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2435.135391,
+                "id": "8b2823e6b23920c044eee30217e4645151d23974ea4ba74b1074e10c33ca2c72",
+                "name": "7f01f9-df95c887",
+                "stats": {
+                  "compressed_size": 49707556129,
+                  "deduplicated_size": 4103120987,
+                  "nfiles": 1011408,
+                  "original_size": 95354831238
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2024-05-27T16:16:22.657616572+02:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "UnparsableErr": "Exception ignored in: <function RemoteRepository.__del__ at 0x756e97c880e0>\n"
+          },
+          {
+            "UnparsableErr": "Traceback (most recent call last):\n"
+          },
+          {
+            "UnparsableErr": "  File \"/app/lib/python3.11/site-packages/borg/remote.py\", line 619, in __del__\n"
+          },
+          {
+            "UnparsableErr": "    def __del__(self):\n"
+          },
+          {
+            "UnparsableErr": "\n"
+          },
+          {
+            "UnparsableErr": "  File \"/app/lib/python3.11/site-packages/borg/helpers/process.py\", line 180, in handler\n"
+          },
+          {
+            "UnparsableErr": "    raise exc_cls\n"
+          },
+          {
+            "UnparsableErr": "KeyboardInterrupt: \n"
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps"
+        ]
+      },
+      {
+        "end": "2024-05-27T16:12:15.810005195+02:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/Sessions/Session_13361275033980057: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/DownloadMetadata: stat: [Errno 2] No such file or directory: 'DownloadMetadata'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.config/libvirt"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/bottles"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/containers"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/gnome-boxes"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/libvirt"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/com.usebottles.bottles"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/org.gnome.Boxes"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/org.gnome.BoxesDevel"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps"
+        ]
+      },
+      {
+        "end": "2024-05-24T15:48:30.119817226+02:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "root",
+              "message": "Remote: /bin/sh: line 1: dig: command not found",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": "/home/rishabh/.config/libvirt"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/bottles"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/containers"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/gnome-boxes"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/libvirt"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/com.usebottles.bottles"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/org.gnome.Boxes"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.var/app/org.gnome.BoxesDevel"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps"
+        ]
+      },
+      {
+        "end": "2024-01-22T11:49:32+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 7072.0,
+                "id": "e3d3b87e5a35891607899f848b377bd0fb42ee3110b2bb5e07c105df791fadce",
+                "name": "7f01f9-37aace12",
+                "stats": {
+                  "compressed_size": 0,
+                  "deduplicated_size": 0,
+                  "nfiles": 0,
+                  "original_size": 0
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": ".config/libvirt"
+          },
+          {
+            "PathPrefix": ".local/share/Steam"
+          },
+          {
+            "PathPrefix": ".local/share/bottles"
+          },
+          {
+            "PathPrefix": ".local/share/containers"
+          },
+          {
+            "PathPrefix": ".local/share/gnome-boxes"
+          },
+          {
+            "PathPrefix": ".local/share/libvirt"
+          },
+          {
+            "PathPrefix": ".var/app/com.usebottles.bottles"
+          },
+          {
+            "PathPrefix": ".var/app/org.gnome.Boxes"
+          },
+          {
+            "PathPrefix": ".var/app/org.gnome.BoxesDevel"
+          },
+          {
+            "PathPrefix": "Backup-DREAM"
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Development/*/node_modules\""
+          },
+          {
+            "RegularExpression": "\"/home/rishabh/Personal Dev/*/node_modules\""
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2024-07-16T10:05:00.318672582+02:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 541.391262,
+              "id": "583f097690f0833fc6ec72accd131b5bbd06eb7ed7d67a53598740a40a23322e",
+              "name": "7f01f9-84f4dc3b",
+              "stats": {
+                "compressed_size": 63182409634,
+                "deduplicated_size": 5603322248,
+                "nfiles": 1118433,
+                "original_size": 110993548649
+              }
+            }
+          }
+        }
+      },
+      "messages": [
+        {
+          "ParsedErr": {
+            "levelname": "WARNING",
+            "name": "root",
+            "message": "Remote: /bin/sh: line 1: dig: command not found",
+            "msgid": "Undefined"
+          }
+        }
+      ],
+      "include": [
+        ""
+      ],
+      "exclude": [
+        {
+          "PathPrefix": "/home/rishabh/.local/share/Steam"
+        },
+        {
+          "PathPrefix": "/home/rishabh/Backup-DREAM"
+        },
+        {
+          "PathPrefix": "/home/rishabh/Development/Datasets"
+        },
+        {
+          "RegularExpression": "/home/rishabh/Development/*/node_modules"
+        },
+        {
+          "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
+        },
+        "Caches",
+        "Trash",
+        "FlatpakApps",
+        "VmsContainers"
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "9bb59f77-cc2f-4ba9-8656-698daaf66a12": {
+    "config_version": 2,
+    "run": [],
+    "running": null,
+    "last_completed": null,
+    "last_check": null,
+    "suggested_exclude": {}
+  }
+}

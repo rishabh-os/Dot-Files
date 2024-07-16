@@ -1,0 +1,55 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+
+[CompactMode]
+IconSize=48
+
+[ContentDisplay]
+DirectorySizeCount=false
+UsePermissionsFormat=CombinedFormat
+
+[ContextMenu]
+ShowCopyToOtherSplitView=false
+ShowDuplicateHere=false
+ShowMoveToOtherSplitView=false
+ShowOpenInSplitView=false
+ShowOpenTerminal=false
+ShowSortBy=false
+ShowViewMode=false
+
+[DetailsMode]
+IconSize=48
+
+[General]
+AutoExpandFolders=true
+EditableUrl=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowSelectionToggle=false
+ShowZoomSlider=false
+Version=202
+ViewPropsTimestamp=2023,12,13,11,45,49.26
+
+[IconsMode]
+IconSize=64
+MaximumTextLines=2
+PreviewSize=96
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+1920x1200 screen: Height=476
+1920x1200 screen: Width=450
+2 screens: Height=560
+2 screens: Width=828
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail
