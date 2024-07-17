@@ -17,6 +17,7 @@ export PATH=$PATH:$HOME/.cargo/bin/
 export PATH=$PATH:/home/rishabh/.spicetify
 export PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin
 alias c="clear"
+alias ls="ls --color"
 alias lc="colorls"
 alias cz="chezmoi"
 # Ctrl+Backspace: kill the word backward
@@ -26,15 +27,24 @@ bindkey -M vicmd '^H' backward-kill-word
 
 HYPHEN_INSENSITIVE="true"
 
-zstyle ':omz:update' mode auto
+HISTSIZE=100000
+SAVEHIST=$HISTSIZE
+setopt appendhistory
+setopt sharehistory
 
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search ohmyzsh-full-autoupdate dirhistory poetry)
+# fzf catppuccin machiato theme
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
+--color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
+--color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
+
+zstyle ':omz:update' mode auto
+# ? Due to a bug in OMZ
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search ohmyzsh-full-autoupdate dirhistory)
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern regexp)
 source $ZSH/oh-my-zsh.sh
 
-
-eval "$(atuin init zsh --disable-up-arrow)"
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/mytheme.omp.toml)"
 # pnpm
 export PNPM_HOME="/home/rishabh/.local/share/pnpm"
 case ":$PATH:" in
@@ -42,3 +52,7 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+eval "$(atuin init zsh --disable-up-arrow)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/mytheme.omp.toml)"
+eval "$(zoxide init --cmd cd zsh)"
