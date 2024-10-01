@@ -2,7 +2,6 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
-AllowTearing=false
 LatencyPolicy=Low
 
 [Desktops]
@@ -16,8 +15,7 @@ Duration=300
 ShapeCurve=2
 
 [Effect-blur]
-BlurStrength=12
-NoiseStrength=3
+NoiseStrength=0
 
 [Effect-diminactive]
 DimFullScreen=false
@@ -92,6 +90,10 @@ TabletMode=off
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
 
+[MouseBindings]
+CommandAll2=Nothing
+CommandAllWheel=Maximize/Restore
+
 [NightColor]
 LatitudeAuto=46.07
 LongitudeAuto=11.11
@@ -140,11 +142,8 @@ LayoutName=thumbnail_grid
 MultiScreenMode=1
 
 [TabBoxAlternative]
-ActivitiesMode=0
 HighlightWindows=false
-LayoutName=thumbnail_grid
-MultiScreenMode=1
-ShowTabBox=false
+MultiScreenMode=2
 
 [Tiling]
 padding=4
@@ -200,6 +199,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][77c33eca-c053-5e79-9bdb-236d907a9da3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][af860c52-7a29-5937-8116-433ad3f3e4f8]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][b8909f09-c3e7-5fa8-8317-adefd38f9dea]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -207,11 +209,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+CenterSnapZone=15
 ElectricBorderCooldown=150
 ElectricBorderDelay=100
 FocusPolicy=FocusFollowsMouse
-NextFocusPrefersMouse=true
+FocusStealingPreventionLevel=2
 RollOverDesktops=true
+SeparateScreenFocus=true
 
 [Xwayland]
 Scale=1

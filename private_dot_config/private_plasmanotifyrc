@@ -4,7 +4,13 @@ Seen=true
 [Applications][opera]
 Seen=true
 
+[Applications][org.gnome.Boxes]
+Seen=true
+
 [Applications][org.manjaro.pamac.manager]
+Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
 [Applications][vivaldi-stable]

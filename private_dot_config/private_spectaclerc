@@ -2,9 +2,9 @@
 update_info=spectacle_clipboard.upd:clipboard-settings-change,spectacle_rememberregion.upd:spectacle-migrate-rememberregion
 
 [Annotations]
-annotationToolType=2
+annotationToolType=4
 freehandShadow=false
-highlighterStrokeColor=0,255,127
+highlighterStrokeColor=255,255,127
 rectangleStrokeColor=255,0,0
 rectangleStrokeWidth=8
 
@@ -20,7 +20,7 @@ quitAfterSaveCopyExport=true
 
 [ImageSave]
 imageSaveLocation=file:///home/rishabh/Pictures/Screenshots/
-lastImageSaveLocation=file:///home/rishabh/Pictures/Screenshots/Screenshot_20240714_125213.png
+lastImageSaveLocation=file:///home/rishabh/Pictures/Screenshots/Screenshot_20240930_153548.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

@@ -72,7 +72,7 @@ DecorationFocus=125,196,228
 DecorationHover=125,196,228
 ForegroundActive=125,196,228
 ForegroundInactive=0,0,0
-ForegroundLink=125,196,228
+ForegroundLink=91,143,166
 ForegroundNegative=237, 135, 150
 ForegroundNeutral=238, 212, 159
 ForegroundNormal=0,0,0
@@ -123,13 +123,12 @@ ForegroundVisited=198, 160, 246
 
 [DirSelect Dialog]
 DirSelectDialog Size=858,598
-History Items[$e]=file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
+History Items[$e]=file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
 
 [General]
 AccentColor=125,196,228
 BrowserApplication=vivaldi-stable.desktop
-ColorScheme=CatppuccinMacchiatoFlamingo
-ColorSchemeHash=9e3cd59f3b2b31a3bf7d9baa49e112aaee542468
+ColorSchemeHash=5a060bf4beeb8b2bc29de367b8cfc86f6d6381ee
 LastUsedCustomAccentColor=125,196,228
 XftAntialias=true
 XftHintStyle=hintfull
@@ -144,6 +143,7 @@ toolBarFont=Inter,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Theme=Vivid-Dark-Icons
 
 [KDE]
+AnimationDurationFactor=1.414213562373095
 LookAndFeelPackage=org.kde.breezedark.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=false

@@ -96,7 +96,7 @@
     "schedule": {
       "enabled": true,
       "settings": {
-        "run_on_battery": false
+        "run_on_battery": true
       },
       "frequency": {
         "Weekly": {
@@ -114,7 +114,7 @@
         "yearly": 10
       }
     },
-    "title": "",
+    "title": "Remote Location",
     "user_scripts": {}
   }
 ]
