@@ -26,7 +26,10 @@
       ""
     ],
     "exclude": [
-      "Caches"
+      "Caches",
+      "Trash",
+      "FlatpakApps",
+      "VmsContainers"
     ],
     "schedule": {
       "enabled": false,
@@ -54,12 +57,21 @@
   },
   {
     "config_version": 2,
-    "id": "78f5e988-be50-4b9e-87dc-c22227a44a9f",
-    "archive_prefix": "7f01f9-",
-    "repo_id": "20b9baa8ce195613c1d2c3d5b8f3da9d1a287c774e9d3c682b142f7041fdadce",
+    "id": "80f03cfe-26cf-485d-b3a1-787ce7cff177",
+    "archive_prefix": "e1ffcc-",
+    "repo_id": "3a92168d763512c1e57512e50e0ae5290caf301fd0121ebb8be492c11a1aabc6",
     "repo": {
-      "type": "Remote",
-      "uri": "ssh://user@dsipshare/media/user/wd2/users/rishabh/backups/fbklaptop/",
+      "type": "Local",
+      "path": "Backup/fbklaptop",
+      "mount_path": "/run/user/1000/gvfs/smb-share:server=nas-wolf,share=home,user=rishabh",
+      "uri": "smb://rishabh@nas-wolf/home/Backup/fbklaptop",
+      "drive_name": null,
+      "mount_name": "home on nas-wolf",
+      "volume_uuid": null,
+      "volume_uuid_identifier": null,
+      "removable": false,
+      "icon": ". GThemedIcon folder-remote folder folder-remote-symbolic folder-symbolic",
+      "icon_symbolic": ". GThemedIcon folder-remote-symbolic folder-symbolic folder-remote folder",
       "settings": {
         "command_line_args": []
       }
@@ -71,22 +83,55 @@
     ],
     "exclude": [
       {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            46,
+            118,
+            101,
+            110,
+            118
+          ]
+        }
+      },
+      {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            100,
+            97,
+            116,
+            97
+          ]
+        }
+      },
+      {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            110,
+            111,
+            100,
+            101,
+            95,
+            109,
+            111,
+            100,
+            117,
+            108,
+            101,
+            115
+          ]
+        }
+      },
+      {
         "PathPrefix": ".local/share/Steam"
       },
       {
-        "PathPrefix": ".stremio-server/stremio-cache"
-      },
-      {
-        "PathPrefix": "Backup-DREAM"
+        "PathPrefix": ".local/share/pnpm"
       },
       {
         "PathPrefix": "Development/Datasets"
-      },
-      {
-        "RegularExpression": "/home/rishabh/Development/*/node_modules"
-      },
-      {
-        "RegularExpression": "/home/rishabh/Personal Dev/*/node_modules"
       },
       "Caches",
       "Trash",
@@ -96,11 +141,11 @@
     "schedule": {
       "enabled": true,
       "settings": {
-        "run_on_battery": true
+        "run_on_battery": false
       },
       "frequency": {
-        "Weekly": {
-          "preferred_weekday": "Mon"
+        "Daily": {
+          "preferred_time": "12:00:00"
         }
       }
     },
@@ -114,7 +159,117 @@
         "yearly": 10
       }
     },
-    "title": "Remote Location",
+    "title": "home on nas-wolf",
+    "user_scripts": {}
+  },
+  {
+    "config_version": 2,
+    "id": "6b079c2a-92e2-452d-8a33-36f7fc84ff15",
+    "archive_prefix": "fbk-",
+    "repo_id": "e8ba5884f35ddf92c1b6826bf14b8fc658db8ad0157e74527d21a755e27e81ea",
+    "repo": {
+      "type": "Local",
+      "path": "home/backup_fbklaptop",
+      "mount_path": "/run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari",
+      "uri": "sftp://rwanjari@dsipnas/home/backup_fbklaptop",
+      "drive_name": null,
+      "mount_name": "rwanjari on dsipnas",
+      "volume_uuid": null,
+      "volume_uuid_identifier": null,
+      "removable": false,
+      "icon": ". GThemedIcon folder-remote folder folder-remote-symbolic folder-symbolic",
+      "icon_symbolic": ". GThemedIcon folder-remote-symbolic folder-symbolic folder-remote folder",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey",
+    "include": [
+      ""
+    ],
+    "exclude": [
+      {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            46,
+            118,
+            101,
+            110,
+            118
+          ]
+        }
+      },
+      {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            100,
+            97,
+            116,
+            97
+          ]
+        }
+      },
+      {
+        "Fnmatch": {
+          "Unix": [
+            42,
+            110,
+            111,
+            100,
+            101,
+            95,
+            109,
+            111,
+            100,
+            117,
+            108,
+            101,
+            115
+          ]
+        }
+      },
+      {
+        "PathPrefix": ".local/share/Steam"
+      },
+      {
+        "PathPrefix": ".local/share/pnpm"
+      },
+      {
+        "PathPrefix": "Backup-DREAM"
+      },
+      {
+        "PathPrefix": "Development/Datasets"
+      },
+      "Caches",
+      "Trash",
+      "FlatpakApps",
+      "VmsContainers"
+    ],
+    "schedule": {
+      "enabled": true,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "12:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "",
     "user_scripts": {}
   }
 ]

@@ -87,12 +87,15 @@ ShadowSize=15
 [Input]
 TabletMode=off
 
+[MaximizeTile]
+DisableRoundTile=false
+
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
 
 [MouseBindings]
 CommandAll2=Nothing
-CommandAllWheel=Maximize/Restore
+CommandAllWheel=Previous/Next Desktop
 
 [NightColor]
 LatitudeAuto=46.07
@@ -103,21 +106,31 @@ blurEnabled=true
 contrastEnabled=false
 desktopchangeosdEnabled=false
 desktopgridEnabled=false
-glideEnabled=true
 highlightwindowEnabled=false
+kinetic_fadingpopupsEnabled=true
+kinetic_squashEnabled=true
 kwin4_effect_doomEnabled=true
 kwin4_effect_scaleEnabled=false
+minimizeallEnabled=false
 mousemarkEnabled=true
 poloniumEnabled=false
-scaleEnabled=false
 screenedgeEnabled=false
 sheetEnabled=true
+squash2Enabled=false
 synchronizeskipswitcherEnabled=true
 videowallEnabled=false
 
 [PrimaryOutline]
 InactiveOutlineThickness=0
 OutlineThickness=0
+
+[Round-Corners]
+DisableRoundTile=false
+InactiveOutlineThickness=0
+InactiveSecondOutlineThickness=0
+OutlineThickness=0
+SecondOutlineThickness=0
+ShadowColor=69,2,170
 
 [ScreenEdges]
 RemainActiveOnFullscreen=true
@@ -138,7 +151,6 @@ SecondOutlineThickness=0
 [TabBox]
 DelayTime=200
 HighlightWindows=false
-LayoutName=thumbnail_grid
 MultiScreenMode=1
 
 [TabBoxAlternative]
@@ -155,7 +167,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][1333611f-97ea-5a32-ab20-7194665aed74]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -199,6 +211,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][77c33eca-c053-5e79-9bdb-236d907a9da3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][ac84efd3-dd99-5858-9bb9-4ff8416a3cc0]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][af860c52-7a29-5937-8116-433ad3f3e4f8]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -208,12 +223,16 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][cc8f3933-d10f-58e8-9a8c-71892f335079]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
+
 [Windows]
-CenterSnapZone=15
+CenterSnapZone=20
 ElectricBorderCooldown=150
 ElectricBorderDelay=100
 FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=2
+NextFocusPrefersMouse=true
 RollOverDesktops=true
 SeparateScreenFocus=true
 

@@ -1,7 +1,6 @@
 [Common]
 OutlineIntensity=OutlineOff
-ShadowSize=ShadowSmall
-ShadowStrength=153
+ShadowSize=ShadowNone
 
 [Style]
 MenuOpacity=70

@@ -13,6 +13,9 @@ Seen=true
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
+[Applications][vesktop]
+Seen=true
+
 [Applications][vivaldi-stable]
 Seen=true
 

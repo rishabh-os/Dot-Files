@@ -123,7 +123,7 @@ ForegroundVisited=198, 160, 246
 
 [DirSelect Dialog]
 DirSelectDialog Size=858,598
-History Items[$e]=file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
+History Items[$e]=file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/,file:$HOME/Development/Datasets,file:$HOME/.local/share/Steam/,file:$HOME/.local/share/,file:$HOME/.local,file:///run/user/1000/gvfs/smb-share:server=nas-wolf\\,share=home\\,user=rishabh/Backup,file:$HOME/Development/Datasets,file:$HOME/Backup-DREAM,file:$HOME,file:///home,file:$HOME/Development,file:$HOME/Development/boltek-ld-350-linux,file:$HOME/.local/share/Steam,file:///run/user/1000/gvfs/smb-share:server=dsipnas\\,share=home\\,user=rwanjari/old_backups/fbklaptop,file:$HOME/Downloads/Cartografia - 20241008,file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
 
 [General]
 AccentColor=125,196,228
@@ -144,6 +144,7 @@ Theme=Vivid-Dark-Icons
 
 [KDE]
 AnimationDurationFactor=1.414213562373095
+DoubleClickInterval=300
 LookAndFeelPackage=org.kde.breezedark.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=false
@@ -167,7 +168,7 @@ Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=154
-View Style=Simple
+View Style=DetailTree
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
