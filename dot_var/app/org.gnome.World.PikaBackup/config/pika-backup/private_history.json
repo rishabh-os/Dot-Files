@@ -5854,6 +5854,2562 @@
     "config_version": 2,
     "run": [
       {
+        "end": "2025-03-24T18:07:58.735176365+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-23T09:09:56.464135430+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-03-19T12:01:25.466473877+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-18T12:00:56.268773158+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-17T12:01:22.126401180+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-16T14:15:14.833878736+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-15T14:17:19.494100071+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2583.669047,
+                "id": "37a7793878ffedabb22d9cda07930ca75299046c509f77c9f9bf1ff5f19494d0",
+                "name": "fbk-5ad96712",
+                "stats": {
+                  "compressed_size": 58109102888,
+                  "deduplicated_size": 1085651760,
+                  "nfiles": 689968,
+                  "original_size": 105463265323
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/Favicons: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/History: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-14T12:06:08.812450237+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 296.469961,
+                "id": "a5cbbd04e64fa9f6c4cea4535230d4e1689ed3ca2e04f97ed56fc323ebd71f5b",
+                "name": "fbk-805bbd8e",
+                "stats": {
+                  "compressed_size": 57904914717,
+                  "deduplicated_size": 4019187181,
+                  "nfiles": 688846,
+                  "original_size": 105262992115
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.local/share/baloo/index: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-13T12:01:20.642751781+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-12T12:02:28.598725187+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 115.36672,
+                "id": "94a3bbb122adc64b5cd6e0111be363cdc8d38464c799c3b1b4c3b15ad31131b2",
+                "name": "fbk-ad081407",
+                "stats": {
+                  "compressed_size": 56385398026,
+                  "deduplicated_size": 1373239788,
+                  "nfiles": 625129,
+                  "original_size": 100163127248
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-11T12:01:38.623811717+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-10T14:59:17.221141977+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 977.48798,
+                "id": "8d22bbdcac04809a12361f7e981a7ea6cddbdfe6442c39a789fed2aae8f2d1f4",
+                "name": "fbk-df7afb58",
+                "stats": {
+                  "compressed_size": 56259484767,
+                  "deduplicated_size": 379971716,
+                  "nfiles": 621600,
+                  "original_size": 99811150092
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-09T13:25:23.460296753+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1009.709757,
+                "id": "4143aac4c1a8e0667f27c90e0dc3c4af98fa3a2d497b2de6a22bc6c8773d033f",
+                "name": "fbk-c3da34d4",
+                "stats": {
+                  "compressed_size": 56252055394,
+                  "deduplicated_size": 465297071,
+                  "nfiles": 621433,
+                  "original_size": 99788521449
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/History: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-08T22:24:34.259153047+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 2121.556429,
+                "id": "6b427e28df8715545ffd29ed7148d7b1fca553b5e596b29551afbc809ba4a264",
+                "name": "fbk-6f077571",
+                "stats": {
+                  "compressed_size": 56252527194,
+                  "deduplicated_size": 874397880,
+                  "nfiles": 621278,
+                  "original_size": 99771344098
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.var/app/org.gnome.World.PikaBackup/config/borg/security/e8ba5884f35ddf92c1b6826bf14b8fc658db8ad0157e74527d21a755e27e81ea/location: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-07T12:36:30.633583876+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-06T12:03:29.953449358+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 121.57523,
+                "id": "d8c4b01e63659305aea85886e11e9fecebc16a279392394cde1b9fd505a16bcb",
+                "name": "fbk-2d14b982",
+                "stats": {
+                  "compressed_size": 56339648857,
+                  "deduplicated_size": 1316905978,
+                  "nfiles": 635249,
+                  "original_size": 99937941246
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-05T12:01:06.889410027+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-04T15:50:08.745474275+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 358.954201,
+                "id": "ccf87b16d44960b70293ed1b35b0bcd82b6aaaeb4d147b5d1eed34452eaf0e93",
+                "name": "fbk-17a82a84",
+                "stats": {
+                  "compressed_size": 62312360474,
+                  "deduplicated_size": 8253625248,
+                  "nfiles": 622609,
+                  "original_size": 105935356420
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-04T15:43:02.359121422+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-27T00:34:00.094540197+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-02-25T12:02:44.006947166+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 95.156148,
+                "id": "cc9028dd8da7dbcf7b30acdcc459c536e8d32f39e403dbc61e3b1beed1eac0d7",
+                "name": "fbk-bdfbdbcf",
+                "stats": {
+                  "compressed_size": 56809586968,
+                  "deduplicated_size": 936987470,
+                  "nfiles": 617424,
+                  "original_size": 100103829522
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-24T15:36:26.019878809+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 1603.230641,
+                "id": "3e88b5f14aec837157f68d5292cc033f9b8ad135f2b940cfe5ecc7b8a04509af",
+                "name": "fbk-5017910c",
+                "stats": {
+                  "compressed_size": 56814596824,
+                  "deduplicated_size": 740902559,
+                  "nfiles": 617187,
+                  "original_size": 100113181789
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/GPUCache/data_2: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/Favicons: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/008302.log: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-24T10:15:12.703633254+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 4358.544721,
+                "id": "560141c5345cbd229220925d29addf4b837cd4e0df393b575b04f6a30fa5be40",
+                "name": "fbk-aae7aba5",
+                "stats": {
+                  "compressed_size": 56797601310,
+                  "deduplicated_size": 1409210698,
+                  "nfiles": 630701,
+                  "original_size": 100061316226
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-22T13:08:48.808090579+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-21T13:10:37.589296494+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 74.717188,
+                "id": "d2feb92106fe90bada299b9a2078f42dd267d5be8937844603c1fcee72b38a6b",
+                "name": "fbk-7e0a3b18",
+                "stats": {
+                  "compressed_size": 56356595254,
+                  "deduplicated_size": 771531714,
+                  "nfiles": 615185,
+                  "original_size": 99119442831
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-21T13:01:19.276275500+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimeout was reached"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-20T12:37:07.844459100+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 80.020916,
+                "id": "10cf8cdf1755ac8152d62b7f2da1130fd01c75a6268a4370188ce61448268b65",
+                "name": "fbk-75676866",
+                "stats": {
+                  "compressed_size": 56361271873,
+                  "deduplicated_size": 844931709,
+                  "nfiles": 615253,
+                  "original_size": 99128649567
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-20T10:02:24.708591886+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 140.68541,
+                "id": "729e4bafd27f0040b413ef1d6c166d4c1aecbd2ed1493e5144efd3e1635dc4f7",
+                "name": "fbk-8d0fe0bf",
+                "stats": {
+                  "compressed_size": 56421552993,
+                  "deduplicated_size": 1686249668,
+                  "nfiles": 614522,
+                  "original_size": 99249438971
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-14T14:29:10.609075309+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-13T12:02:40.263150397+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 100.952815,
+                "id": "7f1b42cdfdaf7cf59e6fe651c89684bba9b8078d1ba80d606e467c5218a4bae3",
+                "name": "fbk-bd04aa0c",
+                "stats": {
+                  "compressed_size": 56182060056,
+                  "deduplicated_size": 1096808610,
+                  "nfiles": 615507,
+                  "original_size": 98722126867
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-12T12:02:07.842624036+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 88.684792,
+                "id": "1eaa363dda2afe5f0ed8257144a9c7ad719eee578b26e5872f125a66c71f20a8",
+                "name": "fbk-9c7fdfd5",
+                "stats": {
+                  "compressed_size": 56176600644,
+                  "deduplicated_size": 709871368,
+                  "nfiles": 613296,
+                  "original_size": 98698506958
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-11T13:02:45.428849149+01:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 313.181063,
+                "id": "8f5f2f44e715b2fdf12e1e87a07a69d82da026682c00a55c2d6f8f270505933f",
+                "name": "fbk-d8bab25a",
+                "stats": {
+                  "compressed_size": 56117585333,
+                  "deduplicated_size": 4640318308,
+                  "nfiles": 611348,
+                  "original_size": 98577724911
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-10T12:01:05.751636913+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
         "end": "2025-02-09T17:09:52.112610518+01:00",
         "outcome": {
           "Aborted": {
@@ -7071,25 +9627,42 @@
     ],
     "running": null,
     "last_completed": {
-      "end": "2025-02-03T12:02:32.527878902+01:00",
+      "end": "2025-03-15T14:17:19.494100071+01:00",
       "outcome": {
         "Completed": {
           "stats": {
             "archive": {
-              "duration": 130.055192,
-              "id": "85b9b3ee74fa6564b361ab983e7d9e04f846cc0f0137c2b02cc1882098bf8e02",
-              "name": "fbk-c99ae0e7",
+              "duration": 2583.669047,
+              "id": "37a7793878ffedabb22d9cda07930ca75299046c509f77c9f9bf1ff5f19494d0",
+              "name": "fbk-5ad96712",
               "stats": {
-                "compressed_size": 58644272650,
-                "deduplicated_size": 1505855116,
-                "nfiles": 726567,
-                "original_size": 103452792028
+                "compressed_size": 58109102888,
+                "deduplicated_size": 1085651760,
+                "nfiles": 689968,
+                "original_size": 105463265323
               }
             }
           }
         }
       },
-      "messages": [],
+      "messages": [
+        {
+          "ParsedErr": {
+            "levelname": "WARNING",
+            "name": "borg.archiver",
+            "message": "/home/rishabh/.config/vivaldi/Default/Favicons: file changed while we backed it up",
+            "msgid": "Undefined"
+          }
+        },
+        {
+          "ParsedErr": {
+            "levelname": "WARNING",
+            "name": "borg.archiver",
+            "message": "/home/rishabh/.config/vivaldi/Default/History: file changed while we backed it up",
+            "msgid": "Undefined"
+          }
+        }
+      ],
       "include": [
         ""
       ],
@@ -7140,6 +9713,9 @@
           "PathPrefix": "/home/rishabh/.local/share/Steam"
         },
         {
+          "PathPrefix": "/home/rishabh/.local/share/pnpm"
+        },
+        {
           "PathPrefix": "/home/rishabh/Backup-DREAM"
         },
         {
@@ -7152,69 +9728,8 @@
       ]
     },
     "last_check": {
-      "end": "2025-02-03T13:15:21.287515275+01:00",
-      "outcome": {
-        "Error": [
-          {
-            "UnparsableErr": "Exception ignored in: <function Repository.__del__ at 0x79b5abd21800>\n"
-          },
-          {
-            "UnparsableErr": "Traceback (most recent call last):\n"
-          },
-          {
-            "UnparsableErr": "  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 192, in __del__\n"
-          },
-          {
-            "UnparsableErr": "    self.close()\n"
-          },
-          {
-            "UnparsableErr": "  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 481, in close\n"
-          },
-          {
-            "UnparsableErr": "    self.lock.release()\n"
-          },
-          {
-            "UnparsableErr": "  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 422, in release\n"
-          },
-          {
-            "UnparsableErr": "    self._roster.modify(EXCLUSIVE, REMOVE)\n"
-          },
-          {
-            "UnparsableErr": "  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 325, in modify\n"
-          },
-          {
-            "UnparsableErr": "    self.save(roster)\n"
-          },
-          {
-            "UnparsableErr": "  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 291, in save\n"
-          },
-          {
-            "UnparsableErr": "    with open(self.path, \"w\") as f:\n"
-          },
-          {
-            "UnparsableErr": "         ^^^^^^^^^^^^^^^^^^^^\n"
-          },
-          {
-            "UnparsableErr": "FileNotFoundError: [Errno 2] No such file or directory: '/run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop/lock.roster'\n"
-          },
-          {
-            "ParsedErr": {
-              "levelname": "ERROR",
-              "name": "borg.archiver",
-              "message": "Local Exception",
-              "msgid": "Exception"
-            }
-          },
-          {
-            "ParsedErr": {
-              "levelname": "ERROR",
-              "name": "borg.archiver",
-              "message": "Traceback (most recent call last):\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 190, in wrapper\n    return method(self, args, repository=repository, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 350, in do_check\n    if not repository.check(repair=args.repair, save_space=args.save_space, max_duration=args.max_duration):\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1045, in check\n    objects = list(self.io.iter_objects(segment))\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1553, in iter_objects\n    size, tag, key, data = self._read(fd, self.header_fmt, header, segment, offset,\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1647, in _read\n    data = fd.read(length)\n           ^^^^^^^^^^^^^^^\nOSError: [Errno 5] Input/output error\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5401, in main\n    exit_code = archiver.run(args)\n                ^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5321, in run\n    return set_ec(func(args))\n                  ^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 175, in wrapper\n    with repository:\n         ^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 217, in __exit__\n    self.close()\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 481, in close\n    self.lock.release()\n  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 422, in release\n    self._roster.modify(EXCLUSIVE, REMOVE)\n  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 325, in modify\n    self.save(roster)\n  File \"/app/lib/python3.12/site-packages/borg/locking.py\", line 291, in save\n    with open(self.path, \"w\") as f:\n         ^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop/lock.roster'\n\nPlatform: Linux rishabh-fbklaptop 6.12.10-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000 x86_64\nLinux: Unknown Linux  \nBorg: 1.2.8  Python: CPython 3.12.8 msgpack: 1.0.8 fuse: pyfuse3 3.3.0 [pyfuse3,llfuse]\nPID: 165  CWD: /home/rishabh\nsys.argv: ['/app/bin/borg', 'check', '--rsh', 'ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new', '--log-json', '--progress', '--verify-data', '--', '/run/user/1000/gvfs/sftp:host=dsipnas,user=rwanjari/home/backup_fbklaptop']\nSSH_ORIGINAL_COMMAND: None\n",
-              "msgid": "Undefined"
-            }
-          }
-        ]
-      }
+      "end": "2025-02-20T12:35:36.049112428+01:00",
+      "outcome": "Success"
     },
     "suggested_exclude": {
       "PermissionDenied": []
@@ -28040,6 +30555,435 @@
   "80f03cfe-26cf-485d-b3a1-787ce7cff177": {
     "config_version": 2,
     "run": [
+      {
+        "end": "2025-02-20T16:49:19.561557122+01:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Keyboard interrupt",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-20T16:11:39.403308779+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-02-20T15:47:55.599377589+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-02-20T13:47:26.916861544+01:00",
+        "outcome": {
+          "Failed": {
+            "Other": "Exception: Local Exception"
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /run/user/1000/gvfs/smb-share:server=nas-wolf,share=home,user=rishabh/Backup/fbklaptop/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Local Exception",
+              "msgid": "Exception"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Traceback (most recent call last):\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5401, in main\n    exit_code = archiver.run(args)\n                ^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5321, in run\n    return set_ec(func(args))\n                  ^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 177, in wrapper\n    kwargs['manifest'], kwargs['key'] = Manifest.load(repository, compatibility)\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/helpers/manifest.py\", line 184, in load\n    cdata = repository.get(cls.MANIFEST_ID)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1207, in get\n    self.index = self.open_index(self.get_transaction_id())\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 415, in get_transaction_id\n    self.check_transaction()\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 412, in check_transaction\n    self.replay_segments(replay_from, segments_transaction_id)\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 906, in replay_segments\n    self._update_index(segment, objects)\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 916, in _update_index\n    for tag, key, offset, size in objects:\n                                  ^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1553, in iter_objects\n    size, tag, key, data = self._read(fd, self.header_fmt, header, segment, offset,\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1647, in _read\n    data = fd.read(length)\n           ^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n\nPlatform: Linux rishabh-fbklaptop 6.13.3-arch1-1 #1 SMP PREEMPT_DYNAMIC Mon, 17 Feb 2025 17:42:11 +0000 x86_64\nLinux: Unknown Linux  \nBorg: 1.2.8  Python: CPython 3.12.8 msgpack: 1.0.8 fuse: pyfuse3 3.3.0 [pyfuse3,llfuse]\nPID: 433  CWD: /home/rishabh\nsys.argv: ['/app/bin/borg', 'create', '--rsh', 'ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new', '--progress', '--json', '--compression=zstd', '--log-json', '--exclude=fm:*.venv', '--exclude=fm:*data', '--exclude=fm:*node_modules', '--exclude=pp:/home/rishabh/.local/share/Steam', '--exclude=pp:/home/rishabh/.local/share/pnpm', '--exclude=pp:/home/rishabh/.var/app/org.gnome.World.PikaBackup/data/flatpak/', '--exclude=pp:/home/rishabh/Development/Datasets', '--exclude=pp:/home/rishabh/.cache', '--exclude=re:^home/rishabh/\\\\.var/app/[^/]+/cache/', '--exclude-caches', '--exclude=pp:/home/rishabh/.local/share/Trash', '--exclude=re:^home/rishabh/\\\\.local/share/flatpak/(?!overrides)', '--exclude=pp:/home/rishabh/.local/share/gnome-boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.Boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.BoxesDevel', '--exclude=pp:/home/rishabh/.local/share/bottles', '--exclude=pp:/home/rishabh/.var/app/com.usebottles.bottles', '--exclude=pp:/home/rishabh/.local/share/libvirt', '--exclude=pp:/home/rishabh/.config/libvirt', '--exclude=pp:/home/rishabh/.local/share/containers', '--exclude=pp:/home/rishabh/.local/share/docker', '--', '/run/user/1000/gvfs/smb-share:server=nas-wolf,share=home,user=rishabh/Backup/fbklaptop::e1ffcc-ed153e5c', '/home/rishabh/']\nSSH_ORIGINAL_COMMAND: None\n",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-13T12:00:48.477682611+01:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-02-12T13:31:18.806648628+01:00",
+        "outcome": {
+          "Failed": {
+            "Other": "Exception: Local Exception"
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /run/user/1000/gvfs/smb-share:server=nas-wolf,share=home,user=rishabh/Backup/fbklaptop/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Local Exception",
+              "msgid": "Exception"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Traceback (most recent call last):\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5401, in main\n    exit_code = archiver.run(args)\n                ^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 5321, in run\n    return set_ec(func(args))\n                  ^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/archiver.py\", line 177, in wrapper\n    kwargs['manifest'], kwargs['key'] = Manifest.load(repository, compatibility)\n                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/helpers/manifest.py\", line 184, in load\n    cdata = repository.get(cls.MANIFEST_ID)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1207, in get\n    self.index = self.open_index(self.get_transaction_id())\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 415, in get_transaction_id\n    self.check_transaction()\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 412, in check_transaction\n    self.replay_segments(replay_from, segments_transaction_id)\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 906, in replay_segments\n    self._update_index(segment, objects)\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 916, in _update_index\n    for tag, key, offset, size in objects:\n                                  ^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1553, in iter_objects\n    size, tag, key, data = self._read(fd, self.header_fmt, header, segment, offset,\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/lib/python3.12/site-packages/borg/repository.py\", line 1647, in _read\n    data = fd.read(length)\n           ^^^^^^^^^^^^^^^\nOSError: [Errno 22] Invalid argument\n\nPlatform: Linux rishabh-fbklaptop 6.13.2-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 08 Feb 2025 18:54:55 +0000 x86_64\nLinux: Unknown Linux  \nBorg: 1.2.8  Python: CPython 3.12.8 msgpack: 1.0.8 fuse: pyfuse3 3.3.0 [pyfuse3,llfuse]\nPID: 70  CWD: /home/rishabh\nsys.argv: ['/app/bin/borg', 'create', '--rsh', 'ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new', '--progress', '--json', '--compression=zstd', '--log-json', '--exclude=fm:*.venv', '--exclude=fm:*data', '--exclude=fm:*node_modules', '--exclude=pp:/home/rishabh/.local/share/Steam', '--exclude=pp:/home/rishabh/.local/share/pnpm', '--exclude=pp:/home/rishabh/.var/app/org.gnome.World.PikaBackup/data/flatpak/', '--exclude=pp:/home/rishabh/Development/Datasets', '--exclude=pp:/home/rishabh/.cache', '--exclude=re:^home/rishabh/\\\\.var/app/[^/]+/cache/', '--exclude-caches', '--exclude=pp:/home/rishabh/.local/share/Trash', '--exclude=re:^home/rishabh/\\\\.local/share/flatpak/(?!overrides)', '--exclude=pp:/home/rishabh/.local/share/gnome-boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.Boxes', '--exclude=pp:/home/rishabh/.var/app/org.gnome.BoxesDevel', '--exclude=pp:/home/rishabh/.local/share/bottles', '--exclude=pp:/home/rishabh/.var/app/com.usebottles.bottles', '--exclude=pp:/home/rishabh/.local/share/libvirt', '--exclude=pp:/home/rishabh/.config/libvirt', '--exclude=pp:/home/rishabh/.local/share/containers', '--exclude=pp:/home/rishabh/.local/share/docker', '--', '/run/user/1000/gvfs/smb-share:server=nas-wolf,share=home,user=rishabh/Backup/fbklaptop::e1ffcc-8b8ff665', '/home/rishabh/']\nSSH_ORIGINAL_COMMAND: None\n",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-11T12:00:20.496244680+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nThe network server is not available"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-02-10T12:00:30.891617508+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nThe network server is not available"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
       {
         "end": "2025-02-09T17:09:54.133092890+01:00",
         "outcome": {

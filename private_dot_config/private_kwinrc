@@ -1,6 +1,9 @@
 [$Version]
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
+[Activities][LastVirtualDesktop]
+30b4e2a3-9c09-463e-a0dd-ba8564fffc0f=6695fc7c-9e61-4d7e-842e-f13f8c69f5da
+
 [Compositing]
 LatencyPolicy=Low
 
@@ -15,6 +18,7 @@ Duration=300
 ShapeCurve=2
 
 [Effect-blur]
+BlurStrength=9
 NoiseStrength=0
 
 [Effect-diminactive]
@@ -51,6 +55,9 @@ BorderActivate=9
 [Effect-scale]
 Duration=200
 
+[Effect-shakecursor]
+Magnification=10
+
 [Effect-slide]
 HorizontalGap=40
 SlideBackground=false
@@ -60,7 +67,7 @@ VerticalGap=40
 ComboboxPopups=91
 Dialogs=91
 DropdownMenus=30
-Inactive=91
+Inactive=95
 Menus=91
 MoveResize=91
 PopupMenus=31
@@ -115,6 +122,7 @@ minimizeallEnabled=false
 mousemarkEnabled=true
 poloniumEnabled=false
 screenedgeEnabled=false
+shakecursorEnabled=false
 sheetEnabled=true
 squash2Enabled=false
 synchronizeskipswitcherEnabled=true
@@ -200,6 +208,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][61b25262-b0ce-5d2a-90b2-8dbb04b12baa]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][682eef42-20a6-5bf9-9e30-42f243a8bd7e]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6b2cf995-8e61-5547-ab86-0af6f0152ce2]

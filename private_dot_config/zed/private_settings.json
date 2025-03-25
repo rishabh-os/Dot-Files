@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "zed"
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
