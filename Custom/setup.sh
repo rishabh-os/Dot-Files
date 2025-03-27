@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ? Don't assume this is run from the $HOME directory
+cd $HOME
 # ? Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 # ? Install OhMyPosh
@@ -24,6 +26,6 @@ chmod +x eza
 mv eza $HOME/.local/bin/eza
 
 # ? Install chezmoi
-sh -c "$(curl -fsLS chezmoi.io/getlb)"
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
 chezmoi apply
