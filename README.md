@@ -8,6 +8,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/rishabh-os/Dot-Files/refs/
 
 It still requires neovim to be installed separately, because I'd rather that be done with the package manager.
 
+Finally, to change your default shell, run
+
+```bash
+chsh -s $(which zsh)
+```
+
 As always, please read the script before executing it blindly.
 
 xoxo
