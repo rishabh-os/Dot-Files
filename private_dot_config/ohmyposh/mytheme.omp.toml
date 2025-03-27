@@ -70,3 +70,12 @@ final_space = true
 
     [blocks.segments.properties]
       cache_duration = 'none'
+
+  [[blocks.segments]]
+    leading_diamond = ''
+    trailing_diamond = ''
+    foreground = 'transparent'
+    template="{{if .SSHSession}} {{.HostName}}{{end}}"
+    background = 'cyan'
+    type = 'session'
+    style = 'diamond'
