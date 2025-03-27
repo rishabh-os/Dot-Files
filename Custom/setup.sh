@@ -17,6 +17,11 @@ git clone https://github.com/Pilaton/OhMyZsh-full-autoupdate.git ${ZSH_CUSTOM:-~
 
 # ? Install atuin
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+# * It installs by default to ~/.atuin
+mv ~/.atuin/bin/atuin ~/.local/bin/atuin
+mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
+rm -rf ~/.atuin
+
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
