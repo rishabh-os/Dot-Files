@@ -22,6 +22,16 @@ mv ~/.atuin/bin/atuin ~/.local/bin/atuin
 mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
 rm -rf ~/.atuin
 
+# ? Install zellij
+curl -s https://api.github.com/repos/zellij-org/zellij/releases/latest \
+| grep "zellij-x86_64-unknown-linux-musl.tar.gz" \
+| cut -d : -f 2,3 \
+| tr -d \" \
+| wget -qi -
+tar -xvf zellij*.tar.gz
+mv ./zellij /usr/local/bin/zellij
+
+
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
