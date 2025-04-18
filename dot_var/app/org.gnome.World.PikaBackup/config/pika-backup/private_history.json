@@ -5854,6 +5854,439 @@
     "config_version": 2,
     "run": [
       {
+        "end": "2025-04-01T12:02:24.361843373+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 116.815762,
+                "id": "eb8ab1874ba28d3e560f6d942e2defe05e0c03339ec325b393fd08f3e22601cb",
+                "name": "fbk-0a217162",
+                "stats": {
+                  "compressed_size": 58902085648,
+                  "deduplicated_size": 1100354880,
+                  "nfiles": 730034,
+                  "original_size": 107320805840
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-31T12:01:02.204859265+02:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-30T13:30:03.700523262+02:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 3095.285049,
+                "id": "4351ca9727e0fb366b6ae339973c3cf633abb94f982e8c33bcd2e4125334e4ac",
+                "name": "fbk-a4653d0d",
+                "stats": {
+                  "compressed_size": 58748743324,
+                  "deduplicated_size": 1194374788,
+                  "nfiles": 706854,
+                  "original_size": 107054716864
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062238.log: stat: [Errno 2] No such file or directory: '062238.log'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062242.ldb: stat: [Errno 2] No such file or directory: '062242.ldb'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062243.ldb: stat: [Errno 2] No such file or directory: '062243.ldb'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062244.ldb: stat: [Errno 2] No such file or directory: '062244.ldb'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062245.ldb: stat: [Errno 2] No such file or directory: '062245.ldb'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/rishabh/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/062246.ldb: stat: [Errno 2] No such file or directory: '062246.ldb'",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-29T20:38:59.728375890+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
+        "end": "2025-03-28T12:28:45.591200297+01:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nTimed out when logging in"
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                46,
+                118,
+                101,
+                110,
+                118
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                100,
+                97,
+                116,
+                97
+              ]
+            }
+          },
+          {
+            "Fnmatch": {
+              "Unix": [
+                42,
+                110,
+                111,
+                100,
+                101,
+                95,
+                109,
+                111,
+                100,
+                117,
+                108,
+                101,
+                115
+              ]
+            }
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/Steam"
+          },
+          {
+            "PathPrefix": "/home/rishabh/.local/share/pnpm"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Backup-DREAM"
+          },
+          {
+            "PathPrefix": "/home/rishabh/Development/Datasets"
+          },
+          "Caches",
+          "Trash",
+          "FlatpakApps",
+          "VmsContainers"
+        ]
+      },
+      {
         "end": "2025-03-27T13:58:26.692844888+01:00",
         "outcome": {
           "Completed": {
@@ -9969,19 +10402,19 @@
     ],
     "running": null,
     "last_completed": {
-      "end": "2025-03-27T13:58:26.692844888+01:00",
+      "end": "2025-04-01T12:02:24.361843373+02:00",
       "outcome": {
         "Completed": {
           "stats": {
             "archive": {
-              "duration": 44.797599,
-              "id": "fe5d776fc298c015086e12200ccf256b56f536712af18889849a25a77b26683f",
-              "name": "fbk-ba4a2335",
+              "duration": 116.815762,
+              "id": "eb8ab1874ba28d3e560f6d942e2defe05e0c03339ec325b393fd08f3e22601cb",
+              "name": "fbk-0a217162",
               "stats": {
-                "compressed_size": 58687387285,
-                "deduplicated_size": 34819374,
-                "nfiles": 708051,
-                "original_size": 106862883905
+                "compressed_size": 58902085648,
+                "deduplicated_size": 1100354880,
+                "nfiles": 730034,
+                "original_size": 107320805840
               }
             }
           }
