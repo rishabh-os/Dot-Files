@@ -22,6 +22,11 @@ ShowViewMode=false
 [DetailsMode]
 IconSize=48
 
+[ExtractDialog]
+2 screens: Height=600
+2 screens: Width=1280
+DirHistory[$e]=$HOME/Downloads/termshot/
+
 [General]
 AutoExpandFolders=true
 EditableUrl=true

@@ -98,7 +98,7 @@ TabletMode=off
 DisableRoundTile=false
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.krunner,/App,,toggleDisplay
+Meta=org.kde.krunner,/App,,display
 
 [MouseBindings]
 CommandAll2=Nothing
@@ -187,6 +187,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][3591d73b-a1a2-5f7e-9a88-17b4e98628bb]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][38a774c8-d005-5bf8-bc9b-800889a6f619]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3efd44ac-d811-5cdc-8748-873bffadbc79]

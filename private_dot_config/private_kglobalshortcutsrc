@@ -291,9 +291,6 @@ _launch=Ctrl+Esc
 RunClipboard=none
 _launch=Search\tMeta
 
-[services][org.kde.plasma-systemmonitor.desktop]
-_launch=none
-
 [services][org.kde.plasma.emojier.desktop]
 _launch=Meta+.
 
