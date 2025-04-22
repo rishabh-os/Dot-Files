@@ -40,12 +40,12 @@ wget -c https://github.com/eza-community/eza/releases/latest/download/eza_x86_64
 chmod +x eza
 mv eza $HOME/.local/bin/eza
 
-# ? Install chezmoi
-sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
-chezmoi init https://github.com/rishabh-os/Dot-Files.git
-chezmoi apply
-
 # ? Install gdu
 curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
 chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 $HOME/.local/bin/gdu
+
+# ? Install chezmoi
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
+chezmoi init https://github.com/rishabh-os/Dot-Files.git
+chezmoi apply

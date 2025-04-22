@@ -7,7 +7,7 @@ This script is mostly so that I can use the same tools I use on my personal comp
 To setup everything, just run the setup script, with
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/rishabh-os/Dot-Files/refs/heads/main/Custom/setup.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/rishabh-os/Dot-Files/refs/heads/main/Custom/setup.sh)"
 ```
 
 It still requires neovim and zsh to be installed separately, because I'd rather that be done with the system package manager (write a nice message to a sudoer near you).
