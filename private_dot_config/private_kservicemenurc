@@ -1,4 +1,5 @@
 [Show]
+Menu-Refresh=true
 ReadIt=true
 compressfileitemaction=true
 extractfileitemaction=true
@@ -6,8 +7,10 @@ forgetfileitemaction=false
 installFont=true
 kactivitymanagerd_fileitem_linking_plugin=false
 kdeconnectfileitemaction=true
+kio-admin=true
 makefileactions=true
 mountisoaction=true
+movetonewfolderitemaction=true
 runInKonsole=false
 setAsWallpaper=false
 sharefileitemaction=false

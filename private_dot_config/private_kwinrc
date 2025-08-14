@@ -115,8 +115,9 @@ desktopchangeosdEnabled=false
 desktopgridEnabled=false
 highlightwindowEnabled=false
 kinetic_fadingpopupsEnabled=true
-kinetic_squashEnabled=true
+kinetic_maximizeEnabled=false
 kwin4_effect_doomEnabled=true
+kwin4_effect_geometry_changeEnabled=true
 kwin4_effect_scaleEnabled=false
 minimizeallEnabled=false
 mousemarkEnabled=true
@@ -166,7 +167,7 @@ HighlightWindows=false
 MultiScreenMode=2
 
 [Tiling]
-padding=4
+padding=6
 
 [Tiling][01dcb655-b11a-5af8-b228-6c76ffb0b787]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -183,6 +184,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][2e0926ac-9903-5cca-9c17-779552719436]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][3348f9a3-b36e-54b9-a3a6-7148b7edb622]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][34b90e28-a0a3-5dff-832d-be6c632c9999]
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
@@ -190,6 +194,12 @@ tiles={"layoutDirection":"horizontal","tiles":[]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][38a774c8-d005-5bf8-bc9b-800889a6f619]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3e81ee53-0b4e-4498-b0b8-597fad41bc83][1e691711-c115-43db-863c-8f148793f79b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][3e81ee53-0b4e-4498-b0b8-597fad41bc83][e7fbe0ea-45f5-4d86-8a09-e64cf86a5bac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3efd44ac-d811-5cdc-8748-873bffadbc79]
@@ -213,7 +223,46 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][5d3634fa-0ce6-537f-9a86-f900c829b371]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][61b25262-b0ce-5d2a-90b2-8dbb04b12baa]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][10909da4-c5e2-49bc-a31f-9a40babce66d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][1e691711-c115-43db-863c-8f148793f79b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][6c91c143-18dc-4b16-b2ba-a5d4b9d878f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][772570b7-45d8-4ded-a8b7-1ea08646df94]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][7b1d7e00-f268-4b05-be35-34fad1a84daf]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][e7fbe0ea-45f5-4d86-8a09-e64cf86a5bac]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][10909da4-c5e2-49bc-a31f-9a40babce66d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][1e691711-c115-43db-863c-8f148793f79b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][6c91c143-18dc-4b16-b2ba-a5d4b9d878f7]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][772570b7-45d8-4ded-a8b7-1ea08646df94]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][7b1d7e00-f268-4b05-be35-34fad1a84daf]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][e7fbe0ea-45f5-4d86-8a09-e64cf86a5bac]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][682eef42-20a6-5bf9-9e30-42f243a8bd7e]
@@ -240,6 +289,12 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][cc8f3933-d10f-58e8-9a8c-71892f335079]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][e6e6eee4-82ba-5ca6-8e9f-57b339e999f2]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][fad41e5a-5cd4-5f5a-bbed-38a176977642]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Wayland]
 InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 
@@ -249,7 +304,7 @@ ElectricBorderCooldown=150
 ElectricBorderDelay=100
 FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=2
-NextFocusPrefersMouse=true
+Placement=Centered
 RollOverDesktops=true
 SeparateScreenFocus=true
 

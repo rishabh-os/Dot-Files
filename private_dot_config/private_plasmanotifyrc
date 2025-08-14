@@ -1,6 +1,9 @@
 [Applications][discord]
 Seen=true
 
+[Applications][it.mijorus.smile]
+Seen=true
+
 [Applications][kando]
 Seen=true
 
@@ -8,6 +11,9 @@ Seen=true
 Seen=true
 
 [Applications][org.gnome.Boxes]
+Seen=true
+
+[Applications][org.gnome.World.PikaBackup]
 Seen=true
 
 [Applications][org.manjaro.pamac.manager]
@@ -22,7 +28,9 @@ Seen=true
 [Applications][vivaldi-stable]
 Seen=true
 
+[DoNotDisturb]
+WhenFullscreen=false
+
 [Notifications]
 LowPriorityHistory=true
-NormalAlwaysOnTop=true
 PopupPosition=BottomRight

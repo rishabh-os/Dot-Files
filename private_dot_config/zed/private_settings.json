@@ -7,8 +7,21 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "ssh_connections": [
+    {
+      "host": "hidebox",
+      "projects": [
+        {
+          "paths": ["/home/rwanjari"]
+        },
+        {
+          "paths": ["/home/rwanjari/era5_downloader"]
+        }
+      ]
+    }
+  ],
   "features": {
-    "inline_completion_provider": "zed"
+    "edit_prediction_provider": "zed"
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
@@ -30,5 +43,6 @@
   },
   "inlay_hints": {
     "enabled": true
-  }
+  },
+  "disable_ai": true
 }

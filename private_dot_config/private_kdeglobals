@@ -123,12 +123,13 @@ ForegroundVisited=198, 160, 246
 
 [DirSelect Dialog]
 DirSelectDialog Size=858,598
-History Items[$e]=file:$HOME/Development/eumetsat-data,file:///run/user/1000/gvfs/sftp:host=naswolf-rishabh\\,user=rishabh/home/Backup,file:$HOME/PersonalDev/Flutter/moniz,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/,file:$HOME/Development/Datasets,file:$HOME/.local/share/Steam/,file:$HOME/.local/share/,file:$HOME/.local,file:///run/user/1000/gvfs/smb-share:server=nas-wolf\\,share=home\\,user=rishabh/Backup,file:$HOME/Development/Datasets,file:$HOME/Backup-DREAM,file:$HOME,file:///home,file:$HOME/Development,file:$HOME/Development/boltek-ld-350-linux,file:$HOME/.local/share/Steam,file:///run/user/1000/gvfs/smb-share:server=dsipnas\\,share=home\\,user=rwanjari/old_backups/fbklaptop,file:$HOME/Downloads/Cartografia - 20241008,file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
+History Items[$e]=file:$HOME/PersonalDev/align_transactions,file:///run/user/1000/gvfs/sftp:host=naswolf-rishabh\\,user=rishabh/home/Backup,file:$HOME/Development/era5_downloader,file:$HOME,file:$HOME/vmware,file:$HOME/Development/meteotn_db_validation,file:$HOME/.config/hypr-old/,file:$HOME/Development/eumetsat-data,file:$HOME/PersonalDev/Flutter/moniz,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/,file:$HOME/Development/Datasets,file:$HOME/.local/share/Steam/,file:$HOME/.local/share/,file:$HOME/.local,file:///run/user/1000/gvfs/smb-share:server=nas-wolf\\,share=home\\,user=rishabh/Backup,file:$HOME/Development/Datasets,file:$HOME/Backup-DREAM,file:$HOME,file:///home,file:$HOME/Development,file:$HOME/Development/boltek-ld-350-linux,file:$HOME/.local/share/Steam,file:///run/user/1000/gvfs/smb-share:server=dsipnas\\,share=home\\,user=rwanjari/old_backups/fbklaptop,file:$HOME/Downloads/Cartografia - 20241008,file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa0\x00\x00\x03>\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
 AccentColor=125,196,228
 BrowserApplication=vivaldi-stable.desktop
+ColorScheme=CatppuccinMacchiatoFlamingo
 ColorSchemeHash=5a060bf4beeb8b2bc29de367b8cfc86f6d6381ee
 LastUsedCustomAccentColor=125,196,228
 XftAntialias=true
@@ -150,6 +151,7 @@ LookAndFeelPackage=org.kde.breezedark.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=false
 SingleClick=false
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=true
@@ -160,21 +162,22 @@ LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
 Show Full Path=false
-Show Inline Previews=false
+Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Date
+Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=154
-View Style=DetailTree
+View Style=Simple
 
 [KShortcutsDialog Settings]
 Dialog Size=600,480
 
 [PreviewSettings]
+EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=1048576000
 
 [Shortcuts]
@@ -183,6 +186,9 @@ Close=Ctrl+W
 [Toolbar style]
 ToolButtonStyle=NoText
 ToolButtonStyleOtherToolbars=NoText
+
+[UiSettings]
+ColorScheme=colors
 
 [WM]
 activeBackground=36,39,58

@@ -8,15 +8,72 @@ Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Ke
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
+[com.vivaldi.Vivaldi]
+4C3317103EFCFA635FEBFB719B2DF7D3-addSite=none,none,Toggle current site
+4C3317103EFCFA635FEBFB719B2DF7D3-switchEngine=none,none,Theme generation mode
+4C3317103EFCFA635FEBFB719B2DF7D3-toggle=none,none,Toggle extension
+58846C6E0EE3EC5F34E2490E814B8518-toggle-state=none,none,Access-Control-Allow-Origin
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-element-picker=none,none,Enter element picker mode
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-element-zapper=none,none,Enter element zapper mode
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-logger=none,none,Open the logger
+79B833B80FED9D2B5BBA5994C58AA6FF-open-dashboard=none,none,Open the dashboard
+79B833B80FED9D2B5BBA5994C58AA6FF-relax-blocking-mode=none,none,Relax blocking mode
+79B833B80FED9D2B5BBA5994C58AA6FF-toggle-cosmetic-filtering=none,none,Toggle cosmetic filtering
+79B833B80FED9D2B5BBA5994C58AA6FF-toggle-javascript=none,none,Toggle JavaScript
+7CAEFD76CB664F1977F916323BA0BD1A-c000-options-page=none,none,Open the options page
+7CAEFD76CB664F1977F916323BA0BD1A-c020-theme-youtube-dark=none,none,Theme: YouTube™ (Dark)
+7CAEFD76CB664F1977F916323BA0BD1A-c025-theme-enhanced-dark=none,none,Theme: Enhancer for YouTube™
+7CAEFD76CB664F1977F916323BA0BD1A-c030-theme-youtube-deep-dark=none,none,Theme: YouTube-DeepDark
+7CAEFD76CB664F1977F916323BA0BD1A-c040-theme-youtube-deep-dark-custom=none,none,Theme: YouTube-DeepDark (Custom)
+7CAEFD76CB664F1977F916323BA0BD1A-c050-theme-custom-theme=none,none,Theme: Custom theme
+7CAEFD76CB664F1977F916323BA0BD1A-c060-focus-video-player=none,none,Set focus on the video player
+7CAEFD76CB664F1977F916323BA0BD1A-c070-toggle-loop=none,none,Toggle the loop mode
+7CAEFD76CB664F1977F916323BA0BD1A-c080-stop-video=none,none,Stop the video
+7CAEFD76CB664F1977F916323BA0BD1A-c090-reverse-playlist=none,none,Reverse the playlist order
+7CAEFD76CB664F1977F916323BA0BD1A-c100-toggle-volume-booster=none,none,Toggle the volume booster
+7CAEFD76CB664F1977F916323BA0BD1A-c130-toggle-annotations=none,none,Toggle info cards and end screens visibility
+7CAEFD76CB664F1977F916323BA0BD1A-c140-toggle-cinema-mode=none,none,Toggle the cinema mode
+7CAEFD76CB664F1977F916323BA0BD1A-c150-toggle-player-size=none,none,Expand or shrink the video player
+7CAEFD76CB664F1977F916323BA0BD1A-c160-center-video-player=none,none,Center the video player within the viewport
+7CAEFD76CB664F1977F916323BA0BD1A-c170-pop-up-player=none,none,Watch with the pop-up player
+7CAEFD76CB664F1977F916323BA0BD1A-c180-decrease-speed=none,none,Decrease the playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c190-increase-speed=none,none,Increase the playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c200-default-speed=none,none,Select the default playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c210-normal-speed=none,none,Select the normal playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c220-toggle-video-filters=none,none,Toggle the video filters
+7CAEFD76CB664F1977F916323BA0BD1A-c230-flip-horizontally=none,none,Flip the video horizontally
+7CAEFD76CB664F1977F916323BA0BD1A-c240-flip-vertically=none,none,Flip the video vertically
+7CAEFD76CB664F1977F916323BA0BD1A-c250-take-screenshot=none,none,Take a screenshot of the video
+7CAEFD76CB664F1977F916323BA0BD1A-c260-keyboard-shortcuts=none,none,Display all the keyboard shortcuts for YouTube
+7CAEFD76CB664F1977F916323BA0BD1A-c270-custom-script=none,none,Execute the custom script
+7CAEFD76CB664F1977F916323BA0BD1A-c280-picture-in-picture=none,none,Toggle the Picture-in-Picture mode
+7CAEFD76CB664F1977F916323BA0BD1A-c290-quality-highres=none,none,Select the playback quality “4320p”
+7CAEFD76CB664F1977F916323BA0BD1A-c300-quality-hd2880=none,none,Select the playback quality “2880p”
+7CAEFD76CB664F1977F916323BA0BD1A-c310-quality-hd2160=none,none,Select the playback quality “2160p”
+7CAEFD76CB664F1977F916323BA0BD1A-c320-quality-hd1440=none,none,Select the playback quality “1440p”
+7CAEFD76CB664F1977F916323BA0BD1A-c330-quality-hd1080=none,none,Select the playback quality “1080p”
+7CAEFD76CB664F1977F916323BA0BD1A-c340-quality-hd720=none,none,Select the playback quality “720p”
+7CAEFD76CB664F1977F916323BA0BD1A-c350-quality-large=none,none,Select the playback quality “480p”
+7CAEFD76CB664F1977F916323BA0BD1A-c360-quality-medium=none,none,Select the playback quality “360p”
+7CAEFD76CB664F1977F916323BA0BD1A-c370-quality-small=none,none,Select the playback quality “240p”
+7CAEFD76CB664F1977F916323BA0BD1A-c380-quality-tiny=none,none,Select the playback quality “144p”
+7CAEFD76CB664F1977F916323BA0BD1A-c390-quality-auto=none,none,Select the playback quality “Auto”
+7CAEFD76CB664F1977F916323BA0BD1A-c400-comments-visibility=none,none,Toggle comments visibility
+7CAEFD76CB664F1977F916323BA0BD1A-c410-related-videos-visibility=none,none,Toggle related videos visibility
+8E8531B3F54698391860294E36995257-autofill_card=none,none,Autofill the last used card for the current website
+8E8531B3F54698391860294E36995257-autofill_identity=none,none,Autofill the last used identity for the current website
+8E8531B3F54698391860294E36995257-autofill_login=none,none,Autofill the last used login for the current website
+8E8531B3F54698391860294E36995257-generate_password=none,none,Generate and copy a new random password to the clipboard
+8E8531B3F54698391860294E36995257-lock_vault=none,none,Lock the vault
+_k_friendly_name=com.vivaldi.Vivaldi
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
 
-[kcm_touchpad]
-Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
-Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
-Toggle Touchpad=Touchpad Toggle,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Toggle Touchpad
-_k_friendly_name=Touchpad
+[kando]
+_k_friendly_name=Kando
+main-menu=Ctrl+Alt+Shift+Space,none,main-menu
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -118,14 +175,14 @@ Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 ToggleCurrentThumbnail=Meta+Ctrl+T,Meta+Ctrl+T,Toggle Thumbnail for Current Window
 ToggleMouseClick=Meta+*,Meta+*,Toggle Mouse Click Effect
 TrackMouse=none,none,Track mouse
-Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Walk Through Windows (Reverse)
-Walk Through Windows Alternative=Ctrl+Alt+Tab,,Walk Through Windows Alternative
-Walk Through Windows Alternative (Reverse)=Ctrl+Alt+Shift+Tab,,Walk Through Windows Alternative (Reverse)
-Walk Through Windows of Current Application=Alt+`,Alt+`,Walk Through Windows of Current Application
-Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Walk Through Windows of Current Application (Reverse)
-Walk Through Windows of Current Application Alternative=none,,Walk Through Windows of Current Application Alternative
-Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
+Walk Through Windows=Alt+Tab,Meta+Tab\tAlt+Tab,Walk Through Windows
+Walk Through Windows (Reverse)=Alt+Shift+Backtab,Meta+Shift+Tab\tAlt+Shift+Tab,Walk Through Windows (Reverse)
+Walk Through Windows Alternative=Ctrl+Alt+Tab,none,Walk Through Windows Alternative
+Walk Through Windows Alternative (Reverse)=Ctrl+Alt+Shift+Tab,none,Walk Through Windows Alternative (Reverse)
+Walk Through Windows of Current Application=Alt+`,Meta+`\tAlt+`,Walk Through Windows of Current Application
+Walk Through Windows of Current Application (Reverse)=Alt+~,Meta+~\tAlt+~,Walk Through Windows of Current Application (Reverse)
+Walk Through Windows of Current Application Alternative=none,none,Walk Through Windows of Current Application Alternative
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Alt+F4,Alt+F4,Close Window
@@ -207,7 +264,7 @@ _k_friendly_name=KWin
 disableInputCapture=Meta+Shift+Esc,Meta+Shift+Esc,Disable Active Input Capture
 example-menu=none,none,Kando - example-menu
 kando-menu=none,none,Kando - kando-menu
-main-menu=Ctrl+Alt+Shift+Space,none,Kando - main-menu
+main-menu=none,none,Kando - main-menu
 view_actual_size=Meta+0,Meta+0,Zoom to Actual Size
 view_zoom_in=Meta++\tMeta+Num++,Meta++\tMeta+=,Zoom In
 view_zoom_out=Meta+-\tMeta+Num+-,Meta+-,Zoom Out
@@ -284,6 +341,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][com.github.hluk.copyq.desktop]
 _launch=Meta+V
 
+[services][emote.desktop]
+_launch=Meta+.
+
 [services][io.missioncenter.MissionCenter.desktop]
 _launch=Ctrl+Esc
 
@@ -292,7 +352,7 @@ RunClipboard=none
 _launch=Search\tMeta
 
 [services][org.kde.plasma.emojier.desktop]
-_launch=Meta+.
+_launch=none
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none
@@ -301,11 +361,70 @@ RecordWindow=none
 RectangularRegionScreenShot=Print\tMeta+Home
 _launch=none
 
+[services][org.kde.touchpadshortcuts.desktop]
+ToggleTouchpad=Touchpad Toggle
+
 [services][systemsettings.desktop]
 _launch=Meta+S\tTools
 
 [vivaldi-stable]
-_k_friendly_name=vivaldi-stable
+4C3317103EFCFA635FEBFB719B2DF7D3-addSite=none,none,Toggle current site
+4C3317103EFCFA635FEBFB719B2DF7D3-switchEngine=none,none,Theme generation mode
+4C3317103EFCFA635FEBFB719B2DF7D3-toggle=none,none,Toggle extension
+58846C6E0EE3EC5F34E2490E814B8518-toggle-state=none,none,Access-Control-Allow-Origin
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-element-picker=none,none,Enter element picker mode
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-element-zapper=none,none,Enter element zapper mode
+79B833B80FED9D2B5BBA5994C58AA6FF-launch-logger=none,none,Open the logger
+79B833B80FED9D2B5BBA5994C58AA6FF-open-dashboard=none,none,Open the dashboard
+79B833B80FED9D2B5BBA5994C58AA6FF-relax-blocking-mode=none,none,Relax blocking mode
+79B833B80FED9D2B5BBA5994C58AA6FF-toggle-cosmetic-filtering=none,none,Toggle cosmetic filtering
+79B833B80FED9D2B5BBA5994C58AA6FF-toggle-javascript=none,none,Toggle JavaScript
+7CAEFD76CB664F1977F916323BA0BD1A-c000-options-page=none,none,Open the options page
+7CAEFD76CB664F1977F916323BA0BD1A-c020-theme-youtube-dark=none,none,Theme: YouTube™ (Dark)
+7CAEFD76CB664F1977F916323BA0BD1A-c025-theme-enhanced-dark=none,none,Theme: Enhancer for YouTube™
+7CAEFD76CB664F1977F916323BA0BD1A-c030-theme-youtube-deep-dark=none,none,Theme: YouTube-DeepDark
+7CAEFD76CB664F1977F916323BA0BD1A-c040-theme-youtube-deep-dark-custom=none,none,Theme: YouTube-DeepDark (Custom)
+7CAEFD76CB664F1977F916323BA0BD1A-c050-theme-custom-theme=none,none,Theme: Custom theme
+7CAEFD76CB664F1977F916323BA0BD1A-c060-focus-video-player=none,none,Set focus on the video player
+7CAEFD76CB664F1977F916323BA0BD1A-c070-toggle-loop=none,none,Toggle the loop mode
+7CAEFD76CB664F1977F916323BA0BD1A-c080-stop-video=none,none,Stop the video
+7CAEFD76CB664F1977F916323BA0BD1A-c090-reverse-playlist=none,none,Reverse the playlist order
+7CAEFD76CB664F1977F916323BA0BD1A-c100-toggle-volume-booster=none,none,Toggle the volume booster
+7CAEFD76CB664F1977F916323BA0BD1A-c130-toggle-annotations=none,none,Toggle info cards and end screens visibility
+7CAEFD76CB664F1977F916323BA0BD1A-c140-toggle-cinema-mode=none,none,Toggle the cinema mode
+7CAEFD76CB664F1977F916323BA0BD1A-c150-toggle-player-size=none,none,Expand or shrink the video player
+7CAEFD76CB664F1977F916323BA0BD1A-c160-center-video-player=none,none,Center the video player within the viewport
+7CAEFD76CB664F1977F916323BA0BD1A-c170-pop-up-player=none,none,Watch with the pop-up player
+7CAEFD76CB664F1977F916323BA0BD1A-c180-decrease-speed=none,none,Decrease the playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c190-increase-speed=none,none,Increase the playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c200-default-speed=none,none,Select the default playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c210-normal-speed=none,none,Select the normal playback speed
+7CAEFD76CB664F1977F916323BA0BD1A-c220-toggle-video-filters=none,none,Toggle the video filters
+7CAEFD76CB664F1977F916323BA0BD1A-c230-flip-horizontally=none,none,Flip the video horizontally
+7CAEFD76CB664F1977F916323BA0BD1A-c240-flip-vertically=none,none,Flip the video vertically
+7CAEFD76CB664F1977F916323BA0BD1A-c250-take-screenshot=none,none,Take a screenshot of the video
+7CAEFD76CB664F1977F916323BA0BD1A-c260-keyboard-shortcuts=none,none,Display all the keyboard shortcuts for YouTube
+7CAEFD76CB664F1977F916323BA0BD1A-c270-custom-script=none,none,Execute the custom script
+7CAEFD76CB664F1977F916323BA0BD1A-c280-picture-in-picture=none,none,Toggle the Picture-in-Picture mode
+7CAEFD76CB664F1977F916323BA0BD1A-c290-quality-highres=none,none,Select the playback quality “4320p”
+7CAEFD76CB664F1977F916323BA0BD1A-c300-quality-hd2880=none,none,Select the playback quality “2880p”
+7CAEFD76CB664F1977F916323BA0BD1A-c310-quality-hd2160=none,none,Select the playback quality “2160p”
+7CAEFD76CB664F1977F916323BA0BD1A-c320-quality-hd1440=none,none,Select the playback quality “1440p”
+7CAEFD76CB664F1977F916323BA0BD1A-c330-quality-hd1080=none,none,Select the playback quality “1080p”
+7CAEFD76CB664F1977F916323BA0BD1A-c340-quality-hd720=none,none,Select the playback quality “720p”
+7CAEFD76CB664F1977F916323BA0BD1A-c350-quality-large=none,none,Select the playback quality “480p”
+7CAEFD76CB664F1977F916323BA0BD1A-c360-quality-medium=none,none,Select the playback quality “360p”
+7CAEFD76CB664F1977F916323BA0BD1A-c370-quality-small=none,none,Select the playback quality “240p”
+7CAEFD76CB664F1977F916323BA0BD1A-c380-quality-tiny=none,none,Select the playback quality “144p”
+7CAEFD76CB664F1977F916323BA0BD1A-c390-quality-auto=none,none,Select the playback quality “Auto”
+7CAEFD76CB664F1977F916323BA0BD1A-c400-comments-visibility=none,none,Toggle comments visibility
+7CAEFD76CB664F1977F916323BA0BD1A-c410-related-videos-visibility=none,none,Toggle related videos visibility
+8E8531B3F54698391860294E36995257-autofill_card=none,none,Autofill the last used card for the current website
+8E8531B3F54698391860294E36995257-autofill_identity=none,none,Autofill the last used identity for the current website
+8E8531B3F54698391860294E36995257-autofill_login=none,none,Autofill the last used login for the current website
+8E8531B3F54698391860294E36995257-generate_password=none,none,Generate and copy a new random password to the clipboard
+8E8531B3F54698391860294E36995257-lock_vault=none,none,Lock the vault
+_k_friendly_name=Vivaldi
 addSite=Alt+Shift+A,Alt+Shift+A,Toggle current site
 autofill_card=none,none,Autofill the last used card for the current website
 autofill_identity=none,none,Autofill the last used identity for the current website
