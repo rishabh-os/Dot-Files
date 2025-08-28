@@ -1,13 +1,13 @@
 MenuBar=Disabled
 
 [$Version]
-update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
 
 [CompactMode]
 IconSize=48
 
 [ContentDisplay]
-DirectorySizeCount=false
+DirectorySizeMode=ContentSize
 UsePermissionsFormat=CombinedFormat
 
 [ContextMenu]

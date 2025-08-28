@@ -1,10 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 zstyle ':omz:update' mode auto
-# ? Due to a bug in OMZ
-fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search ohmyzsh-full-autoupdate dirhistory)
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern regexp)
+DISABLE_MAGIC_FUNCTIONS=true
+DISABLE_LS_COLORS=true
 source $ZSH/oh-my-zsh.sh
 
 export CHROME_EXECUTABLE=/usr/bin/vivaldi
@@ -54,4 +54,3 @@ esac
 eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/mytheme.omp.toml)"
 eval "$(zoxide init --cmd cd zsh)"
-
