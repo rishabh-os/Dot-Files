@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# ? This path isn't part of $PATH by default
+export PATH=$PATH:$HOME/.local/bin
 # ? Don't assume this is run from the $HOME directory
 cd $HOME
 # ? Install OhMyZsh
