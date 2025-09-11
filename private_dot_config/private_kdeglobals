@@ -151,7 +151,7 @@ LookAndFeelPackage=org.kde.breezedark.desktop
 ScrollbarLeftClickNavigatesByPage=false
 ShowDeleteCommand=false
 SingleClick=false
-widgetStyle=Breeze
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=true
