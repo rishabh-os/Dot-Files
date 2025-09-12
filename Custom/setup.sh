@@ -59,3 +59,5 @@ ln -s $HOME/.local/bin/nvim-linx-x86_64/bin/nvim $HOME/.local/bin/nvim
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
 chezmoi apply
+# ? Useful when rerunning the script, not necessary on first run
+chezmoi update
