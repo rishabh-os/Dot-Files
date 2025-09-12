@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ? This path isn't part of $PATH by default
+export PATH=$PATH:$HOME/.local/bin
 # ? Don't assume this is run from the $HOME directory
 cd $HOME
 # ? Install OhMyZsh
@@ -44,6 +46,11 @@ mv eza $HOME/.local/bin/eza
 curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
 chmod +x gdu_linux_amd64
 mv gdu_linux_amd64 $HOME/.local/bin/gdu
+
+# ? Install neovim
+curl -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz | tar xz
+mv nvim-linux-x86_64 $HOME/.local/bin/nvim-linx-x86_64
+ln -s $HOME/.local/bin/nvim-linx-x86_64/bin/nvim $HOME/.local/bin/nvim
 
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
