@@ -27,7 +27,7 @@ alias c="clear"
 alias ls="eza"
 alias cz="chezmoi"
 # Preserve settings when running programs as sudo
-alias sudo='sudo -E'
+alias sudo="sudo -E"
 alias fastfetch="fastfetch -c neofetch.jsonc"
 # Ctrl+Backspace: kill the word backward
 bindkey -M emacs '^H' backward-kill-word
