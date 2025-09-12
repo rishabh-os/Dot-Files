@@ -453,7 +453,7 @@
   "menus.dashboard.powermenu.avatar.image": "/home/rishabh/Pictures/cow_concept_art.jpg",
   "theme.bar.menus.menu.dashboard.profile.radius": "1em",
   "menus.dashboard.powermenu.confirmation": false,
-  "bar.autoHide": "never",
+  "bar.autoHide": "fullscreen",
   "bar.workspaces.scroll_speed": 5,
   "theme.bar.floating": false,
   "bar.workspaces.showAllActive": true,
