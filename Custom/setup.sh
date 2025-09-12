@@ -18,7 +18,10 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 git clone https://github.com/Pilaton/OhMyZsh-full-autoupdate.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ohmyzsh-full-autoupdate
 
 # ? Install atuin
+# * Don't modify the .bashrc
+chmod u-w .bashrc
 curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+chmod u+w .bashrc
 # * It installs by default to ~/.atuin
 mv ~/.atuin/bin/atuin ~/.local/bin/atuin
 mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
