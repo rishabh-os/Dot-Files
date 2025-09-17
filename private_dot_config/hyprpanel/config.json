@@ -490,12 +490,12 @@
   "hyprpanel.useLazyLoading": false,
   "theme.bar.buttons.opacity": 100,
   "theme.bar.opacity": 100,
-  "theme.bar.buttons.background_opacity": 100,
+  "theme.bar.buttons.background_opacity": 80,
   "theme.bar.buttons.background_hover_opacity": 100,
-  "theme.osd.opacity": 100,
+  "theme.osd.opacity": 80,
   "theme.matugen": false,
   "theme.bar.buttons.monochrome": false,
-  "theme.bar.menus.opacity": 100,
+  "theme.bar.menus.opacity": 80,
   "wallpaper.enable": true,
   "menus.clock.weather.unit": "metric",
   "menus.dashboard.shortcuts.enabled": true,
@@ -510,5 +510,6 @@
   "menus.dashboard.shortcuts.left.shortcut2.tooltip": "Obsidian",
   "menus.dashboard.shortcuts.left.shortcut4.command": "vicinae",
   "menus.dashboard.shortcuts.left.shortcut4.tooltip": "Vicinae",
-  "wallpaper.image": "/home/rishabh/Custom/Wallpapers/DDL7hH.png"
+  "wallpaper.image": "/home/rishabh/Custom/Wallpapers/DDL7hH.png",
+  "theme.notification.opacity": 80
 }
