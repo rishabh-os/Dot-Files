@@ -4,7 +4,7 @@
 font-family = "VictorMono Nerd Font"
 font-size = 14
 font-style = "SemiBold"
-theme = "catppuccin-macchiato"
+theme = "Catppuccin Macchiato"
 gtk-single-instance = true
 custom-shader = shaders/cursor_smear.glsl
 cursor-style = bar
