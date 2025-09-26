@@ -122,8 +122,8 @@ ForegroundPositive=166, 218, 149
 ForegroundVisited=198, 160, 246
 
 [DirSelect Dialog]
-DirSelectDialog Size=1268,1390
-History Items[$e]=file:$HOME/Development/better-lightning-hydra,file:$HOME/PersonalDev/align_transactions,file:///run/user/1000/gvfs/sftp:host=naswolf-rishabh\\,user=rishabh/home/Backup,file:$HOME/Development/era5_downloader,file:$HOME,file:$HOME/vmware,file:$HOME/Development/meteotn_db_validation,file:$HOME/.config/hypr-old/,file:$HOME/Development/eumetsat-data,file:$HOME/PersonalDev/Flutter/moniz,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/,file:$HOME/Development/Datasets,file:$HOME/.local/share/Steam/,file:$HOME/.local/share/,file:$HOME/.local,file:///run/user/1000/gvfs/smb-share:server=nas-wolf\\,share=home\\,user=rishabh/Backup,file:$HOME/Development/Datasets,file:$HOME/Backup-DREAM,file:$HOME,file:///home,file:$HOME/Development,file:$HOME/Development/boltek-ld-350-linux,file:$HOME/.local/share/Steam,file:///run/user/1000/gvfs/smb-share:server=dsipnas\\,share=home\\,user=rwanjari/old_backups/fbklaptop,file:$HOME/Downloads/Cartografia - 20241008,file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
+DirSelectDialog Size=1268,689
+History Items[$e]=file:$HOME/Development/arcodata_better,file:$HOME/Development/better-lightning-hydra,file:$HOME/PersonalDev/align_transactions,file:///run/user/1000/gvfs/sftp:host=naswolf-rishabh\\,user=rishabh/home/Backup,file:$HOME/Development/era5_downloader,file:$HOME,file:$HOME/vmware,file:$HOME/Development/meteotn_db_validation,file:$HOME/.config/hypr-old/,file:$HOME/Development/eumetsat-data,file:$HOME/PersonalDev/Flutter/moniz,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/pnpm/,file:$HOME/.local/share/,file:$HOME/Development/Datasets,file:$HOME/.local/share/Steam/,file:$HOME/.local/share/,file:$HOME/.local,file:///run/user/1000/gvfs/smb-share:server=nas-wolf\\,share=home\\,user=rishabh/Backup,file:$HOME/Development/Datasets,file:$HOME/Backup-DREAM,file:$HOME,file:///home,file:$HOME/Development,file:$HOME/Development/boltek-ld-350-linux,file:$HOME/.local/share/Steam,file:///run/user/1000/gvfs/smb-share:server=dsipnas\\,share=home\\,user=rwanjari/old_backups/fbklaptop,file:$HOME/Downloads/Cartografia - 20241008,file:$HOME/Desktop/Data 2,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Development/Datasets/Diagnostica,file:$HOME/Downloads/Iceland - August ,file:$HOME/Downloads,file:$HOME/Project+,file:$HOME/.stremio-server/stremio-cache,remote:/miarad,file:$HOME/Development/Datasets,file:$HOME/Downloads,file:$HOME/Development/Datasets,file:$HOME/Documents/Obsidian,file:$HOME/Custom/bypass-paywalls-chrome-clean,file:$HOME/Backup-DREAM/pika-backup,file:$HOME/Themes/Utterly-Nord,file:$HOME/Themes/Utterly-Nord
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa0\x00\x00\x03>\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -164,7 +164,7 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false

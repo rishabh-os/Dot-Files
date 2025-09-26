@@ -511,5 +511,9 @@
   "menus.dashboard.shortcuts.left.shortcut4.command": "vicinae",
   "menus.dashboard.shortcuts.left.shortcut4.tooltip": "Vicinae",
   "wallpaper.image": "/home/rishabh/Custom/Wallpapers/DDL7hH.png",
-  "theme.notification.opacity": 80
+  "theme.notification.opacity": 80,
+  "terminal": "$TERM",
+  "theme.bar.menus.menu.media.scaling": 100,
+  "notifications.clearDelay": 0,
+  "menus.power.lowBatteryNotification": false
 }

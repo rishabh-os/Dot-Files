@@ -6,11 +6,14 @@ font-size = 14
 font-style = "SemiBold"
 theme = "Catppuccin Macchiato"
 gtk-single-instance = true
-# custom-shader = shaders/cursor_smear.glsl
+# custom-shader = shaders/manga_slash.glsl
 cursor-style = bar
 cursor-style-blink = false
 shell-integration-features = no-cursor
 background-opacity=0.8
+# ? Doesn't work
+# background-opacity-cells = true
+confirm-close-surface = false
 
 # keybind = ctrl+left_bracket=new_split:right
 # keybind = ctrl+right_bracket=new_split:down
