@@ -55,6 +55,13 @@ curl -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86
 mv nvim-linux-x86_64 $HOME/.local/bin/nvim-linx-x86_64
 ln -s $HOME/.local/bin/nvim-linx-x86_64/bin/nvim $HOME/.local/bin/nvim
 
+# ? Install yazi
+curl -L https://github.com/sxyazi/yazi/releases/latest/download/yazi-x86_64-unknown-linux-musl.zip -o tmp.zip
+unzip tmp.zip
+rm tmp.zip
+mv ./yazi-x86_64-unknown-linux-musl/yazi $HOME/.local/bin/yazi
+mv ./yazi-x86_64-unknown-linux-musl/ya $HOME/.local/bin/ya
+
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
