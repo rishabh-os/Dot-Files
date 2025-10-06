@@ -62,6 +62,7 @@ unzip tmp.zip
 rm tmp.zip
 mv ./yazi-x86_64-unknown-linux-musl/yazi $HOME/.local/bin/yazi
 mv ./yazi-x86_64-unknown-linux-musl/ya $HOME/.local/bin/ya
+rm -rf ./yazi*
 
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
