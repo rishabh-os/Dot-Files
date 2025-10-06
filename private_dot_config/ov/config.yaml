@@ -1,0 +1,78 @@
+
+General:
+  # You can set general behaviors here too
+  TabWidth: 4
+  Wrap: true
+  Mouse: true
+  Header: true
+  Footer: true
+  LineNumber: true
+
+  Style:
+    # Header:
+    #   Foreground: "default"
+    #   Background: "default"
+    #   Bold: true
+    #
+    # HeaderBorder:
+    #   Foreground: "default"
+    #   Background: "default"
+    #
+    # Body:
+    #   Foreground: "default"
+    #   Background: "default"
+    #
+    # Footer:
+    #   Foreground: "default"
+    #   Background: "lightblue"
+    #   Dim: true
+    #
+    # LineNumber:
+    #   Foreground: "brightblack"
+    #   Background: "default"
+    #
+    SearchHighlight:
+      Foreground: "black"
+      Background: "yellow"
+      Bold: true
+
+    Selected:
+      Foreground: "default"
+      Background: "brightblack"
+
+    MarkLine:
+      Foreground: "default"
+      Background: "default"
+      Bold: true
+
+    SectionLine:
+      Foreground: "blue"
+      Background: "default"
+
+    JumpTarget:
+      Foreground: "default"
+      Background: "default"
+      Bold: true
+
+    Alternate:
+      Foreground: "default"
+      Background: "default"
+      Dim: true
+
+    ColumnRainbow:
+      - Foreground: "red"
+      - Foreground: "green"
+      - Foreground: "yellow"
+      - Foreground: "blue"
+      - Foreground: "magenta"
+      - Foreground: "cyan"
+      - Foreground: "white"
+
+    MultiColorHighlight:
+      - Foreground: "red"
+      - Foreground: "green"
+      - Foreground: "yellow"
+      - Foreground: "blue"
+      - Foreground: "magenta"
+      - Foreground: "cyan"
+      - Foreground: "white"
