@@ -34,6 +34,7 @@ curl -s https://api.github.com/repos/zellij-org/zellij/releases/latest \
 | tr -d \" \
 | wget -qi -
 tar -xvf zellij*.tar.gz
+rm zellij*.tar.gz
 mv ./zellij $HOME/.local/bin/zellij
 
 
