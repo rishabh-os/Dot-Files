@@ -21,6 +21,8 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/
 export PATH=$PATH:$HOME/.pub-cache/bin/
 export PATH=$PATH:$HOME/.cargo/bin/
+export PAGER=ov
+export MANPAGER="ov --section-delimiter '^[^\s]' --section-header -H1"
 # Make the executables present in local take priority
 export PATH=$HOME/.local/bin/:$PATH
 alias c="clear"
@@ -29,6 +31,8 @@ alias cz="chezmoi"
 # Preserve settings when running programs as sudo
 alias sudo="sudo -E"
 alias fastfetch="fastfetch -c neofetch.jsonc"
+# More sane config file location
+alias gdu="gdu --config-file ~/.config/gdu/config.yaml"
 # Ctrl+Backspace: kill the word backward
 bindkey -M emacs '^H' backward-kill-word
 bindkey -M viins '^H' backward-kill-word

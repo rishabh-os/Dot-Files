@@ -1,0 +1,18 @@
+style:
+    selected-row:
+        text-color: black
+        background-color: green
+    progress-modal:
+        current-item-path-max-len: 0
+    use-old-size-bar: false
+    footer:
+        text-color: default
+        background-color: blue
+        number-color: black
+    header:
+        text-color: default
+        background-color: blue
+        hidden: false
+    result-row:
+        number-color: red
+        directory-color: blue
