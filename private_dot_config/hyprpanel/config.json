@@ -453,7 +453,7 @@
   "menus.dashboard.powermenu.avatar.image": "/home/rishabh/Pictures/cow_concept_art.jpg",
   "theme.bar.menus.menu.dashboard.profile.radius": "1em",
   "menus.dashboard.powermenu.confirmation": false,
-  "bar.autoHide": "fullscreen",
+  "bar.autoHide": "never",
   "bar.workspaces.scroll_speed": 5,
   "theme.bar.floating": false,
   "bar.workspaces.showAllActive": true,
@@ -515,5 +515,6 @@
   "terminal": "$TERM",
   "theme.bar.menus.menu.media.scaling": 100,
   "notifications.clearDelay": 0,
-  "menus.power.lowBatteryNotification": false
+  "menus.power.lowBatteryNotification": false,
+  "menus.transitionTime": 200
 }

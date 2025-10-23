@@ -12,7 +12,7 @@ cursor-style-blink = false
 shell-integration-features = no-cursor
 background-opacity=0.8
 # ? Doesn't work
-# background-opacity-cells = true
+background-opacity-cells = true
 confirm-close-surface = false
 
 # keybind = ctrl+left_bracket=new_split:right

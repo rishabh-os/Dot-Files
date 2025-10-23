@@ -7,6 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "icon_theme": "Material Icon Theme",
   "ssh_connections": [
     {
       "host": "hidebox",
@@ -23,6 +24,15 @@
   "features": {
     "edit_prediction_provider": "zed"
   },
+
+  "terminal": {
+    "cursor_shape": "bar"
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
   "vim_mode": false,
   "base_keymap": "VSCode",
   "buffer_font_family": "VictorMono Nerd Font",
@@ -33,7 +43,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato - No Italics"
+    "dark": "Catppuccin Macchiato"
   },
   "ui_font_family": "Inter",
   "current_line_highlight": "none",

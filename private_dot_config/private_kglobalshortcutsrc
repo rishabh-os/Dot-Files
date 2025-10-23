@@ -341,6 +341,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][com.github.hluk.copyq.desktop]
 _launch=Meta+V
 
+[services][com.mitchellh.ghostty.desktop]
+_launch=none
+
 [services][emote.desktop]
 _launch=Meta+.
 
