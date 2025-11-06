@@ -93,6 +93,24 @@ tar -xvf fzf*.tar.gz
 rm fzf*.tar.gz
 mv ./fzf $HOME/.local/bin/fzf
 
+# ? Install ov
+curl -s https://api.github.com/repos/noborus/ov/releases/latest \
+| grep "browser_download_url.*linux_amd64.zip" \
+| cut -d '"' -f 4 \
+| wget -qi -
+unzip ov*.zip 'ov'
+rm ov*.zip
+mv ./ov $HOME/.local/bin/ov
+
+# ? Install bat
+curl -s https://api.github.com/repos/sharkdp/bat/releases/latest \
+| grep "browser_download_url.*x86_64-unknown-linux-gnu.tar.gz" \
+| cut -d '"' -f 4 \
+| wget -qi -
+tar -xvf bat*.tar.gz --wildcards '*/bat' --strip-components=1
+rm bat*.tar.gz
+mv ./bat $HOME/.local/bin/bat
+
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
