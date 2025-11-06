@@ -26,6 +26,7 @@ PreviewSize=22
 [ExtractDialog]
 2 screens: Height=600
 2 screens: Width=1280
+2 screens: Window-Maximized=true
 DirHistory[$e]=$HOME/Downloads/termshot/
 
 [General]
@@ -42,7 +43,7 @@ ViewPropsTimestamp=2023,12,13,11,45,49.26
 [IconsMode]
 IconSize=64
 MaximumTextLines=2
-PreviewSize=80
+PreviewSize=112
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
