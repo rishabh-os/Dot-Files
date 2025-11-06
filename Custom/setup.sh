@@ -64,6 +64,25 @@ mv ./yazi-x86_64-unknown-linux-musl/yazi $HOME/.local/bin/yazi
 mv ./yazi-x86_64-unknown-linux-musl/ya $HOME/.local/bin/ya
 rm -rf ./yazi*
 
+# ? Install ripgrep
+curl -s https://api.github.com/repos/BurntSushi/ripgrep/releases/latest \
+| grep "browser_download_url.*x86_64-unknown-linux-musl.tar.gz" \
+| grep -v ".sha256" \
+| cut -d '"' -f 4 \
+| wget -qi -
+tar -xvf ripgrep*.tar.gz --wildcards '*/rg' --strip-components=1
+rm ripgrep*.tar.gz
+mv ./rg $HOME/.local/bin/rg
+
+# ? Install fd
+curl -s https://api.github.com/repos/sharkdp/fd/releases/latest \
+| grep "browser_download_url.*x86_64-unknown-linux-musl.tar.gz" \
+| cut -d '"' -f 4 \
+| wget -qi -
+tar -xvf fd*.tar.gz --wildcards '*/fd' --strip-components=1
+rm fd*.tar.gz
+mv ./fd $HOME/.local/bin/fd
+
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
