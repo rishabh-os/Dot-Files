@@ -1,11 +1,13 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 zstyle ':omz:update' mode auto
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search ohmyzsh-full-autoupdate dirhistory)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search ohmyzsh-full-autoupdate dirhistory fzf-tab)
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern regexp)
 DISABLE_MAGIC_FUNCTIONS=true
 DISABLE_LS_COLORS=true
 source $ZSH/oh-my-zsh.sh
+
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
 
 export CHROME_EXECUTABLE=/usr/bin/vivaldi
 export BROWSER=/usr/bin/vivaldi

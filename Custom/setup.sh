@@ -16,6 +16,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 git clone https://github.com/Pilaton/OhMyZsh-full-autoupdate.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ohmyzsh-full-autoupdate
+git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 
 # ? Install atuin
 # * Don't modify the .bashrc
@@ -82,6 +83,15 @@ curl -s https://api.github.com/repos/sharkdp/fd/releases/latest \
 tar -xvf fd*.tar.gz --wildcards '*/fd' --strip-components=1
 rm fd*.tar.gz
 mv ./fd $HOME/.local/bin/fd
+
+# ? Install fzf
+curl -s https://api.github.com/repos/junegunn/fzf/releases/latest \
+| grep "browser_download_url.*linux_amd64.tar.gz" \
+| cut -d '"' -f 4 \
+| wget -qi -
+tar -xvf fzf*.tar.gz
+rm fzf*.tar.gz
+mv ./fzf $HOME/.local/bin/fzf
 
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
