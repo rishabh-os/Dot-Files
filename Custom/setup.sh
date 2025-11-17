@@ -29,87 +29,35 @@ mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
 rm -rf ~/.atuin
 
 # ? Install zellij
-curl -s https://api.github.com/repos/zellij-org/zellij/releases/latest \
-| grep "zellij-x86_64-unknown-linux-musl.tar.gz" \
-| cut -d : -f 2,3 \
-| tr -d \" \
-| wget -qi -
-tar -xvf zellij*.tar.gz
-rm zellij*.tar.gz
-mv ./zellij $HOME/.local/bin/zellij
+gah install zellij-org/zellij --unattended
 
 
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
+# ? Install gah
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/get-gah/gah/refs/heads/master/tools/install.sh)"
+
 # ? Install eza manually
-wget -c https://github.com/eza-community/eza/releases/latest/download/eza_x86_64-unknown-linux-gnu.tar.gz -O - | tar xz
-chmod +x eza
-mv eza $HOME/.local/bin/eza
+gah install eza-community/eza --unattended
 
 # ? Install gdu
-curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
-chmod +x gdu_linux_amd64
-mv gdu_linux_amd64 $HOME/.local/bin/gdu
+gah install dundee/gdu --unattended
 
 # ? Install neovim
-curl -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz | tar xz
-mv nvim-linux-x86_64 $HOME/.local/bin/nvim-linx-x86_64
-ln -s $HOME/.local/bin/nvim-linx-x86_64/bin/nvim $HOME/.local/bin/nvim
+gah install neovim/neovim --unattended
 
 # ? Install yazi
-curl -L https://github.com/sxyazi/yazi/releases/latest/download/yazi-x86_64-unknown-linux-musl.zip -o tmp.zip
-unzip tmp.zip
-rm tmp.zip
-mv ./yazi-x86_64-unknown-linux-musl/yazi $HOME/.local/bin/yazi
-mv ./yazi-x86_64-unknown-linux-musl/ya $HOME/.local/bin/ya
-rm -rf ./yazi*
+gah install sxyazi/yazi --unattended
 
 # ? Install ripgrep
-curl -s https://api.github.com/repos/BurntSushi/ripgrep/releases/latest \
-| grep "browser_download_url.*x86_64-unknown-linux-musl.tar.gz" \
-| grep -v ".sha256" \
-| cut -d '"' -f 4 \
-| wget -qi -
-tar -xvf ripgrep*.tar.gz --wildcards '*/rg' --strip-components=1
-rm ripgrep*.tar.gz
-mv ./rg $HOME/.local/bin/rg
+gah install BurntSushi/ripgrep --unattended
 
 # ? Install fd
-curl -s https://api.github.com/repos/sharkdp/fd/releases/latest \
-| grep "browser_download_url.*x86_64-unknown-linux-musl.tar.gz" \
-| cut -d '"' -f 4 \
-| wget -qi -
-tar -xvf fd*.tar.gz --wildcards '*/fd' --strip-components=1
-rm fd*.tar.gz
-mv ./fd $HOME/.local/bin/fd
+gah install sharkdp/fd --unattended
 
 # ? Install fzf
-curl -s https://api.github.com/repos/junegunn/fzf/releases/latest \
-| grep "browser_download_url.*linux_amd64.tar.gz" \
-| cut -d '"' -f 4 \
-| wget -qi -
-tar -xvf fzf*.tar.gz
-rm fzf*.tar.gz
-mv ./fzf $HOME/.local/bin/fzf
-
-# ? Install ov
-curl -s https://api.github.com/repos/noborus/ov/releases/latest \
-| grep "browser_download_url.*linux_amd64.zip" \
-| cut -d '"' -f 4 \
-| wget -qi -
-unzip ov*.zip 'ov'
-rm ov*.zip
-mv ./ov $HOME/.local/bin/ov
-
-# ? Install bat
-curl -s https://api.github.com/repos/sharkdp/bat/releases/latest \
-| grep "browser_download_url.*x86_64-unknown-linux-gnu.tar.gz" \
-| cut -d '"' -f 4 \
-| wget -qi -
-tar -xvf bat*.tar.gz --wildcards '*/bat' --strip-components=1
-rm bat*.tar.gz
-mv ./bat $HOME/.local/bin/bat
+gah install junegunn/fzf --unattended
 
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
