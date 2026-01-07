@@ -11,12 +11,22 @@
   "ssh_connections": [
     {
       "host": "hidebox",
+      "args": [],
       "projects": [
         {
           "paths": ["/home/rwanjari"]
         },
         {
           "paths": ["/home/rwanjari/era5_downloader"]
+        }
+      ]
+    },
+    {
+      "host": "airflow",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/home/rishabh/projects/gapfill"]
         }
       ]
     }

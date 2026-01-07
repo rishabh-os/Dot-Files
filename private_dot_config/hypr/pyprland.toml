@@ -13,8 +13,8 @@ plugins = [
 
 [scratchpads.term]
 animation = "fromTop"
-command = "ghostty --class='com.scratchpads.term'"
-class = "com.scratchpads.term"
+command = "ghostty --class=scratchpads.term"
+class = "scratchpads.term"
 size = "80% 40%"
 max_size = "1920px 100%"
 margin = 45 # Default value is 60
@@ -22,3 +22,5 @@ restore_focus = false
 smart_focus = false
 lazy = true
 # unfocus = 'hide'
+
+

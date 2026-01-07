@@ -1,5 +1,6 @@
 [Common]
 OutlineIntensity=OutlineMedium
+RoundedCorners=true
 ShadowSize=ShadowSmall
 
 [Style]
