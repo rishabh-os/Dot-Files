@@ -29,8 +29,7 @@ mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
 rm -rf ~/.atuin
 
 # ? Install zellij
-gah install zellij-org/zellij --unattended
-
+gah install zellij-org/zellij --unattended --unattended-select-index=2
 
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
@@ -48,7 +47,7 @@ gah install dundee/gdu --unattended
 gah install neovim/neovim --unattended
 
 # ? Install yazi
-gah install sxyazi/yazi --unattended
+gah install sxyazi/yazi --unattended --unattended-select-index=2
 
 # ? Install ripgrep
 gah install BurntSushi/ripgrep --unattended
