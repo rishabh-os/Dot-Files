@@ -46,8 +46,8 @@ gah install dundee/gdu --unattended
 # ? Install neovim manually
 # ? gah doens't copy the linked libraries that are needed
 curl -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz | tar xz
-rsync -a --delete nvim-linux-x86_64 $HOME/.local/bin/nvim-linx-x86_64 && rm -rf nvim-linux-x86_64
-ln -fs $HOME/.local/bin/nvim-linx-x86_64/bin/nvim $HOME/.local/bin/nvim
+rsync -a --delete nvim-linux-x86_64 $HOME/.local/bin && rm -rf nvim-linux-x86_64
+ln -fs $HOME/.local/bin/nvim-linux-x86_64/bin/nvim $HOME/.local/bin/nvim
 
 # ? Install yazi
 gah install sxyazi/yazi --unattended --unattended-select-index=2
