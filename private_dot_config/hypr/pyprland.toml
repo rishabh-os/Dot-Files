@@ -20,7 +20,6 @@ max_size = "1920px 100%"
 margin = 45 # Default value is 60
 restore_focus = false
 smart_focus = false
-lazy = true
 # unfocus = 'hide'
 
 
