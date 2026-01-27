@@ -64,6 +64,6 @@ gah install junegunn/fzf --unattended
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
-chezmoi apply
+chezmoi apply --force
 # ? Useful when rerunning the script, not necessary on first run
 chezmoi update
