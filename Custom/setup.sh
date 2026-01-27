@@ -66,4 +66,4 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
 chezmoi apply --force
 # ? Useful when rerunning the script, not necessary on first run
-chezmoi update
+chezmoi update --force
