@@ -18,7 +18,7 @@ class = "scratchpads.term"
 size = "80% 40%"
 max_size = "1920px 100%"
 margin = 45 # Default value is 60
-restore_focus = false
+# restore_focus = false
 smart_focus = false
 # unfocus = 'hide'
 
