@@ -5,8 +5,8 @@
 MONITOR_DESC="Dell Inc. DELL P2723DE 9L630N3"
 
 # Windowrules depending on monitor state
-RULE_WITH_MONITOR="move 0 -240, class:flameshot,title:flameshot"
-RULE_NO_MONITOR="move 0 0, class:flameshot,title:flameshot"
+RULE_WITH_MONITOR="match:class flameshot, move 0 -800"
+RULE_NO_MONITOR="match:class flameshot, move 0 0"
 
 
 apply_rule() {

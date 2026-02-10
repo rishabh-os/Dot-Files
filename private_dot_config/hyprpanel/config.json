@@ -519,5 +519,8 @@
   "menus.transitionTime": 200,
   "theme.notification.enableShadow": false,
   "bar.customModules.microphone.label": true,
-  "bar.workspaces.applicationIconEmptyWorkspace": ""
+  "bar.workspaces.applicationIconEmptyWorkspace": "󰄰",
+  "bar.workspaces.applicationIconMap": {
+    "class:com.github.th_ch.youtube_music": ""
+  }
 }
