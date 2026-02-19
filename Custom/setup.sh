@@ -28,14 +28,15 @@ mv ~/.atuin/bin/atuin ~/.local/bin/atuin
 mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
 rm -rf ~/.atuin
 
-# ? Install zellij
-gah install zellij-org/zellij --unattended --unattended-select-index=2
 
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
 # ? Install gah
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/get-gah/gah/refs/heads/master/tools/install.sh)"
+
+# ? Install zellij
+gah install zellij-org/zellij --unattended --unattended-select-index=2
 
 # ? Install eza manually
 gah install eza-community/eza --unattended
