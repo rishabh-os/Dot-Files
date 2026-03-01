@@ -62,6 +62,9 @@ gah install sharkdp/fd --unattended
 # ? Install fzf
 gah install junegunn/fzf --unattended
 
+# ? Install carapace
+gah install carapace-sh/carapace-bin --unattended
+
 # ? Install chezmoi
 sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git

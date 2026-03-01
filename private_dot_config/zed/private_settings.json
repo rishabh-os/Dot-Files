@@ -7,6 +7,9 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "edit_predictions": {
+    "provider": "zed",
+  },
   "icon_theme": "Material Icon Theme",
   "ssh_connections": [
     {
@@ -14,34 +17,31 @@
       "args": [],
       "projects": [
         {
-          "paths": ["/home/rwanjari"]
+          "paths": ["/home/rwanjari"],
         },
         {
-          "paths": ["/home/rwanjari/era5_downloader"]
-        }
-      ]
+          "paths": ["/home/rwanjari/era5_downloader"],
+        },
+      ],
     },
     {
       "host": "airflow",
       "args": [],
       "projects": [
         {
-          "paths": ["/home/rishabh/projects/gapfill"]
-        }
-      ]
-    }
+          "paths": ["/home/rishabh/projects/gapfill"],
+        },
+      ],
+    },
   ],
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
 
   "terminal": {
-    "cursor_shape": "bar"
+    "cursor_shape": "bar",
   },
   "scrollbar": {
     "axes": {
-      "horizontal": false
-    }
+      "horizontal": false,
+    },
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
@@ -53,16 +53,16 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Macchiato",
   },
   "ui_font_family": "Inter",
   "current_line_highlight": "none",
   "indent_guides": {
     "coloring": "indent_aware",
-    "background_coloring": "disabled"
+    "background_coloring": "disabled",
   },
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
-  "disable_ai": true
+  "disable_ai": true,
 }

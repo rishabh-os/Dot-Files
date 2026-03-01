@@ -480,7 +480,7 @@
   "theme.bar.menus.menu.power.scaling": 100,
   "theme.osd.enableShadow": false,
   "bar.bluetooth.label": true,
-  "menus.dashboard.powermenu.logout": "loginctl kill-session $XDG_SESSION_ID",
+  "menus.dashboard.powermenu.logout": "hyprctl dispatch exit",
   "theme.bar.border.location": "none",
   "bar.workspaces.spacing": 1,
   "theme.bar.border.width": "0.15em",
