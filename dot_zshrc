@@ -7,12 +7,6 @@ DISABLE_MAGIC_FUNCTIONS=true
 DISABLE_LS_COLORS=true
 source $ZSH/oh-my-zsh.sh
 
-# Best tab complete
-autoload -U compinit && compinit
-export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense'
-zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
-source <(carapace _carapace)
-
 export CHROME_EXECUTABLE=/usr/bin/vivaldi
 export BROWSER=/usr/bin/vivaldi
 export EDITOR=nvim
@@ -31,6 +25,13 @@ export PAGER=ov
 export MANPAGER="ov --section-delimiter '^[^\s]' --section-header -H1"
 # Make the executables present in local take priority
 export PATH=$HOME/.local/bin/:$PATH
+
+# Best tab complete
+autoload -U compinit && compinit
+export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense'
+zstyle ':completion:*' format $'\e[2;37mCompleting %d\e[m'
+source <(carapace _carapace)
+
 alias c="clear"
 alias ls="eza"
 alias cz="chezmoi"
