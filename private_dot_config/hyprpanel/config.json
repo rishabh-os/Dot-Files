@@ -457,7 +457,7 @@
   "bar.workspaces.scroll_speed": 5,
   "theme.bar.floating": false,
   "bar.workspaces.showAllActive": true,
-  "bar.workspaces.workspaces": 0,
+  "bar.workspaces.workspaces": 1,
   "menus.media.displayTimeTooltip": true,
   "menus.media.displayTime": true,
   "menus.media.hideAuthor": false,
