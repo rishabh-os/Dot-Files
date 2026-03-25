@@ -36,7 +36,8 @@ alias c="clear"
 alias ls="eza"
 alias cz="chezmoi"
 # Preserve settings when running programs as sudo
-alias sudo="sudo -E"
+# The space is important!!!
+alias sudo="sudo -E env PATH='$PATH' "
 alias fastfetch="fastfetch -c neofetch.jsonc"
 # More sane config file location
 alias gdu="gdu --config-file ~/.config/gdu/config.yaml"
@@ -75,12 +76,9 @@ function y() {
 
 function neovide-remote() {
   local client="${1:?Error: SSH client name is required}"
-  local target="${2:-~}"
+  local target="${2:-$HOME}"
 
-  nvrh client open "$client" \
-    --nvim-cmd ~/.local/bin/nvim \
-    --local-editor "neovide,--server,{{SOCKET_PATH}},--no-fork"
-    "$target"
+  nvrh client open "$client" --nvim-cmd ~/.local/bin/nvim --local-editor "neovide,--server,{{SOCKET_PATH}},--no-fork" "$target"
 }
 
 eval "$(atuin init zsh --disable-up-arrow)"
