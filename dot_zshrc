@@ -72,6 +72,17 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+
+function neovide-remote() {
+  local client="${1:?Error: SSH client name is required}"
+  local target="${2:-~}"
+
+  nvrh client open "$client" \
+    --nvim-cmd ~/.local/bin/nvim \
+    --local-editor "neovide,--server,{{SOCKET_PATH}},--no-fork"
+    "$target"
+}
+
 eval "$(atuin init zsh --disable-up-arrow)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/mytheme.omp.toml)"
 eval "$(zoxide init --cmd cd zsh)"

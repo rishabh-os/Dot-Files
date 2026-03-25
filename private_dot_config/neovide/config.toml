@@ -1,0 +1,4 @@
+[font]
+# ? Only so that remote neovide works with the correct font
+normal = { family = "VictorMono Nerd Font" }
+size = 14
