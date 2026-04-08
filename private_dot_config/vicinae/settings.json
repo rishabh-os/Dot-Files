@@ -50,7 +50,7 @@
          "enabled": false
       },
       "font": {
-         "enabled": false
+         "enabled": true
       },
       "manage-shortcuts": {
          "enabled": false
