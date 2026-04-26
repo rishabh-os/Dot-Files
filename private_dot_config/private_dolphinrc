@@ -27,6 +27,7 @@ PreviewSize=22
 2 screens: Height=600
 2 screens: Width=1280
 2 screens: Window-Maximized=true
+3 screens: Window-Maximized=true
 DirHistory[$e]=$HOME/Downloads/termshot/
 
 [General]

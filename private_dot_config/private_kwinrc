@@ -163,9 +163,6 @@ MultiScreenMode=1
 HighlightWindows=false
 MultiScreenMode=2
 
-[Tiling]
-padding=4
-
 [Tiling][01dcb655-b11a-5af8-b228-6c76ffb0b787]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -230,6 +227,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][1e691711-c115-43db-863c-8f148793f79b]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][646c5e2a-4a62-4ac0-848a-3289edf25aae][6c91c143-18dc-4b16-b2ba-a5d4b9d878f7]
@@ -254,6 +252,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][1e691711-c115-43db-863c-8f148793f79b]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][6695fc7c-9e61-4d7e-842e-f13f8c69f5da][6c91c143-18dc-4b16-b2ba-a5d4b9d878f7]
@@ -327,7 +326,7 @@ BorderSizeAuto=false
 ButtonsOnLeft=
 ButtonsOnRight=FIAX
 ShowToolTips=false
-library=org.kde.kwin.aurorae
+library=org.kde.kwin.aurorae.v2
 theme=__aurorae__svg__Utterly-Round-Dark-Solid
 
 [ًRound-Corners]
