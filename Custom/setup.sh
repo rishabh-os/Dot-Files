@@ -55,6 +55,9 @@ gah install sxyazi/yazi --unattended --unattended-select-index=2
 # ? Install ripgrep
 gah install BurntSushi/ripgrep --unattended
 
+# ? Install bat
+gah install sharkdp/bat --unattended --unattended-select-index=2
+
 # ? Install fd
 gah install sharkdp/fd --unattended
 
