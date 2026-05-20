@@ -3,7 +3,7 @@
 # ? This path isn't part of $PATH by default
 export PATH=$PATH:$HOME/.local/bin
 # ? Don't assume this is run from the $HOME directory
-cd $HOME
+cd "$HOME" || exit
 # ? Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 # ? Install OhMyPosh
@@ -12,11 +12,11 @@ curl -s https://ohmyposh.dev/install.sh | bash -s
 curl --output ~/.zshrc "https://raw.githubusercontent.com/rishabh-os/Dot-Files/refs/heads/main/dot_zshrc"
 
 # ? Install zsh plugins
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-git clone https://github.com/Pilaton/OhMyZsh-full-autoupdate.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ohmyzsh-full-autoupdate
-git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-history-substring-search "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/zsh-history-substring-search
+git clone https://github.com/Pilaton/OhMyZsh-full-autoupdate.git "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/ohmyzsh-full-autoupdate
+git clone https://github.com/Aloxaf/fzf-tab "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}"/plugins/fzf-tab
 
 # ? Install atuin
 # * Don't modify the .bashrc
@@ -27,7 +27,6 @@ chmod u+w .bashrc
 mv ~/.atuin/bin/atuin ~/.local/bin/atuin
 mv ~/.atuin/bin/atuin-update ~/.local/bin/atuin-update
 rm -rf ~/.atuin
-
 
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
@@ -47,8 +46,8 @@ gah install dundee/gdu --unattended
 # ? Install neovim manually
 # ? gah doens't copy the linked libraries that are needed
 curl -L https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz | tar xz
-rsync -a --delete nvim-linux-x86_64 $HOME/.local/bin && rm -rf nvim-linux-x86_64
-ln -fs $HOME/.local/bin/nvim-linux-x86_64/bin/nvim $HOME/.local/bin/nvim
+rsync -a --delete nvim-linux-x86_64 "$HOME"/.local/bin && rm -rf nvim-linux-x86_64
+ln -fs "$HOME"/.local/bin/nvim-linux-x86_64/bin/nvim "$HOME"/.local/bin/nvim
 
 # ? Install yazi
 gah install sxyazi/yazi --unattended --unattended-select-index=2
@@ -69,7 +68,7 @@ gah install carapace-sh/carapace-bin --unattended
 gah install noborus/ov --unattended
 
 # ? Install chezmoi
-sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/.local/bin
+sh -c "$(curl -fsLS get.chezmoi.io)" -- -b "$HOME"/.local/bin
 chezmoi init https://github.com/rishabh-os/Dot-Files.git
 chezmoi apply --force
 # ? Useful when rerunning the script, not necessary on first run
