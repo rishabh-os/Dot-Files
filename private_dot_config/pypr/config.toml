@@ -6,7 +6,7 @@ plugins = [
  # "magnify",
  "scratchpads",
  # "shift_monitors",
- "toggle_special",
+ # "toggle_special",
  # "workspaces_follow_focus",
 ]
 
@@ -20,6 +20,7 @@ max_size = "1920px 100%"
 margin = 45 # Default value is 60
 # restore_focus = false
 smart_focus = false
-# unfocus = 'hide'
+lazy = false
+# skip_windowrules = ["group",]
 
 
