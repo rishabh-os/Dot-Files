@@ -68,7 +68,7 @@
          "enabled": false
       },
       "wm": {
-         "enabled": false
+         "enabled": true
       }
    }
 }
