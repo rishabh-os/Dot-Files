@@ -1,11 +1,12 @@
 {
-  "plugin": [
-    "opencode-websearch",
-    "@tarquinen/opencode-dcp@latest"
-  ],
-  "$schema": "https://opencode.ai/config.json",
-  "tools": {
-    "websearch": true,
-    "codesearch": true
-  },
+	"plugin": [
+		"opencode-websearch",
+		"@tarquinen/opencode-dcp@latest",
+		"opencode-mem"
+	],
+	"$schema": "https://opencode.ai/config.json",
+	"tools": {
+		"websearch": true,
+		"codesearch": true
+	}
 }
