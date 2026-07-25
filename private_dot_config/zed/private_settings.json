@@ -7,25 +7,142 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "ruff", "!basedpyright", "..."],
+    },
+  },
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "lint": {
+          "select": ["ALL"],
+        },
+      },
+    },
+  },
+  "zoomed_padding": false,
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+  },
+  "window_decorations": "server",
+  "focus_follows_mouse": {
+    "enabled": false,
+  },
+  "centered_layout": {
+    "left_padding": 0.2,
+  },
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {
+    "enable_preview_file_from_code_navigation": false,
+    "enable_preview_from_file_finder": false,
+    "enabled": true,
+  },
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": false,
+    "show_tab_bar_buttons": false,
+    "show": true,
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+    "button": true,
+  },
+  "status_bar": {
+    "show_active_file": false,
+    "active_encoding_button": "non_utf8",
+  },
+  "close_on_file_delete": true,
+  "use_smartcase_search": true,
+  "image_viewer": {
+    "unit": "decimal",
+  },
+  "format_on_save": "on",
+  "show_wrap_guides": true,
+  "soft_wrap": "editor_width",
+  "minimap": {
+    "current_line_highlight": "none",
+    "thumb": "always",
+    "show": "always",
+  },
+  "gutter": {
+    "min_line_number_digits": 0,
+    "breakpoints": true,
+    "bookmarks": true,
+    "line_numbers": true,
+  },
+  "hover_popover_hiding_delay": 200,
+  "hover_popover_delay": 200,
+  "auto_signature_help": false,
+  "sticky_scroll": {
+    "enabled": true,
+  },
+  "autoscroll_on_clicks": false,
+  "vertical_scroll_margin": 5.0,
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "hide_mouse": "never",
+  "cursor_shape": "bar",
+  "text_rendering_mode": "platform_default",
+  "proxy": "",
+  "tabs": {
+    "show_diagnostics": "off",
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+  },
+  "title_bar": {
+    "show_user_picture": true,
+    "show_user_menu": true,
+    "show_sign_in": true,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "button_layout": "platform_default",
+    "show_menus": true,
+    "show_branch_status_icon": true,
+  },
+  "ui_font_weight": 400.0,
   "project_panel": {
-    "dock": "left"
+    "sort_mode": "directories_first",
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "always",
+    },
+    "git_status_indicator": true,
+    "show_diagnostics": "all",
+    "diagnostic_badges": true,
+    "bold_folder_labels": false,
+    "indent_size": 18.0,
+    "git_status": true,
+    "folder_icons": true,
+    "file_icons": true,
+    "hide_gitignore": false,
+    "entry_spacing": "standard",
+    "dock": "left",
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "agent": {
     "dock": "right",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "git_panel": {
-    "dock": "left"
+    "file_icons": true,
+    "tree_view": true,
+    "collapse_untracked_diff": false,
+    "group_by": "status",
+    "status_style": "label_color",
+    "dock": "left",
   },
   "session": {
-    "trust_all_worktrees": true
+    "trust_all_worktrees": true,
   },
   "edit_predictions": {
     "provider": "zed",
@@ -53,28 +170,35 @@
         },
       ],
     },
+    {
+      "host": "abacus",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/storage/DSIP/rwanjari/nc_dabz"],
+        },
+      ],
+    },
   ],
 
   "terminal": {
+    "show_count_badge": false,
+    "button": true,
     "cursor_shape": "bar",
   },
   "scrollbar": {
     "axes": {
-      "horizontal": false,
+      "horizontal": true,
     },
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
   "buffer_font_family": "VictorMono Nerd Font",
-  "ui_font_size": 18,
-  "buffer_font_size": 18,
-  "buffer_font_weight": 500,
+  "ui_font_size": 18.0,
+  "buffer_font_size": 16.0,
+  "buffer_font_weight": 600.0,
   "buffer_line_height": "standard",
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Catppuccin Macchiato",
-  },
+  "theme": "Catppuccin Macchiato",
   "ui_font_family": "Inter",
   "current_line_highlight": "none",
   "indent_guides": {
