@@ -7,11 +7,13 @@ This is my collection of dot files.
 
 This script is mostly so that I can use the same tools I use on my personal computer on other servers/clusters/machines/SSH targets. The fact that it also clones everything else I configured is just a happy little accident :) (and also perhaps completely unnecessary).
 
-To setup everything, just run the setup script, with
+To setup everything, just run:
 
 ```bash
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/rishabh-os/Dot-Files/refs/heads/main/Custom/setup.sh)"
+sh -c "$(curl -fsLS https://get.chezmoi.io)" -- init --apply rishabh-os/Dot-Files --force
 ```
+
+This installs chezmoi, which setups up my dotfiles and then runs `run_onchange_install-tools.sh`, which is responsible for actually installing all the tools (as the name implies).
 
 It still requires zsh to be installed separately, because I'd rather that be done with the system package manager (write a nice message to a sudoer near you). You're free to build it from source if they are being a meanie (avg Linux sys admin).
 
@@ -26,9 +28,9 @@ chsh -s $(which zsh)
 To update, just run
 
 ```bash
-cz update
+cz update --force
 ```
-And select all-overwrite (by pressing `a` at the prompt).
+Alternatively, run it without `--force` for more manual control.
 
 As always, please read the script before executing it blindly.
 
