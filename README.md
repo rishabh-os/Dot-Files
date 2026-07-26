@@ -35,3 +35,8 @@ Alternatively, run it without `--force` for more manual control.
 As always, please read the script before executing it blindly.
 
 xoxo
+
+
+#### Automated Install
+
+`cz-all-ssh-targets.sh` installs the dotfiles on all SSH targets that haven't been filtered out, see the script for more details. More of a convenience script for me to automatically update my config on all machines.

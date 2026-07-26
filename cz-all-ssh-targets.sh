@@ -1,0 +1,23 @@
+#!/bin/bash
+
+[ "$1" = "-n" ] && DRY_RUN=1
+
+# ? Exclude some hosts: git forges, NAS, jumphosts
+HOSTS=$(rg -oP '^Host \K\S+' ~/.ssh/config | rg -v '[*?]|git|nas|jump')
+SETUP_CMD=$(rg --no-filename -A1 '^```bash' ~/.local/share/chezmoi/README.md | rg -v '```bash' | head -n1)
+
+for host in $HOSTS; do
+  user=$(ssh -G "$host" 2>/dev/null | rg -oP '^user \K\S+')
+  # ? Exclude any machines where I am not the user
+  [[ ! $user =~ ^(rishabh|rwanjari)$ ]] && continue
+
+  # ? Smaller connection timeout
+  cmd=(ssh "$host" -o ConnectTimeout=5 "$SETUP_CMD")
+
+  if [ "$DRY_RUN" ]; then
+    echo "${cmd[*]}"
+  else
+    echo "Bootstrapping $host..."
+    "${cmd[@]}" || echo "Failed: $host"
+  fi
+done
