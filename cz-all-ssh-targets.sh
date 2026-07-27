@@ -4,7 +4,7 @@
 
 # ? Exclude some hosts: git forges, NAS, jumphosts
 HOSTS=$(rg -oP '^Host \K\S+' ~/.ssh/config | rg -v '[*?]|git|nas|jump')
-SETUP_CMD=$(rg --no-filename -A1 '^```bash' ~/.local/share/chezmoi/README.md | rg -v '```bash' | head -n1)
+SETUP_CMD=$(rg --no-filename -A1 '^```bash' ~/.local/share/chezmoi/README.md | rg -v '```bash' | tail -n1)
 
 for host in $HOSTS; do
   user=$(ssh -G "$host" 2>/dev/null | rg -oP '^user \K\S+')
@@ -12,7 +12,8 @@ for host in $HOSTS; do
   [[ ! $user =~ ^(rishabh|rwanjari)$ ]] && continue
 
   # ? Smaller connection timeout
-  cmd=(ssh "$host" -o ConnectTimeout=5 "$SETUP_CMD")
+  # ? Make zsh interactive + use aliases
+  cmd=(ssh "$host" -o ConnectTimeout=5 -t "zsh -ic '$SETUP_CMD'")
 
   if [ "$DRY_RUN" ]; then
     echo "${cmd[*]}"
