@@ -57,6 +57,7 @@ gah install sharkdp/fd --unattended
 gah install junegunn/fzf --unattended
 gah install carapace-sh/carapace-bin --unattended
 gah install noborus/ov --unattended
+gah install anomalyco/opencode --unattended --unattended-select-index=4
 
 # ? Install neovim manually
 # ? gah doens't copy the linked libraries that are needed
