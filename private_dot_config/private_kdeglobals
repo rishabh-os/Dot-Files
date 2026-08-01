@@ -181,9 +181,6 @@ Close=Ctrl+W
 ToolButtonStyle=NoText
 ToolButtonStyleOtherToolbars=NoText
 
-[UiSettings]
-ColorScheme=colors
-
 [WM]
 activeBackground=36,39,58
 activeBlend=202,211,245
