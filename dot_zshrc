@@ -48,7 +48,7 @@ bindkey -M vicmd '^H' backward-kill-word
 
 HYPHEN_INSENSITIVE="true"
 
-HISTSIZE=100000
+HISTSIZE=10000000
 SAVEHIST=$HISTSIZE
 setopt appendhistory
 setopt sharehistory
