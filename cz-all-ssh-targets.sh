@@ -3,7 +3,8 @@
 [ "$1" = "-n" ] && DRY_RUN=1
 
 # ? Exclude some hosts: git forges, NAS, jumphosts
-HOSTS=$(rg -oP '^Host \K\S+' ~/.ssh/config | rg -v '[*?]|git|nas|jump')
+# ? Also leonardo because it gets stuck
+HOSTS=$(rg -oP '^Host \K\S+' ~/.ssh/config | rg -v '[*?]|git|nas|jump|leonardo')
 SETUP_CMD=$(rg --no-filename -A1 '^```bash' ~/.local/share/chezmoi/README.md | rg -v '```bash' | tail -n1)
 
 for host in $HOSTS; do
@@ -13,7 +14,7 @@ for host in $HOSTS; do
 
   # ? Smaller connection timeout
   # ? Make zsh interactive + use aliases
-  cmd=(ssh "$host" -o ConnectTimeout=5 -t "zsh -ic '$SETUP_CMD'")
+  cmd=(ssh "$host" -o ConnectTimeout=5 -t "export PATH=\"\$HOME/.local/bin:\$PATH\"; zsh -ic '$SETUP_CMD'")
 
   if [ "$DRY_RUN" ]; then
     echo "${cmd[*]}"
