@@ -8,5 +8,7 @@
 	"tools": {
 		"websearch": true,
 		"codesearch": true
-	}
+	},
+	"formatter": true,
+	"lsp": true
 }

@@ -32,7 +32,7 @@
       "supports_hdr": 0,
       "supports_wide_color": 0,
       "sdr_min_luminance": 0.2,
-      "sdr_max_luminance": 80,
+      "sdr_max_luminance": 80.0,
       "min_luminance": 0.0,
       "max_luminance": 0.0,
       "max_avg_luminance": 0.0,
@@ -103,7 +103,7 @@
       "supports_hdr": 0,
       "supports_wide_color": 0,
       "sdr_min_luminance": 0.2,
-      "sdr_max_luminance": 80,
+      "sdr_max_luminance": 80.0,
       "min_luminance": 0.0,
       "max_luminance": 0.0,
       "max_avg_luminance": 0.0,
@@ -167,7 +167,7 @@
       "transform": 1,
       "mirror_of": "",
       "bitdepth": 8,
-      "vrr": 0,
+      "vrr": 1,
       "color_management": "srgb",
       "sdr_brightness": 1.0,
       "sdr_saturation": 1.0,
@@ -176,7 +176,7 @@
       "supports_hdr": 0,
       "supports_wide_color": 0,
       "sdr_min_luminance": 0.2,
-      "sdr_max_luminance": 80,
+      "sdr_max_luminance": 80.0,
       "min_luminance": 0.0,
       "max_luminance": 0.0,
       "max_avg_luminance": 0.0,
@@ -188,5 +188,5 @@
     }
   ],
   "workspace_rules": [],
-  "last_applied_time": 1785327383.7051125
+  "last_applied_time": 1786630159.3763368
 }

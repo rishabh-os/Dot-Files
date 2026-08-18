@@ -38,7 +38,6 @@ alias cz="chezmoi"
 # Preserve settings when running programs as sudo
 # The space is important!!!
 alias sudo="sudo -E env PATH='$PATH' "
-alias fastfetch="fastfetch -c neofetch.jsonc"
 # More sane config file location
 alias gdu="gdu --config-file ~/.config/gdu/config.yaml"
 # Ctrl+Backspace: kill the word backward
@@ -52,11 +51,6 @@ HISTSIZE=10000000
 SAVEHIST=$HISTSIZE
 setopt appendhistory
 setopt sharehistory
-# fzf catppuccin machiato theme
-export FZF_DEFAULT_OPTS=" \
---color=bg+:#363a4f,bg:#24273a,spinner:#f4dbd6,hl:#ed8796 \
---color=fg:#cad3f5,header:#ed8796,info:#c6a0f6,pointer:#f4dbd6 \
---color=marker:#f4dbd6,fg+:#cad3f5,prompt:#c6a0f6,hl+:#ed8796"
 
 # pnpm
 export PNPM_HOME="/home/rishabh/.local/share/pnpm"

@@ -63,6 +63,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("pika-backup-monitor")
 	hl.exec_cmd("kdeconnect-indicator")
 	hl.exec_cmd("kanata -c ~/.config/kanata/config.kbd")
+	hl.exec_cmd("localsend --hidden")
 	-- Autostart apps on login
 	hl.exec_cmd("pear-desktop", { workspace = "1" })
 	hl.exec_cmd("vivaldi --password-store=kwallet6", { workspace = "2" })
@@ -241,7 +242,7 @@ smw.setup({
 	enable_persistent_workspaces = true,
 	enable_wrapping = true,
 	enable_notifications = false,
-	max_workspaces = { ["DP-7"] = 2 },
+	max_workspaces = { ["desc:Dell Inc. DELL U2713H C6F0K4AL0PDL"] = 2 },
 })
 
 hl.config({
@@ -283,10 +284,10 @@ local mainMod = "SUPER"
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("ghostty"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("neovide"))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
-hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + F", hl.dsp.window.float())
 hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"))
+hl.bind(mainMod .. " + CTRL + C", hl.dsp.exec_cmd("code"))
 -- dwindle
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
@@ -322,10 +323,10 @@ hl.bind(
 	"CONTROL + ALT + Delete",
 	hl.dsp.exec_cmd(
 		"wlogout -l "
-		.. os.getenv("HOME")
-		.. "/.config/wleave/layout.json -C "
-		.. os.getenv("HOME")
-		.. "/.config/wleave/style.css"
+			.. os.getenv("HOME")
+			.. "/.config/wleave/layout.json -C "
+			.. os.getenv("HOME")
+			.. "/.config/wleave/style.css"
 	)
 )
 hl.bind(mainMod .. " + " .. "L", hl.dsp.exec_cmd("hyprlock"))
@@ -423,7 +424,8 @@ hl.window_rule({
 	},
 	float = true,
 	size = { 800, 400 },
-	move = { "cursor_x", "cursor_y" },
+	-- ? Center the window on the cursor
+	move = { "(cursor_x-(window_w*0.5))", "(cursor_y-(window_h*0.5))" },
 })
 hl.bind(mainMod .. " + " .. "V", hl.dsp.exec_cmd("copyq showAt"))
 
@@ -527,8 +529,7 @@ hl.plugin.darkwindow.load_shader("chromakeyCatppuccin", {
 blur_windows_rule = hl.window_rule({
 	name = "blur_windows",
 	match = {
-		class =
-		"^(md.obsidian.Obsidian|code|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack)$",
+		class = "^(md.obsidian.Obsidian|code|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack|btop.desktop|libreoffice-.*|org.qgis.qgis)$",
 	},
 	["darkwindow:shade"] = "chromakeyCatppuccin",
 })

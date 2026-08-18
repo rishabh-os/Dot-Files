@@ -5,7 +5,8 @@ hl.monitor({
   mode = "1920x1200@60.003",
   position = "0x800",
   scale = 1,
-  cm = "srgb",
+  bitdepth = 10,
+  vrr = 1,
   sdr_min_luminance = 0.2,
   sdr_max_luminance = 80,
 })
@@ -26,6 +27,7 @@ hl.monitor({
   position = "4480x0",
   scale = 1,
   transform = 1,
+  vrr = 1,
   cm = "srgb",
   sdr_min_luminance = 0.2,
   sdr_max_luminance = 80,
