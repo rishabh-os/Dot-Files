@@ -14,3 +14,4 @@ confirm-close-surface = false
 progress-style = false
 # keybind = ctrl+left_bracket=new_split:right
 # keybind = ctrl+right_bracket=new_split:down
+

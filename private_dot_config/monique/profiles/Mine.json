@@ -25,9 +25,9 @@
       "bitdepth": 8,
       "vrr": 0,
       "color_management": "srgb",
+      "icc_profile": "",
       "sdr_brightness": 1.0,
       "sdr_saturation": 1.0,
-      "hdr": false,
       "sdr_eotf": 0,
       "supports_hdr": 0,
       "supports_wide_color": 0,
@@ -40,7 +40,8 @@
       "reserved_bottom": 0,
       "reserved_left": 0,
       "reserved_right": 0,
-      "enabled": true
+      "enabled": true,
+      "focus_at_startup": false
     },
     {
       "name": "DP-4",
@@ -96,9 +97,9 @@
       "bitdepth": 8,
       "vrr": 0,
       "color_management": "srgb",
+      "icc_profile": "",
       "sdr_brightness": 1.0,
       "sdr_saturation": 1.0,
-      "hdr": false,
       "sdr_eotf": 0,
       "supports_hdr": 0,
       "supports_wide_color": 0,
@@ -111,7 +112,8 @@
       "reserved_bottom": 0,
       "reserved_left": 0,
       "reserved_right": 0,
-      "enabled": true
+      "enabled": true,
+      "focus_at_startup": false
     },
     {
       "name": "DP-7",
@@ -169,9 +171,9 @@
       "bitdepth": 8,
       "vrr": 1,
       "color_management": "srgb",
+      "icc_profile": "",
       "sdr_brightness": 1.0,
       "sdr_saturation": 1.0,
-      "hdr": false,
       "sdr_eotf": 0,
       "supports_hdr": 0,
       "supports_wide_color": 0,
@@ -184,9 +186,10 @@
       "reserved_bottom": 0,
       "reserved_left": 0,
       "reserved_right": 0,
-      "enabled": true
+      "enabled": true,
+      "focus_at_startup": false
     }
   ],
   "workspace_rules": [],
-  "last_applied_time": 1786630159.3763368
+  "last_applied_time": 1789390962.7229528
 }

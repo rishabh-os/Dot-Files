@@ -9,15 +9,15 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "catppuccin",
-    -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
+    colorscheme = "catppuccin-macchiato",
     highlights = {
-      init = { -- this table overrides highlights in all themes
-        -- Normal = { bg = "#000000" },
-      },
-      astrodark = { -- a table of overrides/changes when applying the astrotheme theme
-        -- Normal = { bg = "#000000" },
-      },
+      init = function()
+        local visual = vim.api.nvim_get_hl(0, { name = "Visual" })
+        return {
+          Visual = { fg = visual.fg, bg = visual.bg, bold = false },
+          VisualNOS = { fg = visual.fg, bg = visual.bg, bold = false },
+        }
+      end,
     },
     -- Icons can be configured throughout the interface
     icons = {

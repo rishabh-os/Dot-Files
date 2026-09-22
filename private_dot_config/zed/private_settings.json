@@ -129,6 +129,12 @@
     "dock": "left",
   },
   "agent": {
+    "default_model": {
+      "provider": "opencode",
+      "model": "zen/deepseek-v4-flash",
+      "enable_thinking": true,
+      "effort": "max",
+    },
     "dock": "right",
     "favorite_models": [],
     "model_parameters": [],
@@ -176,6 +182,18 @@
       "projects": [
         {
           "paths": ["/storage/DSIP/rwanjari/nc_dabz"],
+        },
+      ],
+    },
+    {
+      "host": "jetson",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/home/rishabh"],
+        },
+        {
+          "paths": ["/home/rishabh/ha_cam"],
         },
       ],
     },

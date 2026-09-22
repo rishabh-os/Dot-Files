@@ -10,7 +10,16 @@
 
 {
    "$schema": "https://vicinae.com/schemas/config.json",
+   "close_on_focus_loss": false,
+   "pop_on_backspace": false,
    "activate_on_single_click": true,
+   "wrap_navigation": true,
+   "tray": {
+      "enabled": false
+   },
+   "global_shortcuts": {
+      "toggle": ""
+   },
    "font": {
       "normal": {
          "family": "Inter",

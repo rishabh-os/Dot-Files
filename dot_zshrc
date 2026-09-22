@@ -20,6 +20,7 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/tools/
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/
 export PATH=$PATH:$HOME/.pub-cache/bin/
 export PATH=$PATH:$HOME/.cargo/bin/
+export PATH=$HOME/.opencode/bin:$PATH
 export PAGER=ov
 export MANPAGER="ov --section-delimiter '^[^\s]' --section-header -H1"
 # Make the executables present in local take priority
@@ -40,6 +41,7 @@ alias cz="chezmoi"
 alias sudo="sudo -E env PATH='$PATH' "
 # More sane config file location
 alias gdu="gdu --config-file ~/.config/gdu/config.yaml"
+alias oc="opencode"
 # Ctrl+Backspace: kill the word backward
 bindkey -M emacs '^H' backward-kill-word
 bindkey -M viins '^H' backward-kill-word

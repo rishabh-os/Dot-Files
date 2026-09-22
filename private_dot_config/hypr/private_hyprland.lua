@@ -119,6 +119,7 @@ hl.config({
 			-- ? Idk why this one is a bit lower
 			popups_ignorealpha = 0.6,
 		},
+		dim_around = 0.2,
 	},
 })
 
@@ -192,6 +193,7 @@ hl.config({
 		kb_rules = "",
 		follow_mouse = 1,
 		focus_on_close = 1,
+		special_fallthrough = true,
 		mouse_refocus = true,
 		-- -1.0 - 1.0, 0 means no modification.
 		sensitivity = 0,
@@ -263,7 +265,7 @@ hl.config({
 				speed = 4.0,
 				influence = 0.0,
 				limit = 0.0,
-				timeout = 1000,
+				timeout = 2000,
 				effects = true,
 				ipc = false,
 			},
@@ -280,6 +282,8 @@ hl.config({
 -- Keybinds
 
 local mainMod = "SUPER"
+-- Caps bound to Hyper (CTRL+ALT+SHIFT+SUPER) on hold with kanata
+local caps = "SUPER + CTRL + ALT + SHIFT"
 
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("ghostty"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("neovide"))
@@ -287,7 +291,7 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + F", hl.dsp.window.float())
 hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"))
-hl.bind(mainMod .. " + CTRL + C", hl.dsp.exec_cmd("code"))
+hl.bind(caps .. " + C", hl.dsp.exec_cmd("code"))
 -- dwindle
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
@@ -311,8 +315,8 @@ hl.bind(mainMod .. " + TAB", smw.cycle_workspaces("next"))
 hl.bind(mainMod .. " + SHIFT + TAB", smw.cycle_workspaces("prev"))
 
 -- Same but with mouse
-hl.bind(mainMod .. " + mouse_down", smw.cycle_workspaces("next"))
-hl.bind(mainMod .. " + mouse_up", smw.cycle_workspaces("prev"))
+hl.bind(caps .. " + mouse_down", smw.cycle_workspaces("next"))
+hl.bind(caps .. " + mouse_up", smw.cycle_workspaces("prev"))
 
 -- Same but with arrows
 hl.bind(mainMod .. " + CONTROL + right", smw.cycle_workspaces("next"))
@@ -357,16 +361,20 @@ for _, dir in ipairs({ "left", "right", "up", "down" }) do
 	hl.bind(mainMod .. " + ALT + " .. dir, hl.dsp.window.move({ direction = string.sub(dir, 1, 1) }))
 end
 
--- Kando
-hl.bind("mouse:275", hl.dsp.global("kando:main-menu"))
+-- Kando (see https://kando.menu/installation-on-linux/#-hyprland)
+hl.bind("CTRL + Space", hl.dsp.global("menu.kando.Kando:main-menu"))
+hl.bind("mouse:275", hl.dsp.global("menu.kando.Kando:main-menu"))
 hl.window_rule({
 	name = "kando",
 	match = {
-		class = "kando",
+		class = "menu.kando.Kando",
+		title = "Kando Menu",
 	},
 	no_blur = true,
 	opaque = true,
-	size = { "(monitor_w*1)", "(monitor_h*1)" },
+	move = { 0, 0 },
+	rounding = 0,
+	size = { "100%", "100%" },
 	border_size = 0,
 	no_anim = true,
 	float = true,
@@ -525,6 +533,12 @@ hl.plugin.darkwindow.load_shader("chromakeyCatppuccin", {
 	args = "bkg=[0.0235 0.1529 0.2275] similarity=0.25 targetOpacity=0.8",
 	introduces_transparency = true,
 })
+
+-- hl.layer_rule({
+-- 	name = "vicinae dim",
+-- 	match = { namespace = "vicinae" },
+-- 	dim_around = true,
+-- })
 
 blur_windows_rule = hl.window_rule({
 	name = "blur_windows",

@@ -1,15 +1,15 @@
 {
-	"sidebar": "hide",
-	"thinking_visibility": true,
-	"timestamps": "hide",
-	"tool_details_visibility": false,
-	"assistant_metadata_visibility": true,
-	"scrollbar_visible": false,
-	"header_visible": true,
-	"diff_wrap_mode": "word",
-	"animations_enabled": true,
-	"generic_tool_output_visibility": false,
-	"theme": "catppuccin-macchiato",
-	"skipped_version": "1.15.0",
-	"thinking_mode": "hide"
+    "sidebar": "auto",
+    "thinking_visibility": true,
+    "timestamps": "hide",
+    "tool_details_visibility": false,
+    "assistant_metadata_visibility": true,
+    "scrollbar_visible": false,
+    "header_visible": true,
+    "diff_wrap_mode": "word",
+    "animations_enabled": true,
+    "generic_tool_output_visibility": false,
+    "theme": "catppuccin-macchiato",
+    "skipped_version": "1.15.0",
+    "thinking_mode": "hide"
 }
