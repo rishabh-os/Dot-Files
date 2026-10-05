@@ -52,16 +52,46 @@
       "browser-extension": {
          "enabled": false
       },
+      "calculator": {
+         "enabled": true,
+         "preferences": {
+            "backend": "qalculate"
+         },
+         "entrypoints": {
+            "history": {
+               "enabled": false
+            },
+            "refresh-rates": {
+               "enabled": false
+            }
+         }
+      },
       "clipboard": {
          "enabled": false
       },
+      "core": {
+         "enabled": true
+      },
       "developer": {
          "enabled": false
+      },
+      "files": {
+         "enabled": false,
+         "preferences": {
+            "autoIndexing": false,
+            "excludedIndexingPaths": [],
+            "indexingPaths": [
+               "/home/rishabh"
+            ]
+         }
       },
       "font": {
          "enabled": true
       },
       "manage-shortcuts": {
+         "enabled": false
+      },
+      "media": {
          "enabled": false
       },
       "power": {
@@ -70,6 +100,16 @@
       "raycast-compat": {
          "enabled": false
       },
+      "snippets": {
+         "enabled": false,
+         "preferences": {
+            "enabled": true,
+            "keyDelay": "2",
+            "layout": "",
+            "prePasteDelay": "0",
+            "undo": true
+         }
+      },
       "system": {
          "enabled": false
       },
@@ -77,7 +117,7 @@
          "enabled": false
       },
       "wm": {
-         "enabled": true
+         "enabled": false
       }
    }
 }

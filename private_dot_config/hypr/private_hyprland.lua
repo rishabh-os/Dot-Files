@@ -12,20 +12,17 @@ hl.monitor({
 
 -- Set programs that you use
 
-local terminal = "ghostty"
-local fileManager = "dolphin"
-local screenshot = "flameshot gui"
 local cursor_theme = "phinger-cursors-light"
 local cursor_size = 32
 local icon_theme = "Papirus"
 
 --Environment variables
 
-hl.env("XCURSOR_THEME", "phinger-cursors-light")
-hl.env("XCURSOR_SIZE", 32)
-hl.env("HYPRCURSOR_SIZE", 32)
-hl.env("QT_CURSOR_THEME", "phinger-cursors-light")
-hl.env("QT_CURSOR_SIZE", 32)
+hl.env("XCURSOR_THEME", cursor_theme)
+hl.env("XCURSOR_SIZE", cursor_size)
+hl.env("HYPRCURSOR_SIZE", cursor_size)
+hl.env("QT_CURSOR_THEME", cursor_theme)
+hl.env("QT_CURSOR_SIZE", cursor_size)
 hl.env("TERMINAL", "ghostty")
 hl.env("ELECTRON_OZONE_PLATFORM_HINT", "wayland")
 -- For styling
@@ -108,7 +105,7 @@ hl.config({
 		},
 		blur = {
 			enabled = true,
-			size = 8,
+			size = 6,
 			passes = 3,
 			popups = true,
 			noise = 0.015,
@@ -224,7 +221,7 @@ hl.config({
 hl.config({
 	cursor = {
 		persistent_warps = true,
-		no_hardware_cursors = 1,
+		no_hardware_cursors = 0,
 	},
 })
 
@@ -260,7 +257,7 @@ hl.config({
 			},
 			shake = {
 				enabled = true,
-				threshold = 5.0,
+				threshold = 6.0,
 				base = 4.0,
 				speed = 4.0,
 				influence = 0.0,
@@ -285,10 +282,10 @@ local mainMod = "SUPER"
 -- Caps bound to Hyper (CTRL+ALT+SHIFT+SUPER) on hold with kanata
 local caps = "SUPER + CTRL + ALT + SHIFT"
 
-hl.bind(mainMod .. " + T", hl.dsp.exec_cmd("ghostty"))
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("neovide"))
+hl.bind(caps .. " + T", hl.dsp.exec_cmd("ghostty"))
+hl.bind(caps .. " + N", hl.dsp.exec_cmd("neovide"))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("dolphin"))
+hl.bind(caps .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + F", hl.dsp.window.float())
 hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"))
 hl.bind(caps .. " + C", hl.dsp.exec_cmd("code"))
@@ -315,8 +312,8 @@ hl.bind(mainMod .. " + TAB", smw.cycle_workspaces("next"))
 hl.bind(mainMod .. " + SHIFT + TAB", smw.cycle_workspaces("prev"))
 
 -- Same but with mouse
-hl.bind(caps .. " + mouse_down", smw.cycle_workspaces("next"))
-hl.bind(caps .. " + mouse_up", smw.cycle_workspaces("prev"))
+hl.bind(mainMod .. " + mouse_down", smw.cycle_workspaces("next"))
+hl.bind(mainMod .. " + mouse_up", smw.cycle_workspaces("prev"))
 
 -- Same but with arrows
 hl.bind(mainMod .. " + CONTROL + right", smw.cycle_workspaces("next"))
@@ -356,14 +353,28 @@ for dir, offset in pairs(moves) do
 	hl.bind(mainMod .. " + SHIFT + " .. dir, hl.dsp.window.move({ workspace = offset }))
 end
 
+-- Resize windows caps + arrows
+local step = 100
+local resizes = {
+	left = { x = -step, y = 0 },
+	right = { x = step, y = 0 },
+	up = { x = 0, y = -step },
+	down = { x = 0, y = step },
+}
+for dir, d in pairs(resizes) do
+	hl.bind(caps .. " + " .. dir, hl.dsp.window.resize({ x = d.x, y = d.y, relative = true }), { repeating = true })
+end
+
+hl.bind(caps .. " + R", hl.dsp.layout("splitratio 1.0 exact"))
+
 -- Move monitors
 for _, dir in ipairs({ "left", "right", "up", "down" }) do
 	hl.bind(mainMod .. " + ALT + " .. dir, hl.dsp.window.move({ direction = string.sub(dir, 1, 1) }))
 end
 
 -- Kando (see https://kando.menu/installation-on-linux/#-hyprland)
-hl.bind("CTRL + Space", hl.dsp.global("menu.kando.Kando:main-menu"))
-hl.bind("mouse:275", hl.dsp.global("menu.kando.Kando:main-menu"))
+-- hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd('kando -m "Main Menu"'))
+hl.bind("mouse:275", hl.dsp.exec_cmd('kando -m "Main Menu"'))
 hl.window_rule({
 	name = "kando",
 	match = {
@@ -521,7 +532,7 @@ hl.window_rule({
 blur_layers_rule = hl.layer_rule({
 	name = "blur_layers",
 	match = {
-		namespace = "^(.*bar-.*|wayle.*|dms.*|notifications-window|indicator|.*menu.*|hyprshell*|logout_dialog|vicinae)",
+		namespace = "^(.*bar-.*|wayle.*|notifications-window|indicator|.*menu.*|hyprshell*|logout_dialog|vicinae)",
 	},
 	blur = true,
 	blur_popups = true,
@@ -543,7 +554,7 @@ hl.plugin.darkwindow.load_shader("chromakeyCatppuccin", {
 blur_windows_rule = hl.window_rule({
 	name = "blur_windows",
 	match = {
-		class = "^(md.obsidian.Obsidian|code|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack|btop.desktop|libreoffice-.*|org.qgis.qgis)$",
+		class = "^(md.obsidian.Obsidian|com.microsoft.VSCode|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack|btop.desktop|libreoffice-.*|org.qgis.qgis|com.wayle.*)$",
 	},
 	["darkwindow:shade"] = "chromakeyCatppuccin",
 })

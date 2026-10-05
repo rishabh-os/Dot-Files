@@ -1,0 +1,257 @@
+{
+  "version": "3.0.0",
+  "menus": [
+    {
+      "root": {
+        "name": "Main Menu",
+        "icon": "award_star",
+        "iconTheme": "material-symbols-rounded",
+        "type": "root",
+        "activateWorkflow": {
+          "quickSelectKey": "Backspace",
+          "actions": [
+            {
+              "type": "close-menu"
+            }
+          ]
+        },
+        "children": [
+          {
+            "name": "Apps",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "type": "submenu",
+            "activateWorkflow": {
+              "quickSelectKey": "Backspace",
+              "actions": [
+                {
+                  "type": "close-submenu"
+                }
+              ]
+            },
+            "children": [
+              {
+                "name": "Neovide",
+                "icon": "edit_document",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "neovide",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Settings",
+                "icon": "settings",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "simulate-hotkey",
+                      "hotkey": "MetaLeft+KeyS"
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "VS Code",
+                "icon": "code",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "code",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Obsidian",
+                "icon": "obsidian",
+                "iconTheme": "simple-icons",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "flatpak run md.obsidian.Obsidian",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Dolphin",
+                "icon": "folder",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "dolphin",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Konsole",
+                "icon": "terminal",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "konsole",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "Audio",
+            "icon": "play_circle",
+            "iconTheme": "material-symbols-rounded",
+            "type": "submenu",
+            "activateWorkflow": {
+              "quickSelectKey": "Backspace",
+              "actions": [
+                {
+                  "type": "close-submenu"
+                }
+              ]
+            },
+            "children": [
+              {
+                "name": "Next Track",
+                "icon": "skip_next",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "angle": 90,
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "simulate-hotkey",
+                      "hotkey": "ControlLeft+F12"
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Play / Pause",
+                "icon": "play_pause",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "simulate-hotkey",
+                      "hotkey": "ControlLeft+F10"
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Mute",
+                "icon": "music_off",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "simulate-hotkey",
+                      "hotkey": "AudioVolumeMute"
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "name": "Previous Track",
+                "icon": "skip_previous",
+                "iconTheme": "material-symbols-rounded",
+                "type": "button",
+                "angle": 270,
+                "selectWorkflow": {
+                  "actions": [
+                    {
+                      "type": "simulate-hotkey",
+                      "hotkey": "ControlLeft+F11"
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "Control+Space",
+      "shortcutID": "main-menu",
+      "useFixedPosition": false,
+      "fixedMenuPosition": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchored": false,
+      "hoverMode": true,
+      "tags": []
+    }
+  ],
+  "collections": [
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": [
+        "favs"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+update_check = false
+style = "compact"
+inline_height = 0
+show_help = false
+enter_accept = true
