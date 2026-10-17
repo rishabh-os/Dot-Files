@@ -1,0 +1,38 @@
+{
+  "theme": {
+    "name": "catppuccin-macchiato",
+    "mode": "system"
+  },
+  "diffs": {
+    "wrap": "word",
+    "single": false
+  },
+  "session": {
+    "sidebar": "hide",
+    "scrollbar": true,
+    "thinking": "hide",
+    "markdown": "rendered",
+    "verbosity": "medium",
+    "image_preview": true,
+    "tps": false,
+    "permissions": "prompt",
+    "grouping": "auto"
+  },
+  "animations": true,
+  "terminal": {
+    "copy": "manual"
+  },
+  "keybinds": {
+    "agent.cycle": "tab",
+    "agent.cycle.reverse": "shift+tab"
+  },
+  "tabs": {
+    "mode": "on",
+    "layout": "horizontal",
+    "indicators": "status"
+  },
+  "prompt": {
+    "paste": "compact",
+    "image_preview": true
+  }
+}
