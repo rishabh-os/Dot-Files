@@ -58,6 +58,10 @@ gah install junegunn/fzf --unattended
 gah install carapace-sh/carapace-bin --unattended
 gah install noborus/ov --unattended
 gah install anomalyco/opencode --unattended --unattended-select-index=4
+gah install lazygit --unattended
+gah install lazydocker --unattended
+gah install duf --unattended
+gah install aristocratos/btop --unattended
 
 # ? Install neovim manually
 # ? gah doens't copy the linked libraries that are needed
