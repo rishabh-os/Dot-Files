@@ -1,0 +1,33 @@
+typeset -U path PATH
+
+export CHROME_EXECUTABLE=/usr/bin/vivaldi
+export BROWSER=/usr/bin/vivaldi
+
+export JAVA_HOME='/usr/lib/jvm/java-17-openjdk'
+export ANDROID_SDK_ROOT='/opt/android-sdk'
+export PNPM_HOME="$HOME/.local/share/pnpm"
+
+path=(
+# Make the executables present in local take priority
+  "$HOME/.local/bin"
+  "$HOME/.opencode/bin"
+  "$PNPM_HOME"
+  "$HOME/.cargo/bin"
+  "$HOME/.pub-cache/bin"
+  "$JAVA_HOME/bin"
+  /opt/flutter/bin
+  "$ANDROID_SDK_ROOT/platform-tools"
+  "$ANDROID_SDK_ROOT/emulator"
+  "$ANDROID_SDK_ROOT/tools"
+  "$ANDROID_SDK_ROOT/tools/bin"
+  "$ANDROID_SDK_ROOT/cmdline-tools"
+  $path
+)
+export PATH
+
+# Do it after so it works on remote machines
+export EDITOR=${commands[nvim]:-nvim}
+export PAGER=ov
+export MANPAGER="ov --section-delimiter '^[^\s]' --section-header -H1"
+# For opencode themes to work properly
+export COLORTERM=truecolor
