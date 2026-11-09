@@ -1,9 +1,6 @@
 {
-  "plugin": [],
-	"plugins": [
-    "@tarquinen/opencode-dcp@latest"
-  ],
 	"$schema": "https://opencode.ai/config.json",
-  "formatter": true,
-  "lsp": true
+	"plugins": ["@tarquinen/opencode-dcp@latest"],
+	"formatter": true,
+	"lsp": true
 }

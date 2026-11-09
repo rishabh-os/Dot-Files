@@ -12,7 +12,7 @@
     "scrollbar": true,
     "thinking": "hide",
     "markdown": "rendered",
-    "verbosity": "medium",
+    "verbosity": "low",
     "image_preview": true,
     "tps": false,
     "permissions": "prompt",

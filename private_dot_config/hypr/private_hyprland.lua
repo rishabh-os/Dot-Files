@@ -117,6 +117,12 @@ hl.config({
 			popups_ignorealpha = 0.6,
 		},
 		dim_around = 0.2,
+		wobble = {
+			enabled = true,
+			stiffness = 500,
+			damping = 20,
+			intensity = 0.1,
+		},
 	},
 })
 
@@ -192,6 +198,7 @@ hl.config({
 		focus_on_close = 1,
 		special_fallthrough = true,
 		mouse_refocus = true,
+		repeat_delay = 400,
 		-- -1.0 - 1.0, 0 means no modification.
 		sensitivity = 0,
 		touchpad = {
@@ -215,13 +222,13 @@ hl.device({
 hl.config({
 	render = {
 		new_render_scheduling = true,
+		direct_scanout = 2,
 	},
 })
 
 hl.config({
 	cursor = {
 		persistent_warps = true,
-		no_hardware_cursors = 0,
 	},
 })
 
@@ -287,7 +294,7 @@ hl.bind(caps .. " + N", hl.dsp.exec_cmd("neovide"))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(caps .. " + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + F", hl.dsp.window.float())
-hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"))
+hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"), { release = true })
 hl.bind(caps .. " + C", hl.dsp.exec_cmd("code"))
 -- dwindle
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
@@ -544,7 +551,7 @@ hl.plugin.darkwindow.load_shader("chromakeyCatppuccin", {
 	args = "bkg=[0.0235 0.1529 0.2275] similarity=0.25 targetOpacity=0.8",
 	introduces_transparency = true,
 })
-
+--
 -- hl.layer_rule({
 -- 	name = "vicinae dim",
 -- 	match = { namespace = "vicinae" },
@@ -554,7 +561,7 @@ hl.plugin.darkwindow.load_shader("chromakeyCatppuccin", {
 blur_windows_rule = hl.window_rule({
 	name = "blur_windows",
 	match = {
-		class = "^(md.obsidian.Obsidian|com.microsoft.VSCode|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack|btop.desktop|libreoffice-.*|org.qgis.qgis|com.wayle.*)$",
+		class = "^(md.obsidian.Obsidian|com.microsoft.VSCode|com.mitchellh.ghostty|neovide|com.github.th-ch.youtube-music|org.freedesktop.impl.portal.desktop.kde|org.kde.dolphin|org.kde.filelight|com.github.hluk.copyq|dev.zed.Zed|vicinae|emote|org.kde.gwenview|vesktop|slack|btop.desktop|libreoffice-.*|org.qgis.qgis|com.wayle.*|org.mozilla.Thunderbird)$",
 	},
 	["darkwindow:shade"] = "chromakeyCatppuccin",
 })

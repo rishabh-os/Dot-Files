@@ -1,4 +1,12 @@
 {
   "use_port_names": false,
-  "active_profile": "Mine"
+  "active_profile": "Mine",
+  "pinned_profile": {
+    "name": "Mine",
+    "fingerprint": [
+      "Chimei Innolux Corporation 0x143B",
+      "Dell Inc. DELL P2725DE DB3XQC4",
+      "Dell Inc. DELL U2713H C6F0K4AL0PDL"
+    ]
+  }
 }
