@@ -28,18 +28,6 @@ for plugin in \
   fi
 done
 
-# ? Install atuin
-if ! command -v atuin &>/dev/null; then
-  # * Don't modify the .bashrc file
-  chmod u-w .bashrc
-  curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
-  chmod u+w .bashrc
-  # * It installs by default to ~/.atuin
-  mv "$HOME/.atuin/bin/atuin" "$HOME/.local/bin/atuin"
-  mv "$HOME/.atuin/bin/atuin-update" "$HOME/.local/bin/atuin-update"
-  rm -rf "$HOME/.atuin"
-fi
-
 # ? Install zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 
@@ -47,6 +35,7 @@ curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/get-gah/gah/refs/heads/master/tools/install.sh)"
 
 # ? Install everything else with gah
+gah install atuinsh/atuin --unattended --unattended-select-index=2
 gah install zellij-org/zellij --unattended --unattended-select-index=2
 gah install eza-community/eza --unattended
 gah install dundee/gdu --unattended
@@ -62,6 +51,14 @@ gah install lazygit --unattended
 gah install lazydocker --unattended
 gah install duf --unattended
 gah install aristocratos/btop --unattended
+
+# ? Setup atuin
+if ! command -v atuin &>/dev/null; then
+  # * Don't modify the .bashrc file
+  chmod u-w .bashrc
+  atuin setup --no-agent-history --no-threads --no-up-arrow --yes
+  chmod u+w .bashrc
+fi
 
 # ? Install neovim manually
 # ? gah doens't copy the linked libraries that are needed
