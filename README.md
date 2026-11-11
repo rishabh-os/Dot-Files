@@ -1,6 +1,8 @@
+# Rishabh's Dot Files
+
 This is my collection of dot files.
 
-#### Setup
+## Setup
 
 > [!NOTE]
 > This script only works completely for `x86_64` machines. I haven't gotten around to implementing an architecture agnostic version yet.
@@ -10,7 +12,7 @@ This script is mostly so that I can use the same tools I use on my personal comp
 To setup everything, just run:
 
 ```bash
-sh -c "$(curl -fsLS https://get.chezmoi.io)" -- init --apply rishabh-os/Dot-Files --force
+sh -c "$(curl -fsLS https://get.chezmoi.io)" -- -b "$HOME/.local/bin" init --apply rishabh-os/Dot-Files --force
 ```
 
 This installs chezmoi, which setups up my dotfiles and then runs `run_onchange_install-tools.sh`, which is responsible for actually installing all the tools (as the name implies).
@@ -23,20 +25,20 @@ Finally, to change your default shell, run
 chsh -s $(which zsh)
 ```
 
-#### Updating
+## Updating
 
 To update, just run
 
 ```bash
 cz update --force
 ```
+
 Alternatively, run it without `--force` for more manual control.
 
 As always, please read the script before executing it blindly.
 
 xoxo
 
-
-#### Automated Install
+### Automated Install
 
 `cz-all-ssh-targets.sh` installs the dotfiles on all SSH targets that haven't been filtered out, see the script for more details. More of a convenience script for me to automatically update my config on all machines.
